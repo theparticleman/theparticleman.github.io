@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Title Font";
+    src: url('PressStart2P-Regular.ttf');
+}
+
+h1 {
+    font-family: 'Title Font';
+}
