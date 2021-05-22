@@ -8,19 +8,6 @@
 </head>
 <body class="center">
 <h1>Mythicant Games</h1>
-<div class='games-list'>
-	<div class='game'>
-		<h2>Fable of Griselda</h2>
-		A bootleg demake of The Legend of Zelda on the original NES.
-	</div>
-	<div class='game'>
-		<h2>Donkey Kong ASCII</h2>
-		
-	</div>
-	<div class='game'>
-		<h2>Mario TD</h2>
-		
-	</div>
-</div>
+{template}
 </body>
 </html>

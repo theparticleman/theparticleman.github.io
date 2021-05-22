@@ -1,8 +1,25 @@
 @font-face {
-    font-family: "Title Font";
+    font-family: "Main Font";
     src: url('PressStart2P-Regular.ttf');
+    font-display: swap;
 }
 
-h1 {
-    font-family: 'Title Font';
+body {
+    background-color: black;
+    color: white;
+    font-family: "Main Font";
+}
+
+.games-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.games-list .game {
+    width: 25%;
+}
+
+.center {
+    text-align: center;
 }
