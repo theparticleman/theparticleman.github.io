@@ -1,6 +1,6 @@
 ## Mario TD
 
-![Image of Mario TD](mario-td-1.png)
+![Image of Mario TD](images/mario-td-1.png)
 
 Look at that amazing Windows XP screenshot!
 

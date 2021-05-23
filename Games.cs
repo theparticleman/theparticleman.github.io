@@ -10,49 +10,49 @@ namespace MythicantSite
             {
                 Name = "Fable of Griselda",
                 Link = "https://www.fableofgriselda.com",
-                Image = "fable-of-griselda.png",
+                Image = "images/fable-of-griselda.png",
                 Description = "A bootleg demake of The Legend of Zelda on the original NES."
             },
             new Game
             {
                 Name = "Donkey Kong ASCII",
                 Link = "/donkey-kong-ascii.html",
-                Image = "donkey-kong-ascii.png",
+                Image = "images/donkey-kong-ascii.png",
                 Description = "Donkey Kong inspired, but with ASCII."
             },
             new Game
             {
                 Name = "Maisemore",
                 Link = "https://maisemore.azurewebsites.net",
-                Image = "maisemore.png",
+                Image = "images/maisemore.png",
                 Description = "Real time, multiplayer text based adventure, inspired by games like Zork. Watch out for grues!"
             },
             new Game
             {
                 Name = "Space Invaders ASCII",
                 Link = "/space-invaders-ascii.html",
-                Image = "space-invaders-ascii.png",
+                Image = "images/space-invaders-ascii.png",
                 Description = "And you thought the original space invaders was old school."
             },
             new Game
             {
                 Name = "Mario TD",
                 Link = "/mario-td.html",
-                Image = "mario-td.png",
+                Image = "images/mario-td.png",
                 Description = "Tower defense, but with 100% more Mario! Specifically, Super Mario Bros. 3!"
             },
             new Game
             {
                 Name = "Ninja Robot Winning Gameshow",
                 Link = "/ninja-robot-winning-gameshow.html",
-                Image = "ninja-robot-winning-gameshow.png",
+                Image = "images/ninja-robot-winning-gameshow.png",
                 Description = "Play as a ninja? And a robot? Awesome! Having to stop for commercial breaks when you die? Less awesome."
             },
             new Game
             {
                 Name = "Gauntlet ASCII - Survival Edition",
                 Link = "/gauntlet-ascii-survival-edition.html",
-                Image = "gauntlet-ascii-survival-edition.png",
+                Image = "images/gauntlet-ascii-survival-edition.png",
                 Description = "Like Gauntlet. But zombies. Lots of zombies. Oh, and ASCII."
             }
         };

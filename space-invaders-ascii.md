@@ -1,6 +1,6 @@
 ## Space Invaders ASCII
 
-![Image of Space Invaders ASCII](space-invaders-ascii-1.png)
+![Image of Space Invaders ASCII](images/space-invaders-ascii-1.png)
 
 This was another project from my university teaching days like [Donkey Kong ASCII](donkey-kong-ascii.html). I think this one is a little bit closer to the original source material than Donkey Kong.
 

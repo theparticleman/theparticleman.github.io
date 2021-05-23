@@ -1,6 +1,6 @@
 ## Gauntlet ASCII - Survival Edition
 
-![Image of Gauntlet ASCII - Survival Edition](gauntlet-ascii-survival-edition-1.png)
+![Image of Gauntlet ASCII - Survival Edition](images/gauntlet-ascii-survival-edition-1.png)
 
 This is another university teaching project like [Donkey Kong ASCII](donkey-kong-ascii.html).
 
