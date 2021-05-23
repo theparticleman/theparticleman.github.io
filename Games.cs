@@ -50,7 +50,7 @@ namespace MythicantSite
 
         public string ToHtml()
         {
-            return $"\t<div class='game'>\r\n\t\t<a href='{Link}'><h2>{Name}</h2></a>\r\n<img src='{Image}'>\r\n\t\t{Description}\r\n\t</div>";
+            return $"\t<div class='game'>\r\n\t\t<a href='{Link}'><h2>{Name}</h2></a>\r\n<a href='{Link}'><img src='{Image}'></a>\r\n\t\t{Description}\r\n\t</div>";
         }
     }
 }
