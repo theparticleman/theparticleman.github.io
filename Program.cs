@@ -9,6 +9,7 @@ namespace MythicantSite
     {
         const string IndexPath = "docs/index.html";
         const string MainBlogPath = "docs/blog.html";
+        const string ContactPath = "docs/contact.html";
         static string template;
         static Markdown markdownConverter;
 
@@ -18,8 +19,14 @@ namespace MythicantSite
             markdownConverter = new Markdown();
 
             GenerateIndexPage();
+            GenerateContactPage();
             GenerateGamePages();
             GenerateMainBlogPage();
+        }
+
+        private static void GenerateContactPage()
+        {
+            ConvertMarkdownToHtml("contact.md", ContactPath);
         }
 
         private static void GenerateMainBlogPage()
@@ -42,11 +49,16 @@ namespace MythicantSite
             foreach (var markdownFilePath in gameMarkdownFilePaths)
             {
                 var htmlFilename = Path.GetFileNameWithoutExtension(markdownFilePath) + ".html";
-                var markdown = File.ReadAllText(markdownFilePath);
-                var htmlWithoutTemplate = markdownConverter.Transform(markdown);
-                var html = template.Replace("{template}", htmlWithoutTemplate);
-                File.WriteAllText(Path.Combine(".", "docs", htmlFilename), html);
+                ConvertMarkdownToHtml(markdownFilePath, Path.Combine(".", "docs", htmlFilename));
             }
+        }
+
+        private static void ConvertMarkdownToHtml(string markdownFilePath, string htmlFilePath)
+        {
+            var markdown = File.ReadAllText(markdownFilePath);
+            var htmlWithoutTemplate = markdownConverter.Transform(markdown);
+            var html = template.Replace("{template}", htmlWithoutTemplate);
+            File.WriteAllText(htmlFilePath, html);
         }
     }
 
