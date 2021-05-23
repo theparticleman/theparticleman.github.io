@@ -18,25 +18,32 @@ namespace MythicantSite
                 Name = "Donkey Kong ASCII",
                 Link = "/donkey-kong-ascii.html",
                 Image = "donkey-kong-ascii.png",
-                Description = "Donkey Kong ASCII description."
+                Description = "Donkey Kong inspired, but with ASCII."
             },
             new Game
             {
                 Name = "Mario TD",
                 Link = "/mario-td.html",
-                Description = ""
+                Image = "mario-td.png",
+                Description = "Tower defense, but with 100% more Mario! Specifically, Super Mario Bros. 3!"
+            },
+            new Game
+            {
+                Name = "Maisemore",
+                Link = "https://maisemore.azurewebsites.net",
+                Description = "Real time, multiplayer text based adventure, inspired by games like Zork. Watch out for grues!"
             },
             new Game
             {
                 Name = "Ninja Robot Winning Gameshow",
                 Link = "/ninja-robot-winning-gameshow.html",
-                Description = ""
+                Description = "Play as a ninja? And a robot? Awesome! Having to stop for commercial breaks when you die? Less awesome."
             },
             new Game
             {
                 Name = "Space Invaders ASCII",
                 Link = "/space-invaders-ascii.html",
-                Description = ""
+                Description = "And you thought the original space invaders was old school."
             }
         };
     }
@@ -50,7 +57,8 @@ namespace MythicantSite
 
         public string ToHtml()
         {
-            return $"\t<div class='game'>\r\n\t\t<a href='{Link}'><h2>{Name}</h2></a>\r\n<a href='{Link}'><img src='{Image}'></a>\r\n\t\t{Description}\r\n\t</div>";
+            var target = Link.StartsWith("http") ? " target='_blank'" : "";
+            return $"\t<div class='game'>\r\n\t\t<a href='{Link}'{target}><h2>{Name}</h2></a>\r\n<a href='{Link}'{target}><img src='{Image}'></a>\r\n\t\t{Description}\r\n\t</div>";
         }
     }
 }
