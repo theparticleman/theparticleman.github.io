@@ -22,6 +22,20 @@ namespace MythicantSite
             },
             new Game
             {
+                Name = "Maisemore",
+                Link = "https://maisemore.azurewebsites.net",
+                Image = "maisemore.png",
+                Description = "Real time, multiplayer text based adventure, inspired by games like Zork. Watch out for grues!"
+            },
+            new Game
+            {
+                Name = "Space Invaders ASCII",
+                Link = "/space-invaders-ascii.html",
+                Image = "space-invaders-ascii.png",
+                Description = "And you thought the original space invaders was old school."
+            },
+            new Game
+            {
                 Name = "Mario TD",
                 Link = "/mario-td.html",
                 Image = "mario-td.png",
@@ -29,21 +43,17 @@ namespace MythicantSite
             },
             new Game
             {
-                Name = "Maisemore",
-                Link = "https://maisemore.azurewebsites.net",
-                Description = "Real time, multiplayer text based adventure, inspired by games like Zork. Watch out for grues!"
-            },
-            new Game
-            {
                 Name = "Ninja Robot Winning Gameshow",
                 Link = "/ninja-robot-winning-gameshow.html",
+                Image = "ninja-robot-winning-gameshow.png",
                 Description = "Play as a ninja? And a robot? Awesome! Having to stop for commercial breaks when you die? Less awesome."
             },
             new Game
             {
-                Name = "Space Invaders ASCII",
-                Link = "/space-invaders-ascii.html",
-                Description = "And you thought the original space invaders was old school."
+                Name = "Gauntlet ASCII - Survival Edition",
+                Link = "/gauntlet-ascii-survival-edition.html",
+                Image = "gauntlet-ascii-survival-edition.png",
+                Description = "Like Gauntlet. But zombies. Lots of zombies. Oh, and ASCII."
             }
         };
     }
