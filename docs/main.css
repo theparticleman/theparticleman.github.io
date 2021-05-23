@@ -58,3 +58,19 @@ nav a:link {
 .center {
     text-align: center;
 }
+
+@media only screen and (max-width: 700px) {
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .games-list {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .games-list .game {
+        width: 80%;
+    }
+}
