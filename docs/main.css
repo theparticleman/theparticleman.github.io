@@ -15,6 +15,22 @@ body {
 header {
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:visited {
+    color: blue;
+}
+
+nav a:link {
+    color: blue;
 }
 
 .games-list {
