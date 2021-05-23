@@ -8,16 +8,25 @@ body {
     background-color: black;
     color: white;
     font-family: "Main Font";
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .games-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .games-list .game {
     width: 25%;
+    padding: 20px;
 }
 
 .center {

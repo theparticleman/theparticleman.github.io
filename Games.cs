@@ -23,6 +23,18 @@ namespace MythicantSite
                 Name = "Mario TD",
                 Link = "/mario-td.html",
                 Description = ""
+            },
+            new Game
+            {
+                Name = "Ninja Robot Winning Gameshow",
+                Link = "/ninja-robot-winning-gameshow.html",
+                Description = ""
+            },
+            new Game
+            {
+                Name = "Space Invaders ASCII",
+                Link = "/space-invaders-ascii.html",
+                Description = ""
             }
         };
     }
