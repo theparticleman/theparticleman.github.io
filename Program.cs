@@ -24,7 +24,7 @@ namespace MythicantSite
 
         private static void GenerateMainBlogPage()
         {
-            var blogHtml = template.Replace("{template}", "");
+            var blogHtml = template.Replace("{template}", "Coming Soon");
             File.WriteAllText(MainBlogPath, blogHtml);
         }
 
