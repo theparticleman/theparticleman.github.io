@@ -27,6 +27,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "practice-matters",
+                Title = "Practice Matters",
+                PublishDate = DateTimeOffset.Parse("2018-11-09")
+            },
+            new Post
+            {
                 Name = "different-types-of-unit-tests",
                 Title = "Different Types of Unit Tests",
                 PublishDate = DateTimeOffset.Parse("2019-04-12")
