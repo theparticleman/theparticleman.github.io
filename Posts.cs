@@ -33,6 +33,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "shu-ha-ri",
+                Title = "Shu Ha Ri",
+                PublishDate = DateTimeOffset.Parse("2018-06-01")
+            },
+            new Post
+            {
                 Name = "different-types-of-unit-tests",
                 Title = "Different Types of Unit Tests",
                 PublishDate = DateTimeOffset.Parse("2019-04-12")
