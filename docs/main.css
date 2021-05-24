@@ -41,6 +41,11 @@ img {
     max-width: 100%;
 }
 
+pre {
+    text-align: left;
+    font-size: larger;
+}
+
 .games-list {
     display: flex;
     flex-direction: row;

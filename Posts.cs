@@ -15,6 +15,18 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "getting-started-presenting",
+                Title = "Getting Started Presenting",
+                PublishDate = DateTimeOffset.Parse("2019-10-19")
+            },
+            new Post
+            {
+                Name = "different-types-of-unit-tests",
+                Title = "Different Types of Unit Tests",
+                PublishDate = DateTimeOffset.Parse("2019-04-12")
+            },
+            new Post
+            {
                 Name = "a-brief-introduction",
                 Title = "A Brief Introduction",
                 PublishDate = DateTimeOffset.Parse("2007-11-24")
