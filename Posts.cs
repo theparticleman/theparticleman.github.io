@@ -21,6 +21,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "living-in-a-world-without-qa",
+                Title = "Living In A World Without QA",
+                PublishDate = DateTimeOffset.Parse("2018-07-13")
+            },
+            new Post
+            {
                 Name = "different-types-of-unit-tests",
                 Title = "Different Types of Unit Tests",
                 PublishDate = DateTimeOffset.Parse("2019-04-12")

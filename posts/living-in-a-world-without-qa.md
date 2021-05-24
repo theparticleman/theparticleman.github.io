@@ -1,0 +1,21 @@
+_This blog post was originally posted on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/living-in-a-world-without-qa/)_
+
+At Pluralsight our development teams do not have dedicated QA people. We also don’t have a dedicated QA team that is separate from the development team. Why do we do that? How does it work?
+
+### Does No QA Mean No Testing?
+Quite the contrary! Not having dedicated QA people means that testing is the responsibility of the whole team, not just a few members of the team or a completely separate team. It forces everyone on the team to think about how to ensure the quality of the code produced.
+
+Teams are also encouraged to automate as much of their testing as possible, following the [test pyramid model](https://martinfowler.com/bliki/TestPyramid.html). [Test driven development](https://martinfowler.com/bliki/TestDrivenDevelopment.html) is a great way to develop these automated tests. Teams will typically have large suites of automated tests at lots of [different levels](https://www.pluralsight.com/tech-blog/what-kind-of-test) that run every time code is changed or deployed. Teams will also sometimes manually test new features locally or in our staging environment (and sometimes in our production environment as well when the feature is behind a feature toggle), but the majority of testing occurs in an automated fashion.
+
+### Why Not Have QA?
+The lack of dedicated QA people on a team can be mitigated by making testing the responsibility of the whole team and by having comprehensive suites of automated tests. But wouldn’t it be better if we did those things and had dedicated QA people too? Well, it turns out that having separate QA people can introduce some significant problems with a team’s ability to deliver software quickly and frequently.
+
+At Pluralsight we practice [lean software development](https://en.wikipedia.org/wiki/Lean_software_development). One of the principles of lean is to reduce waste. One type of waste that can occur is unfinished work accumulating in queues. Having separate QA people doesn’t guarantee there will be a queue with unfinished work from developers, but it is something that can easily happen. Many of the developers at Pluralsight have experienced this in practice at other places of employment. So rather than attempt to manage that queue of work and reduce the amount of waste it can generate, we choose to [remove it completely](https://www.pluralsight.com/tech-blog/avoiding-secondary-work).
+
+### Does This Actually Work?
+So far it has worked surprisingly well. We never have development teams waiting on QA in order to deploy a new feature. We do sometimes have bugs that we have to fix, but we have a small enough number of those that we do them as part of our normal workflow. We don’t use a separate bug tracking database to keep track of them. In 2017 we deployed a little over 4200 times to production across all our teams. Of all those deploys, approximately 3% were rollbacks. We don’t keep statistics on the reason why various deploys were rolled back, so it’s hard to know which of those rollbacks were because of bugs or other adverse customer impact. In some situations this level of rollbacks might not be acceptable, but in our situation it is.
+
+### Conclusion
+So how does not having dedicated QA people feel in practice? To me as a developer it actually feels really good. It means that for stuff I’m working on I don’t have to hand it off to another person or group and wait for them to process it. I feel responsibility for not just ensuring that I write quality code, but having a way to prove that my code does what I think it should. It means I can deploy things to production much faster and more frequently, which means I can get feedback from actual customers faster and more frequently.
+
+That said, working without dedicated QA people does take some different skills than working with them. And just like any other skill, the skill of working without dedicated QA people can take time to acquire and improve.
