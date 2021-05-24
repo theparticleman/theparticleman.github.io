@@ -1,3 +1,4 @@
+/* 100% hand-crafted, artisanal CSS */
 @font-face {
     font-family: "Main Font";
     src: url('PressStart2P-Regular.ttf');
@@ -25,16 +26,16 @@ nav {
     justify-content: space-evenly;
 }
 
-nav a:visited {
-    color: blue;
-}
-
-nav a:link {
+nav a:visited, a:link {
     color: blue;
 }
 
 p {
     line-height: 1.4;
+}
+
+p a:link, a:visited {
+    color: blue;
 }
 
 img {
