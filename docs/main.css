@@ -70,6 +70,23 @@ img {
     text-align: center;
 }
 
+.published-date {
+    font-size: x-small;
+}
+
+.blog-list-item {
+    display: block;
+    background-color: #333333;
+    padding: 16px;
+    padding-bottom: 24px;
+    margin: 24px;
+}
+
+.blog-list-item:visited, .blog-list-item:link {
+    color: white;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 700px) {
     body {
         padding-left: 0;

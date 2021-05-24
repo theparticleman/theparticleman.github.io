@@ -9,12 +9,14 @@ namespace MythicantSite
         {
             new Post
             {
-                Name = "test-post",
+                Name = "a-website-reborn",
+                Title = "A Website Reborn",
                 PublishDate = DateTimeOffset.Parse("2020-05-23")
             },
             new Post
             {
                 Name = "a-brief-introduction",
+                Title = "A Brief Introduction",
                 PublishDate = DateTimeOffset.Parse("2007-11-24")
             }
         };
@@ -24,10 +26,11 @@ namespace MythicantSite
     {
         public string Name { get; set; }
         public DateTimeOffset PublishDate { get; set; }
+        public string Title { get; internal set; }
 
         public string ToHtml()
         {
-            return "\r\n" + "Published " + PublishDate.ToString("MMMM dd, yyyy");
+            return $"<h2>{Title}</h2>\r\n<div class='published-date'>Published • {PublishDate.ToString("MMMM dd, yyyy")}</div>\r\n";
         }
     }
 }

@@ -32,7 +32,14 @@ namespace MythicantSite
 
         private static void GenerateMainBlogPage()
         {
-            var blogHtml = template.Replace("{template}", "Coming Soon");
+            var blogHtml = "";
+            foreach (var post in Posts.List.OrderByDescending(x => x.PublishDate))
+            {
+                blogHtml += $"\r\n<a class='blog-list-item' href='/blog/{post.Name + ".html"}'>\r\n";
+                blogHtml += post.ToHtml();
+                blogHtml += "</a>\r\n";
+            }
+            blogHtml = template.Replace("{template}", blogHtml);
             File.WriteAllText(MainBlogPath, blogHtml);
         }
 
@@ -46,8 +53,7 @@ namespace MythicantSite
                 var htmlFilename = name + ".html";
                 var markdown = File.ReadAllText(postMarkdownFile);
                 var htmlWithoutTemplate = markdownConverter.Transform(markdown);
-                htmlWithoutTemplate += postMetadata.ToHtml();
-                var metadataHtml = postMetadata.ToHtml();
+                htmlWithoutTemplate = "\r\n" + postMetadata.ToHtml() + "\r\n" + htmlWithoutTemplate;
                 var fullHtml = template.Replace("{template}", htmlWithoutTemplate);
 
                 File.WriteAllText(Path.Combine("docs", "blog", htmlFilename), fullHtml);
