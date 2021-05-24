@@ -1,0 +1,7 @@
+## A Brief Introduction
+
+Hello.  This entry is a (hopefully) brief introduction to this blog and what it's about.  That seems fair, right?  You're new here, I'm new here.  Introductions are in order.  
+
+Hi, my name is Jon.  Pleased to meet you.  I'm a software engineer and I like video games (I use the term loosely to mean computer and console-based gaming).  I like to play them and also like to create them.  My little sister, Rebecca, also likes games.  One day we decided that we should make a game together.  Then we decided we should make more than one game together.  But what's the point of making a game if nobody ever plays it, right?  That's where this web page comes in.  This is where we're going to put our games so people can find out about and play them.  Isn't that nice of us?  Now, I'd like to add a little disclaimer there.  I'm not promising that our games are the ONLY thing that's going to be on here.  For one thing I've written some games on my own that I'm also planning on posting here.  So that's one deviation.  And I suppose we might want to post some other random stuff from time to time as well.  But we'll generally try to stick to the topic of gaming and whenever possible stick to the games we have created.  Sound fair?  Okay, good.
+
+Well, I think that's about it for this post.  I think I'll go and add some more posts with some actual games to download.  I think that might be appropriate given the above discussion.

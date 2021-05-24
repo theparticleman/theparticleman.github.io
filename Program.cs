@@ -21,6 +21,7 @@ namespace MythicantSite
             GenerateIndexPage();
             GenerateContactPage();
             GenerateGamePages();
+            GenerateBlogPages();
             GenerateMainBlogPage();
         }
 
@@ -35,6 +36,24 @@ namespace MythicantSite
             File.WriteAllText(MainBlogPath, blogHtml);
         }
 
+        private static void GenerateBlogPages()
+        {
+            var postMarkdownFilePaths = Directory.EnumerateFiles("posts", "*.md");
+            foreach (var postMarkdownFile in postMarkdownFilePaths)
+            {
+                string name = Path.GetFileNameWithoutExtension(postMarkdownFile);
+                var postMetadata = Posts.List.Single(x => x.Name == name);
+                var htmlFilename = name + ".html";
+                var markdown = File.ReadAllText(postMarkdownFile);
+                var htmlWithoutTemplate = markdownConverter.Transform(markdown);
+                htmlWithoutTemplate += postMetadata.ToHtml();
+                var metadataHtml = postMetadata.ToHtml();
+                var fullHtml = template.Replace("{template}", htmlWithoutTemplate);
+
+                File.WriteAllText(Path.Combine("docs", "blog", htmlFilename), fullHtml);
+            }
+        }
+
         private static void GenerateIndexPage()
         {
             var gamesHtml = string.Join("\r\n", Games.List.Select(x => x.ToHtml()));
@@ -42,7 +61,7 @@ namespace MythicantSite
             var indexHtml = template.Replace("{template}", gamesHtml);
             File.WriteAllText(IndexPath, indexHtml);
         }
-        
+
         private static void GenerateGamePages()
         {
             var gameMarkdownFilePaths = Directory.EnumerateFiles(".", "*.md");
@@ -55,12 +74,16 @@ namespace MythicantSite
 
         private static void ConvertMarkdownToHtml(string markdownFilePath, string htmlFilePath)
         {
-            var markdown = File.ReadAllText(markdownFilePath);
-            var htmlWithoutTemplate = markdownConverter.Transform(markdown);
-            var html = template.Replace("{template}", htmlWithoutTemplate);
+            string html = GenerateHtml(markdownFilePath);
             File.WriteAllText(htmlFilePath, html);
         }
-    }
 
+        private static string GenerateHtml(string markdownFilePath)
+        {
+            var markdown = File.ReadAllText(markdownFilePath);
+            var htmlWithoutTemplate = markdownConverter.Transform(markdown);
+            return template.Replace("{template}", htmlWithoutTemplate);
+        }
+    }
 
 }
