@@ -39,9 +39,21 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "what-does-deployment-look-like-at-pluralsight",
+                Title = "What Does Deployment Look Like at Pluralsight?",
+                PublishDate = DateTimeOffset.Parse("2016-12-19")
+            },
+            new Post
+            {
                 Name = "different-types-of-unit-tests",
                 Title = "Different Types of Unit Tests",
                 PublishDate = DateTimeOffset.Parse("2019-04-12")
+            },
+            new Post
+            {
+                Name = "gauntlet-ascii-survival-edition",
+                Title = "Gauntlet ASCII - Survival Edition",
+                PublishDate = DateTimeOffset.Parse("2007-11-24")
             },
             new Post
             {

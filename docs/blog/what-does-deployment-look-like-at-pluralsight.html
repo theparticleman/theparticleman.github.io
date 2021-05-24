@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mythicant mostly creates indie games.">
+    <title>Mythicant Games</title>
+    <link rel=preload href="/PressStart2P-Regular.ttf" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body class="center">
+<nav>
+    <a href="/">Home</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/contact.html">Contact</a>
+</nav>
+<header>
+    <h1>Mythicant Games</h1>
+</header>
+
+<h2>What Does Deployment Look Like at Pluralsight?</h2>
+<div class='published-date'>Published • December 19, 2016</div>
+
+<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/what-does-deployment-look-like-at-pluralsight/">Pluralsight Tech Blog</a></em></p>
+
+<p>It’s hard for code to provide value unless it’s accessible by users. If our code doesn’t provide value, why are we writing it? The way we get code into our production environments at Pluralsight has changed over time and varies somewhat from team to team, but getting code where users can get value from it is something that’s important to us at Pluralsight.</p>
+
+<p>So how does code get from a development machine to a production machine at Pluralsight?</p>
+
+<h3>During Development</h3>
+
+<p>The process starts when the code is being written. We have a rule that all production code should have at least two sets of eyes on it before it goes out. That usually takes the form of pair programming, but sometimes happens via code reviews or mob programming. That choice is made by individual teams. We usually test drive our code, so most of our code has a fair number of tests we can run. We generally run all of our unit tests (not just the ones for the code we’re currently working on) before we push the code to our central repository in Github. Sometimes we’ll write and run other types of automated tests as well, but we can talk about that more later.</p>
+
+<h3>Integrate Early, Integrate Often</h3>
+
+<p>When we actually push the code, where does it go? It goes in our master branch of course. Master should always be deployable. If your code shouldn’t be deployed to production, you shouldn’t push it yet. That doesn’t mean you should go for a long time between pushing your code. It means you should write your code in smaller chunks. The reason we don’t use branches is because they tend to be long lived. If you have code in multiple, long lived branches then the code in those branches is not getting integrated. I don’t know if the code in my branch will work with the code in your branch until they are actually merged in to the same place. The sooner that happens the sooner we know if there are going to be problems. We do occasionally use short lived branches but tend to favor feature toggles over branches.</p>
+
+<p>At Pluralsight we use TeamCity as our continuous integration server. When code is pushed to a Git repository, a build is automatically kicked off for that code. A build consists of compilation (or transpilation if necessary) and executing all unit tests. If either of those steps fail the build fails and the code doesn’t go any further. For some code bases we have additional types of automated tests, not just unit tests. For us, these usually take the form of what we call integration tests (tests for code that relies on a third party service like a database or external web service) or acceptance tests (tests for multiple code units from a business perspective, but below the UI layer and not running in a full environment). Most of these types of tests would run at this point if the primary compile+unit tests build succeeds. If these additional tests fail, the build fails and the code doesn’t go any further.</p>
+
+<h3>Deploying to Stage</h3>
+
+<p>If the code compiles and all the tests pass, then the code is automatically deployed to our staging environment. There is a separate Team City build that triggers when the previous builds succeed that initiates the deploy. For our .NET projects (and a few of our Node projects) we use Octopus Deploy. Before Octopus Deploy was available we had a custom built tool that was similar but not nearly as feature rich. Octopus doesn’t have every possible feature that we could dream of and it occasionally gets confused, but 99% of the time it just works and it’s great. For our projects that don’t use Octopus Deploy, we have a separate Team City build for that project that uses SaltStack to push the code to the desired machines.</p>
+
+<p>Once the code gets deployed to our staging environment we can do any manual testing we think we need to. This effort is usually pretty minimal, but sometimes there are things that are impossible, extremely difficult or very time consuming to test automatically or outside of a fully functional environment. In addition to any manual testing we want to do, we also have a set of UI tests that start running automatically on every new deploy to staging. UI tests are notoriously slow and brittle, so we try not to have too many of them. We only want to test the stuff that absolutely MUST work. For example, we have tests to make sure that new users can sign up and that existing users can watch videos. If those things don’t work our site isn’t very useful. If these UI tests fail then that build won’t be going to production.</p>
+
+<h3>On to Production</h3>
+
+<p>If all of our automatic tests (and whatever manually tests we deem necessary) look good, we then have the option to deploy our code to production. This is a decision made by the team who worked on the code. That means developers in conjunction with people from product management. The team might also coordinate with other teams or other stakeholders if they need to. We try to make it so that decisions can stay inside the team as much as possible though. When we do deploy to production, we use the same process (Octopus Deploy or TeamCity + SaltStack) we used when we deployed to stage. This is a push button operation that causes the same binary files that are already in stage to be pushed to production machines, just with different configuration. In the case of code that is customer facing, we do this in a rolling fashion. For example, to update code on a web farm, we will take a set of web servers out of the load balancer pool, wait for active connections to drain off, update the code, potentially run some warm up scripts, and then put the web servers back in the load balancer pool. We don’t update all the web servers at once, so there is no down time for our users.</p>
+
+<h3>Did We Break Anything?</h3>
+
+<p>When we’re doing frequent deploys (and all the time really) we want to know if there are problems in production. We have a great support group who is super responsive about addressing customer issues and letting us know when they see problems. But making them our first line of defense when things go wrong isn’t fair to them. And it isn’t an ideal experience for our users. So we use a combination of automated tools to help us find problems before our customers find them and report them to our support group. For general monitoring of server health we use New Relic. New Relic also gives us a few extras like response times and the like. We do have some custom metrics in New Relic as well that we’ve built ourselves to monitor specific things that are important to us. In addition to New Relic we aggregate our logs using ELK (Elasticsearch, Logstash, Kibana). If we notice a problem we can get access to all our production logs there to get more information about what’s going wrong. We can also set up alerting on logs (e.g. raise an alert if a certain number of errors get logged within a given time period).</p>
+
+<p>So with all our testing and monitoring nothing every goes wrong, right? Well, things usually don’t go wrong. According to out internal metrics, in September 2016 we deployed to production 418 times. That is across all teams and all deployable units. Of those 418 deploys, 10 of them were to an older version than was already in production. That’s a rollback rate of about 2%. We very seldom have critical issues that we do rollbacks for. Most of them are for small issues. e.g. Incorrect text on a page, performance regressions, etc. With Octopus Deploy (and the custom tool we used prior to Octopus Deploy), a rollback is a single button click away. So far our business has found our frequency, severity and difficulty of rollbacks to be acceptable.</p>
+
+<h3>Conclusion</h3>
+
+<p>Deploying frequently is not only possible, it’s actually an advantage. It allows us to get feedback from actual users sooner. It allows us to release without fear because what has changed since the last release is usually so small. It allows us to respond to changing business situations more quickly. And personally, it makes me happier.</p>
+
+</body>
+</html>
+<!-- 
+This HTML was written by hand, like they used to do it back in 
+the good old days, up hill in the snow both ways!
+Well, okay, I mean I wrote most of it by hand.
+And I wrote some code to put the rest of it together.
+But the code was written by hand. And the HTML that
+I put in the code that put it in here was written by hand.
+So that's pretty close, right?
+-->
