@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "mario-td-v08",
+                Title = "Mario TD v0.8",
+                PublishDate = DateTimeOffset.Parse("2007-11-24 4:00PM")
+            },
+            new Post
+            {
                 Name = "gauntlet-ascii-survival-edition",
                 Title = "Gauntlet ASCII - Survival Edition",
                 PublishDate = DateTimeOffset.Parse("2007-11-24")
