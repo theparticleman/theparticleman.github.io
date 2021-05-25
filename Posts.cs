@@ -51,6 +51,18 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "mario-td-v090",
+                Title = "Mario TD v0.9.0",
+                PublishDate = DateTimeOffset.Parse("2007-12-28")
+            },
+            new Post
+            {
+                Name = "donkey-kong-ascii",
+                Title = "Donkey Kong - ASCII",
+                PublishDate = DateTimeOffset.Parse("2007-12-13")
+            },
+            new Post
+            {
                 Name = "space-invaders-ascii",
                 Title = "Space Invaders - ASCII",
                 PublishDate = DateTimeOffset.Parse("2007-12-08")
