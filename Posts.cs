@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "excuses-and-a-few-other-random-thoughts",
+                Title = "Excuses and a Few Other Random Thoughts",
+                PublishDate = DateTimeOffset.Parse("2008-2-15")
+            },
+            new Post
+            {
                 Name = "a-bit-of-a-change",
                 Title = "A Bit of a Change",
                 PublishDate = DateTimeOffset.Parse("2008-01-09")
