@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "a-bit-of-a-change",
+                Title = "A Bit of a Change",
+                PublishDate = DateTimeOffset.Parse("2008-01-09")
+            },
+            new Post
+            {
                 Name = "mario-td-v090",
                 Title = "Mario TD v0.9.0",
                 PublishDate = DateTimeOffset.Parse("2007-12-28")
