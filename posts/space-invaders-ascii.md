@@ -6,4 +6,4 @@ As always, the .NET Framework 2.0 or higher is required to play this game.  It 
 
 ![Space Invaders - ASCII screenshot](/images/space-invaders-ascii-post-1.png)
 
-[Download Space Invaders - ASCII](/space-invaders-ascii.html)
+[Download Space Invaders - ASCII](/space-invaders-ascii)

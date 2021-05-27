@@ -4,7 +4,7 @@ As always, you need the .NET Framework 2.0 installed.  To run it you simply nee
 
 ![Donkey Kong - ASCII screenshot](/images/donkey-kong-ascii-post-1.png)
 
-[Download Donkey Kong - ASCII](/donkey-kong-ascii.html)
+[Download Donkey Kong - ASCII](/donkey-kong-ascii)
 
 
 P.S.  I'm working on an update to Mario TD.  I have some changes done, but not as many as I want.  I'm in the midst of grading right now, so the update might have to wait until after next week when my grades are due.  But I'll get it out as soon as I can.

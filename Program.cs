@@ -35,7 +35,7 @@ namespace MythicantSite
             var blogHtml = "";
             foreach (var post in Posts.List.OrderByDescending(x => x.PublishDate))
             {
-                blogHtml += $"\r\n<a class='blog-list-item' href='/blog/{post.Name + ".html"}'>\r\n";
+                blogHtml += $"\r\n<a class='blog-list-item' href='/blog/{post.Name}'>\r\n";
                 blogHtml += post.ToHtml();
                 blogHtml += "</a>\r\n";
             }

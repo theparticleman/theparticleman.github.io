@@ -16,7 +16,7 @@ namespace MythicantSite
             new Game
             {
                 Name = "Donkey Kong ASCII",
-                Link = "/donkey-kong-ascii.html",
+                Link = "/donkey-kong-ascii",
                 Image = "images/donkey-kong-ascii.png",
                 Description = "Donkey Kong inspired, but with ASCII."
             },
@@ -30,28 +30,28 @@ namespace MythicantSite
             new Game
             {
                 Name = "Space Invaders ASCII",
-                Link = "/space-invaders-ascii.html",
+                Link = "/space-invaders-ascii",
                 Image = "images/space-invaders-ascii.png",
                 Description = "And you thought the original space invaders was old school."
             },
             new Game
             {
                 Name = "Mario TD",
-                Link = "/mario-td.html",
+                Link = "/mario-td",
                 Image = "images/mario-td.png",
                 Description = "Tower defense, but with 100% more Mario! Specifically, Super Mario Bros. 3!"
             },
             new Game
             {
                 Name = "Ninja Robot Winning Gameshow",
-                Link = "/ninja-robot-winning-gameshow.html",
+                Link = "/ninja-robot-winning-gameshow",
                 Image = "images/ninja-robot-winning-gameshow.png",
                 Description = "Play as a ninja? And a robot? Awesome! Having to stop for commercial breaks when you die? Less awesome."
             },
             new Game
             {
                 Name = "Gauntlet ASCII - Survival Edition",
-                Link = "/gauntlet-ascii-survival-edition.html",
+                Link = "/gauntlet-ascii-survival-edition",
                 Image = "images/gauntlet-ascii-survival-edition.png",
                 Description = "Like Gauntlet. But zombies. Lots of zombies. Oh, and ASCII."
             }

@@ -6,6 +6,6 @@ Alright.  Now you know how I got on this whole ASCII game thing.  Now to expla
 
 For this game you'll need to have the .NET Framework 2.0 installed on your computer.  As long as you have that and remotely recent hardware you should be fine in running the game.  For some other games I may make an installer that will install the .NET Framework if you don't already have it, but for this humble little game I thought that might be overkill.  The idea behind the game is that you just have to stay alive until the timer runs out.  Your health slowly decreases.  If one of the baddies gets you then your health runs out very fast.  You can pick up food (yellow @ symbols) to boost your health back up a bit.  You move using the arrow keys and shoot using the space bar.  P will pause or unpause the game.  Other than that, let me know what you think of the game: too easy, too hard, stupid and pointless, the best thing you've ever seen, etc.
 
-[Download Gauntlet ASCII - Survival Edition](/gauntlet-ascii-survival-edition.html)
+[Download Gauntlet ASCII - Survival Edition](/gauntlet-ascii-survival-edition)
 
 P.S.  This game is not a joint venture with Rebecca.  So if this game really sucks it's all my fault.  Don't blame her for it.
