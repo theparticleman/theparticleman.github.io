@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "why-blogging-sucks-and-other-commentaries",
+                Title = "Why Blogging Sucks and Other Commentaries",
+                PublishDate = DateTimeOffset.Parse("2008-06-25")
+            },
+            new Post
+            {
                 Name = "mario-td-v0980",
                 Title = "Mario TD v0.9.8.0",
                 PublishDate = DateTimeOffset.Parse("2008-04-15")
