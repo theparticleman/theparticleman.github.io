@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "competitions",
+                Title = "Competitions",
+                PublishDate = DateTimeOffset.Parse("2008-08-05")
+            },
+            new Post
+            {
                 Name = "why-blogging-sucks-and-other-commentaries",
                 Title = "Why Blogging Sucks and Other Commentaries",
                 PublishDate = DateTimeOffset.Parse("2008-06-25")
