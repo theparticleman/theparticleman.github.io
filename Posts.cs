@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "a-little-buddy",
+                Title = "A Little Buddy",
+                PublishDate = DateTimeOffset.Parse("2008-10-06")
+            },
+            new Post
+            {
                 Name = "hurray-for-griselda",
                 Title = "Hurray for Griselda!",
                 PublishDate = DateTimeOffset.Parse("2008-09-20")
