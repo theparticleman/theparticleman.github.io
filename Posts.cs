@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "hurray-for-griselda",
+                Title = "Hurray for Griselda!",
+                PublishDate = DateTimeOffset.Parse("2008-09-20")
+            },
+            new Post
+            {
                 Name = "fable-of-griselda-finalish",
                 Title = "Fable of Griselda - Final(ish)",
                 PublishDate = DateTimeOffset.Parse("2008-09-07")
