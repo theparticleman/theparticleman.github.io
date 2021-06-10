@@ -29,6 +29,7 @@ Is that a big enough list of improvements for something that’s just barely bei
 Enough talk.  On to the game!  The game requires the .NET Framework 2.0 or later.  I created it on a dual core 1.7Ghz machine with 2GB of RAM.  On my machine it uses almost no CPU power, so I’m assuming it will run on something with much lower specs.
 To install the game, simply unzip the files and put them somewhere.  Run NinjaRobot.exe to start the game.  You move around using the arrows keys.  Jump using the control key.  When you’re playing you can press ‘N’ to switch to a different music track (actually a random music track, so it won’t always be different).
 A couple of hints:
+
 * Don’t touch the spikes.  Or the baddies.  They both hurt.
 * You can’t run out of lives.  You can keep playing forever.  But if you die too frequently then you’ll have to go to a commercial break and do an endorsement of “This Product”.
 * If you’re having trouble jumping over things, push in the opposite direction gravity is pulling to stay in the air longer when you jump.  This let’s you jump both higher and farther.
