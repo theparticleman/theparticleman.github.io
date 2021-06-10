@@ -1,0 +1,11 @@
+Sorry I haven't posted in a while. I've had a big distraction lately. I've included a picture of said distraction for reference.  (You can see the picture if you click to view the whole post.  I forgot my blog host is rubbish.  I really need to make the time to switch to something better...)
+
+![A picture of Sam](/images/finally-another-post-1.png)
+ 
+His name is Sam. And last night he learned how get himself stuck under the couch. He'll be six months old at the end of this week. So if you're quick with your mental math you'll know I've done a couple of posts since he's been born, but not many. It's not that I haven't had time to post since he's been born, I just haven't had time to work on anything worth posting about. Isn't the first rule you read on all those "How to make a living blogging" blogs that you keep posting whether you have anything to post about or not? Oh, well. I never claimed to be a good blogger.
+
+Anyway, I do have something to post about now. I'm actually working on two projects. The first one is rather ambitious (as in I hope I get done one day) and as such I don't really have much to show for it yet other than some design notes and a tiny bit of code that doesn't really work yet. In working on such a big project that takes so long to make any progress, I realized that I still needed a creative outlet. So I decided to work on a small game while I'm working on my larger one. About a week or so ago I woke up with an idea for a game. I have the basics working and made a little video for your viewing enjoyment.
+
+[Tech demo video](https://vimeo.com/manage/videos/3364781)
+
+Of course this is just a tech demo so colors and images are likely to change, but I am going for a retro feel. The movement is likely to change too (I think the gravity is too strong at the moment). This is my first non-ASCII platformer, so that's been interesting. Unfortunately, stuff like this always involves more math than I want to deal with. Fortunately, for this it's just basic geometry. It would be worse if were going to have more physics-based elements. So remember kids, if you want to make video games, do your math homework and eat your vegetables.
