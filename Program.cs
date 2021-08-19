@@ -71,6 +71,7 @@ namespace MythicantSite
         private static void GenerateGamePages()
         {
             var gameMarkdownFilePaths = Directory.EnumerateFiles(".", "*.md");
+            gameMarkdownFilePaths = gameMarkdownFilePaths.Except(new[] { ".\\readme.md" }).ToList();
             foreach (var markdownFilePath in gameMarkdownFilePaths)
             {
                 var htmlFilename = Path.GetFileNameWithoutExtension(markdownFilePath) + ".html";
@@ -80,6 +81,7 @@ namespace MythicantSite
 
         private static void ConvertMarkdownToHtml(string markdownFilePath, string htmlFilePath)
         {
+            System.Console.WriteLine($"Converting {markdownFilePath} to {htmlFilePath}");
             string html = GenerateHtml(markdownFilePath);
             File.WriteAllText(htmlFilePath, html);
         }
