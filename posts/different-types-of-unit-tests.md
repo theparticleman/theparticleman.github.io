@@ -1,3 +1,5 @@
+_This blog post was originally posted on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/different-types-of-unit-tests/)_
+
 There are lots of different types of tests. There are lots of different types of automated tests. In this post we’ll talk about unit tests, specifically a few different types of unit tests and when you might want to use each. We’ll be using examples in C# using Nunit.
 
 ### Example Code

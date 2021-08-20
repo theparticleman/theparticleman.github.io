@@ -1,3 +1,5 @@
+_This blog post was originally posted on the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog/getting-started-presenting/)_
+
 Getting up in front of a group and talking about something for any period of time can be scary. But it can also be a great way to share your knowledge, to increase your knowledge, and to help others. In the tech world there is so much to know and learn, it’s basically impossible for an individual to learn everything they need to know on their own. Giving and receiving presentations can be a great way to share certain types of ideas, especially in the tech world. In this blog post I’m not going to try to convince you that you should present (though I would encourage considering it). The goal of this blog post is to give you some ideas on how to get started if you have some interest but no experience yet.
 
 ### What to Talk About?
