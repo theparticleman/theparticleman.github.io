@@ -51,6 +51,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "ninja-robot-winning-gameshow-around-and-about",
+                Title = "Ninja Robot Winning Gameshow Around and About",
+                PublishDate = DateTimeOffset.Parse("2010-04-23")
+            },
+            new Post
+            {
                 Name = "introducing-ninja-robot-winning-gameshow",
                 Title = "Introducing Ninja Robot Winning Gameshow",
                 PublishDate = DateTimeOffset.Parse("2009-06-16")
