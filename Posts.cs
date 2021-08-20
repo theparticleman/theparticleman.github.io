@@ -57,6 +57,12 @@ namespace MythicantSite
             },
             new Post
             {
+                Name = "becoming-a-keyboard-sith",
+                Title = "Becoming a Keyboard Sith!",
+                PublishDate = DateTimeOffset.Parse("2010-06-30")
+            },
+            new Post
+            {
                 Name = "introducing-ninja-robot-winning-gameshow",
                 Title = "Introducing Ninja Robot Winning Gameshow",
                 PublishDate = DateTimeOffset.Parse("2009-06-16")
