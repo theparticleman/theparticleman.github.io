@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using MarkdownSharp;
+using WilderMinds.RssSyndication;
 
 namespace MythicantSite
 {
@@ -23,6 +24,7 @@ namespace MythicantSite
             GenerateGamePages();
             GenerateBlogPages();
             GenerateMainBlogPage();
+            GenerateRssFeed();
         }
 
         private static void GenerateContactPage()
@@ -33,6 +35,7 @@ namespace MythicantSite
         private static void GenerateMainBlogPage()
         {
             var blogHtml = "";
+            blogHtml += "<div id='rss-link'><a href='/rss.xml'>RSS Feed</a></div>";
             foreach (var post in Posts.List.OrderByDescending(x => x.PublishDate))
             {
                 blogHtml += $"\r\n<a class='blog-list-item' href='/blog/{post.Name}'>\r\n";
@@ -91,6 +94,30 @@ namespace MythicantSite
             var markdown = File.ReadAllText(markdownFilePath);
             var htmlWithoutTemplate = markdownConverter.Transform(markdown);
             return template.Replace("{template}", htmlWithoutTemplate);
+        }
+
+        private static void GenerateRssFeed()
+        {
+            System.Console.WriteLine("Generating rss.xml");
+            var feed = new Feed
+            {
+                Title = "Mythicant Games",
+                Link = new Uri("https://mythicant.com/"),
+                Copyright = "© " + DateTime.Now.Year
+            };
+            foreach (var post in Posts.List.OrderByDescending(x => x.PublishDate).Take(20))
+            {
+                var item = new Item
+                {
+                    Title = post.Title,
+                    PublishDate = post.PublishDate.DateTime,
+                    Link = new Uri($"https://mythicant.com/blog/{post.Name}"),
+                    FullHtmlContent = markdownConverter.Transform(File.ReadAllText($"posts/{post.Name}.md"))
+                };
+                feed.Items.Add(item);
+            }
+            var rss = feed.Serialize();
+            File.WriteAllText("docs/rss.xml", rss);
         }
     }
 

@@ -47,6 +47,18 @@ pre {
     font-size: larger;
 }
 
+#rss-link {
+    font-size: smaller;
+    margin: 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#rss-link a {
+    color: orange;
+}
+
 .games-list {
     display: flex;
     flex-direction: row;

@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="MarkdownSharp" Version="2.0.5" />
+    <PackageReference Include="WilderMinds.RssSyndication" Version="1.7.0" />
   </ItemGroup>
 
 </Project>

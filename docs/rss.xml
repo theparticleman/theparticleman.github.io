@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-16"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://mythicant.com/" />
+    <title>Mythicant Games</title>
+    <link>https://mythicant.com/</link>
+    <description />
+    <copyright>© 2021</copyright>
+    <language>en</language>
+    <item>
+      <title>A Website Reborn</title>
+      <link>https://mythicant.com/blog/a-website-reborn</link>
+      <description />
+      <pubDate>Sat, 23 May 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>It's all GoDaddy's fault.</p>
+
+<p>Back in the day when I used GoDaddy as a domain name registrar they also had a blogging service. It was terrible. But it supported Windows Live Writer, which meant I didn't have to author blog posts through a terrible web UI. That seemed like a reasonable trade-off at the time.</p>
+
+<p>Eventually I moved all my domain names from GoDaddy to something less horrible. Maybe I'll write a blog post about that some time. But when I stopped using GoDaddy I lost access to it's blogging platform. Not that I was particularly sad about that. Except that I no longer had a blog and any SEO juice I had acquired was now gone.</p>
+
+<p>For several years I thought about getting around to resurrecting my blog. But I wanted a site where I could have blog posts <em>and</em> have various dedicated pages for games and such. I never found a system or platform that really worked well for me, so my blog stayed dead.</p>
+
+<p>Recently static website generators have become a thing. I've used a few, like Hugo and Jekyll. I like them in theory, but even those are kind of overkill. I just want some simple, hand-crafted, artisanal HTML and CSS. Is that too much to ask?</p>
+
+<p>So like any self-respecting software developer, when it seems like the existing solutions are too complicated, what did I do? I made mine own that's arguably more complicated, of course!</p>
+
+<p>This site (in it's current incarnation at least) is now a generated static website. You can check out the code <a href="https://github.com/theparticleman/theparticleman.github.io">here</a>. You probably don't want to use it, since it's specifically for my use case. But, you know, if that's you're thing, go for it.</p>
+
+<p>I still have the posts from the previous incarnation of my blog. Those posts aren't all here right now, but I plan to bring them over as I have time. I'll also probably bring over some posts that I wrote for the <a href="https://www.pluralsight.com/tech-blog">Pluralsight Tech Blog</a> when I worked there.</p>
+
+<p>Anyway, that's a bit of a bridge between the old content that will live here and whatever new content I end up putting here. Hopefully it's not all too confusing.</p>
+
+<p>And if it is too confusing, or wrong, or terrible in any other way, feel free to blame GoDaddy.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Getting Started Presenting</title>
+      <link>https://mythicant.com/blog/getting-started-presenting</link>
+      <description />
+      <pubDate>Sat, 19 Oct 2019 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/getting-started-presenting/">Pluralsight Tech Blog</a></em></p>
+
+<p>Getting up in front of a group and talking about something for any period of time can be scary. But it can also be a great way to share your knowledge, to increase your knowledge, and to help others. In the tech world there is so much to know and learn, it’s basically impossible for an individual to learn everything they need to know on their own. Giving and receiving presentations can be a great way to share certain types of ideas, especially in the tech world. In this blog post I’m not going to try to convince you that you should present (though I would encourage considering it). The goal of this blog post is to give you some ideas on how to get started if you have some interest but no experience yet.</p>
+
+<h3>What to Talk About?</h3>
+
+<p>The first challenge you may have when getting started presenting is deciding what to talk about. Deeply technical presentations or presentations given by people with years and years of experience can be very valuable. But they aren’t the only type of valuable presentation. Just because you don’t know everything about a topic doesn’t mean you can’t give a presentation on it. And just because you don’t have years of experience doesn’t mean you don’t have something valuable to share with the world.</p>
+
+<p>For me personally, I find that I do better at presenting when the topic is something that interests me, something I have a lot of experience with, or something that I feel strongly about. If you want to present at a specific event you might have to choose a topic that aligns well with that event, but otherwise I would recommend starting with something that is important to you.</p>
+
+<h3>Start Small</h3>
+
+<p>Going from zero experience to doing an hour long presentation in front of a room full of people may be a bigger initial step than you want to take. (Though if you’re comfortable making that big of a step, go for it!) It can be helpful to take some smaller steps first. Here are a few ideas of smaller steps that might help: - Blog posts - If you want a chance to sort through your thoughts at your own pace without the pressure of having a bunch of people staring at you, a blog post can be a great way to do that. Sometimes before doing a presentation I’ll write my ideas down as a blog post to organize my thoughts and to make sure I have enough interesting things to talk about on the topic. If your company (or another organization you’re affiliated with) has a blog (like this one) you could try writing your post there. Or you can always start your own blog. Even if no one reads it you can have a place to write down your ideas. - YouTube - This isn’t one that I’ve tried, but I have talked to other people who put together their own YouTube channel with short versions of things they want to present on. This does get you in front of people (assuming someone watches your videos), but it’s not in real time. It gives you the opportunity to do several takes at what you want to say. That both gets you more practice presenting and allows you editting options after the fact. - Mentoring - For some people, talking to one person at a time in an informal setting can be a lot less intimidating than talking to a room full of people in a formal presentation setting. If that sounds like you, maybe consider finding a person or two that you can help mentor. They can be your co-workers or people you meet at community events. This can also be a great way to help out people new to the tech world. - Lightning talks - Preparing enough material to talk about for an hour can be a lot different than preparing enough material to talk about for 5 minutes. Lightning talks can be a great way to get a little bit of presentation experience before trying something with a bigger commitment. If your work has a venue where volunteers can sign up to give lightning talks that can be an easy way to get started. Many meet ups and user groups set time aside during their meetings for lightning talks. If neither of those are options for you, getting a group of coworkers or friends together might be an option.</p>
+
+<p>This is by no means an exhaustive list. If you’re feeling nervous about doing a large presentation in front of a large group of people, see if there are ways you can reduce the scope of what you’re presenting or who you’re presenting to. That might help you feel less anxious.</p>
+
+<h3>Take the Plunge</h3>
+
+<p>When you do decide you want to do a longer presentation there are a lot of options you could explore. Here are a few: - Company events - Does your company have one or more venues where you could present? Many employers have some type of brown bag or other type of learning program where internal presenters share materials with their co-workers. Others have a quarterly (or annual or some other cadence) conference-like event. If your company has something like this you might consider trying to present at this type of event. Depending on your company, these events might be smaller than other events. And you might be presenting to people you work with every day instead of total strangers (which I guess could be a pro or a con). If your company doesn’t have something like this but it sound interesting to you, you might consider trying to start it. - User groups - Many areas have meet up or user groups that have presentations. Some are technology specific (e.g. Node.js, Android development, .NET, etc.) while others are more general (e.g. software development, machine learning, software craftsmanship/crafters, etc.). Many of these groups have a presentation as part of their regular meetings. If they do, they are probably always on the look out for people to give presentations. If you don’t already attend a meeting or two like this, try to find one that fits your interests and schedule. If you do attend one, talk to the organizers about what it would take to do a presentation. - Local conferences - There might be a conference across the country that fits exactly what you want to present. If so, try to present at that conference. But travel and hotel accomodations as well as time away from work can make that type of presentation experience more complicated. It’s also worth looking to see if there are any local conferences near where you live that accept volunteer presenters. Some local conferences explicitly try to involve new presenters. Many local conferences are free or lower cost, so attendees may be a bit more forgiving than those at a conference that costs thousands of dollars to attend.</p>
+
+<h3>A Couple More Tips</h3>
+
+<p>Whether you’re taking a smaller step to get prepared to present or doing a presentation at a user group or a conference, there are a few things that I’ve found helpful.</p>
+
+<p>Most conferences or user groups have some sort of call for papers (CFP) or request for proposals (RFP) process. If you want to present at one of these event find out what the process is, and most importantly, when the deadlines are. It can be discouraging to get all excited about submitting a proposal to a conference only to find out you missed the submission deadline by a few weeks or months and will have to wait for another year to submit another proposal. If you can talk directly to one of the event organizers they can probably give you that info. Hopefully the website for the event has that information. If the website doesn’t have information about the submission process but does have contact information, try using that contact information to ask about the process.</p>
+
+<p>Figure out what helps you feel comfortable. For me, being able to go over my presentation multiple times by myself (to figure out wording and timing and everything) helps me feel a lot more comfortable. Practicing on your own might be what helps you feel more comfortable. Practicing in front of a small group first might help. Having good notes that you can reference might help. Integrating your favorite internet meme or pictures of your cat might help. Try to find things that will help you feel more comfortable and confident when you’re presenting.</p>
+
+<p>Find other people who are also interested in presenting. If you have coworkers or friends or people you meet at user groups or conferences who are interested in presenting, get together to talk with them. They might know about good presenting opportunities that you haven’t heard about. If all else fails, go to a user group or a conference and ask one of the presenters for ideas and tips. Most presenters I know are more than happy to help out. That’s usually why they are presenting.</p>
+
+<p>If you are new to presenting, and especially if you are new to software development, don’t feel like you have to be an expert on something in order to share useful information about it. Odds are if you just learned something that you found useful that there are a bunch of other people who would find it useful too. And don’t discount the positive impact that an experience report can have on others who are just a step or two behind you in their journey. Don’t try to pretend that you know more than you really do, but don’t undervalue the experiences you’ve had and the things that you have learned. The <a href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect">Dunning-Kruger</a> effect is real, but so is <a href="https://en.wikipedia.org/wiki/Impostor_syndrome">Impostor Syndrome</a>.</p>
+
+<p>And finally, when you do give a presentation somewhere, make sure you actually can give your presentation. If you need to hook up your computer to a projector, make sure you have any necessary dongles. If you’re not sure what type of hookup will be available, ask someone where you will be presenting. If you will need internet access for your presentation, make sure you know how you’re going to get it and that it will be high enough speed and bandwidth for your needs.</p>
+
+<h3>Wrap Up</h3>
+
+<p>Presenting on technical topics can be very rewarding. It can be a great way to help others and to learn more about topics you’re interested in. But it can also be scary. Hopefully this blog post has given you a few ideas about how to start making presenting a little less scary.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Different Types of Unit Tests</title>
+      <link>https://mythicant.com/blog/different-types-of-unit-tests</link>
+      <description />
+      <pubDate>Fri, 12 Apr 2019 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/different-types-of-unit-tests/">Pluralsight Tech Blog</a></em></p>
+
+<p>There are lots of different types of tests. There are lots of different types of automated tests. In this post we’ll talk about unit tests, specifically a few different types of unit tests and when you might want to use each. We’ll be using examples in C# using Nunit.</p>
+
+<h3>Example Code</h3>
+
+<p>We’ll use some example code for parts of the discussion in this post. This code takes a username and password and, assuming they match the stored username and password, will generate a signed JWT for the user and store it in a cookie.</p>
+
+<pre><code>public class SignInCommand
+{
+    //Constants and class variables removed for brevity.
+
+    public SignInCommand(ICookieHelper cookieHelper, ITokenGenerator     tokenGenerator, IUserRepository userRepository, IPasswordHasher     passwordHasher)
+    {
+        this.cookieHelper = cookieHelper;
+        this.tokenGenerator = tokenGenerator;
+        this.userRepository = userRepository;
+        this.passwordHasher = passwordHasher;
+    }
+
+    public async Task&lt;bool&gt; Execute(string username, string password)
+    {
+        var user = await userRepository.Load(username);
+        if (user == null) return false;
+        if (!passwordHasher.DoesPasswordMatch(user.Salt, user.Hash, password))     return false;
+        var token = tokenGenerator.Encode(username, user.PlayerName);
+        cookieHelper.SetCookie(CookieName, token);
+        return true;
+    }
+}
+</code></pre>
+
+<h3>Arrange-Act-Assert</h3>
+
+<p>The canonical unit test is one where you want to test a piece of code one single way and you want to verify that one effect of that code was correct. Depending on the complexity of the code, some setup might be necessary before the code under test can be executed. This pattern of setting up proper conditions for a test, running the code under test, and then verifying the result is often called the <em>arrange-act-assert</em> pattern.</p>
+
+<p>Using our example code above, here is an arrange-act-assert unit test for the case when the username is valid but an incorrect password is supplied.</p>
+
+<pre><code>public class WhenExecutingSignInWithIncorrectPassword :     WithAnAutomocked&lt;SignInCommand&gt;
+{
+    [Test]
+    public void ItShouldFail()
+    {
+        GetMock&lt;IUserRepository&gt;().Setup(x =&gt; x.Load(IsAny&lt;string&gt;())).Returns    (Task.FromResult(new User()));
+        GetMock&lt;IPasswordHasher&gt;().Setup(x =&gt; x.DoesPasswordMatch(IsAny&lt;string&gt;    (), IsAny&lt;string&gt;(), IsAny&lt;string&gt;())).Returns(false);
+
+        var result = ClassUnderTest.Execute("username", "incorrect password").    Result;
+
+        Assert.That(result, Is.False);
+    }
+}
+</code></pre>
+
+<p>The <code>WithAnAutomocked&lt;T&gt;</code> base class is just a helper class that instantiates the class provided (the <code>SignInCommand</code> class in the code above) and injects all of the constructor dependencies for that class as Moq mocks. It uses <a href="https://github.com/darrencauthon/AutoMoq">AutoMoq</a> to do this.</p>
+
+<p>With this example test you can see a strong arrange-act-assert pattern. There is code to set up some behavior on some mocks that the code under test depends on (arrange). The code under test is then executed (act), and finally we check to make sure the code did what is was supposed to (assert).</p>
+
+<p>This type of test is great when you want to test for a specific situation or a specific set of inputs. It is also great when you want to verify a single thing about the execution of your code.</p>
+
+<h3>One Act, Many Assertions</h3>
+
+<p>Sometimes when testing a piece of code, we want to execute the code and then make assertions about multiple effects that code had. Again, we could create a standard arrange-act-assert style test to handle this case. We would just need to add multiple assertions to the end of our test. Some people are vehemently opposed to having multiple assertions in their tests. I’m not entirely opposed to it, but I do consider it a smell. One of the problems with multiple assertions is that when a test fails it can become difficult to determine what part of the code has actually failed. If the assertions are independent, but they all pass or fail together it can be necessary to resort to stack traces or error messages to determine what part of the code has actually failed. Also, in the case of Nunit at least, the failure of a single assertion in a test will cause the execution of the test to halt. So a failure early on in a test can mask additional failures later in the test.</p>
+
+<p>Fortunately, there is a solution to this problem. The solution is to use a style sometimes referred to as behavior driven development (BDD) testing or <em>specification testing</em>.</p>
+
+<pre><code>public class WhenExecutingValidSignIn : WithAnAutomocked&lt;SignInCommand&gt;
+{
+    private bool result;
+    private string tokenValue = "token value";
+
+    [SetUp]
+    public void SetUp()
+    {
+        var user = new User { Username = "username", PlayerName = "Player     Name" };
+        GetMock&lt;IUserRepository&gt;().Setup(x =&gt; x.Load("username")).Returns(Task.    FromResult(user));
+        GetMock&lt;ITokenGenerator&gt;().Setup(x =&gt; x.Encode("username", "Player     Name")).Returns(tokenValue);
+        GetMock&lt;IPasswordHasher&gt;().Setup(x =&gt; x.DoesPasswordMatch(IsAny&lt;string&gt;    (), IsAny&lt;string&gt;(), IsAny&lt;string&gt;())).Returns(true);
+        result = ClassUnderTest.Execute("username", "password").Result;
+    }
+
+    [Test]
+    public void ShouldSucceed() =&gt; Assert.That(result, Is.True);
+
+    [Test]
+    public void ShouldSetCookie() =&gt; GetMock&lt;ICookieHelper&gt;().Verify(x =&gt; x.    SetCookie(SignInCommand.CookieName, tokenValue));
+}
+</code></pre>
+
+<p>In this example we go back to the <code>SignInCommand</code> example. But in this case we are testing the path where sign in was successful. With this particular code we want to make sure that the correct result is returned and that the cookie was set. These two results could easily succeed or fail independently from each other. So putting them as two assertions in the same test doesn’t make sense for the reasons mentioned above.</p>
+
+<p>This type of test is great when there are multiple effects a piece of code can have that can all succeed or fail independently. In this particular example there are only two such assertions, but you can imagine more complex pieces of code could have many more. This particular example just uses Nunit to get this style of test, but there are also testing frameworks geared specifically for this type of test. Some examples in .NET include <a href="https://github.com/machine/machine.specifications">Machine.Specifications</a> and <a href="https://github.com/derekgreer/nunit.specifications">Nunit.Specifications</a>.</p>
+
+<h3>Test Cases</h3>
+
+<p>Sometimes we have code where we want to test a lot of different inputs matched with a lot of different outputs. Since our previous example code for the <code>SignInCommand</code> doesn’t lend itself terribly well to this type of test, let’s use a different example for this type of unit test. Imagine we wanted to test some code that takes an integer and returns that integer value converted to a <a href="https://github.com/theparticleman/RomanNumeralKataSolution">Roman numeral</a>. For this type of algorithmic code we’ll want to provide lots of different inputs to test all the different Roman numeral conversions and verify that we get the correct output back. We could write a new arrange-act-assert style test for each input and output set we want to test. But if we did that we’d end up with a lot of duplicate code. And you should make sure your test code is maintainable as possible, just like with your production code.</p>
+
+<p>Fortunately, it’s possible to write unit tests for these types of scenarios as well. Nunit has a feature specifically for this type of test. If your unit testing library of choice doesn’t have such a feature you can always create some type of collection to store your input-output pairs and then iterate over that collection. It’s not quite as slick as when the capability is built in to your unit testing library, but it can still remove duplicate code and allow you to add new test cases quickly.</p>
+
+<pre><code>public class RomanNumeralConversionTests
+{
+    [TestCase(0, "")]
+    [TestCase(1, "I")]
+    [TestCase(2, "II")]
+    [TestCase(4, "IV")]
+    [TestCase(5, "V")]
+    [TestCase(6, "VI")]
+    [TestCase(10, "X")]
+    [TestCase(9, "IX")]
+    [TestCase(40, "XL")]
+    [TestCase(50, "L")]
+    [TestCase(90, "XC")]
+    [TestCase(100, "C")]
+    [TestCase(400, "CD")]
+    [TestCase(500, "D")]
+    [TestCase(900, "CM")]
+    [TestCase(1000, "M")]
+    public void ConvertTests(int arabic, string roman)
+    {
+        Assert.That(ArabicToRoman.Convert(arabic), Is.EqualTo(roman));
+    }
+}
+</code></pre>
+
+<p>In this example you can see that if we had different arrange-act-assert style tests for every input and output combination there would be a lot of duplicate code. And every time we wanted to add an additional test case, it would involve duplicating more code. Using the <code>TestCase</code> attribute from Nunit, we can remove a lot of duplication and make it easy to add test cases in the future. We also are able to more clearly indicate what it is we are trying to test. We’re not trying to test that <code>1</code> converts to <code>I</code> necessarily. We’re really trying to test that the entire conversion process works as expected. Putting all of our conversion related tests together using <em>test cases</em> like this allows us to better show our intent.</p>
+
+<h3>Which Type of Unit Test Should You Use?</h3>
+
+<p>The three types of unit tests described above are each great in their own context. If you’re testing code that has multiple effects that can succeed or fail independently, a <em>specification test</em> might be a great option. If you’re testing code where you want to make sure that multiple sets of input and output are correct, a <em>test case</em> style test might be a great option. And when in doubt, a standard <em>arrange-act-assert test</em> is a great place to start.</p>
+
+<p>Remember that test code is code too. It should be crafted with care, just like production code. It should have duplication removed, should be refactored to increase maintainability, and should evolve over time. Hopefully the examples given here will give you some ideas to help your test code be even better than it already is.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Practice Matters</title>
+      <link>https://mythicant.com/blog/practice-matters</link>
+      <description />
+      <pubDate>Fri, 09 Nov 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/practice-matters/">Pluralsight Tech Blog</a></em></p>
+
+<h3>Origami</h3>
+
+<p>I recently gave a presentation titled “What I Learned About Software Development from Origami”. Originally it was just going to be a fun way to combine two seemingly unrelated interests of mine. But I ended up getting a valuable learning out of it.</p>
+
+<p>I shared a lot of pictures of origami, but the image below ended up being key to the presentation.</p>
+
+<p><img src="/images/practice-matters-origami-boxes.jpg" alt="Origami Boxes" /></p>
+
+<p>You’ll notice this picture has two origami boxes. The one on the right has pretty straight folds and looks pretty square. The one on left has folds that look less straight and less square. It’s still a box, but the one on the right definitely looks more box-like.</p>
+
+<p>So what’s the difference between these two origami boxes? They were both made with the same size and type of paper. Both were made using the same set of instructions. The difference between the two boxes is not in what folds were made but rather how those folds were made.</p>
+
+<p>But how the folds in origami are made can have more impact than just how the resulting origami model looks. Let’s look at another image.</p>
+
+<p><img src="/images/practice-matters-origami-cup-and-yoda.jpg" alt="Origami Cup and Yoda" /></p>
+
+<p>In the case of the origami cup (a relatively simple origami model), if the folds are not exactly straight and perfectly crisp then the cup will probably turn out fine anyway. However, in the case of the origami Yoda (a much more complicated origami model), if the folds are not pretty close to exact then everyone’s favorite short, green force wielder could look misshapen and unrecognizable. If the folds are far enough off from ideal, you might not even be able to complete the model at all. In this case the quality of the folds could determine not just how good the origami model looks at the end, but what origami models are even possible.</p>
+
+<h3>Isn’t This Post About Practice?</h3>
+
+<p>So what does all of this have to do with practice? From the origami examples above we can anecdotally conclude that the quality of folds can determine both the quality of the origami model as well as what origami models are possible. So how does one learn to make better folds? Practice of course!</p>
+
+<p>Another one of the images I shared was an example of what happens when your folds aren’t of high quality. When I was folding the model to take a picture of it, it was actually one of the most challenging models I made for the entire presentation. Why? Because I don’t practice doing origami folds poorly. I only practice doing them well. So doing the folds poorly was a challenge.</p>
+
+<h3>What About Software Development?</h3>
+
+<p>This is a technical blog about software development, and so far in this post all I’ve talked about is origami. How does all of this relate to software development? In my presentation I compared origami to software development. In origami what folds are made is important, but so is <em>how</em> those folds are made. In software development what software we make is important, but so is <em>how</em> we make it.</p>
+
+<p>What do I mean when I say “how we make software”? I mean things like: * Do we write automated tests for our software? * Do we write those tests using test driven development? * Do we strive to write our software in a way that is easy to read and maintain in the future? * Do we integrate the changes we make to our software with the changes other people make to that software frequently (ideally at least daily)? * Do we deploy our changes to our customers frequently? * Do we collaborate with others when we write our software?</p>
+
+<p>The exact list of what practices define the “how” in how we write software is certainly up for debate. But I would argue that like with origami, the “how” not only impacts the quality of the end result, but also impacts what end results we can achieve.</p>
+
+<h3>Back to Practice</h3>
+
+<p>In origami, a couple of great ways to practice and improve are to fold the same models lots of times, and to learn to make new models you haven’t made before. Are there ways that we can practice the “how” of software development like we can practice the “how” of origami? Sure there are!</p>
+
+<p>The Global Day of Coderetreat is coming up soon. If you’re not familiar with the idea of a coderetreat, this description from <a href="https://www.coderetreat.org/pages/about/">coderetreat.org</a> may help.</p>
+
+<blockquote>
+  <p>Coderetreat is a day-long, intensive practice event, focusing on the fundamentals of software development and design. By providing developers the opportunity to take part in focused practice, away from the pressures of ‘getting things done’, the coderetreat format has proven itself to be a highly effective means of skill improvement. Practicing the basic principles of modular and object-oriented design, developers can improve their ability to write code that minimizes the cost of change over time.</p>
+</blockquote>
+
+<p>You may have noticed the word “practice” or “practicing” occurs in every sentence in that description. That seems to suggest that the idea of practice is important in a coderetreat. What kinds of things do people practice during Global Day of Coderetreat? They practice things like TDD, pairing and writing clean code. The goal of Global Day of Coderetreat is specifically to practice the “how” of software development.</p>
+
+<p>I would strongly encourage you to participate in a Global Day of Coderetreat, especially if you haven’t before. But maybe coderetreats aren’t your thing. That’s okay. There are other ways to practice too. I like to use code katas to practice things like TDD and clean code. Using a code kata you’re already familiar with can also be a great way to practice learning a new programming language or learning more about a feature in your current programming language. I like to use small side projects to practice things like automated build pipelines and deployments. It’s okay if you don’t practice the same way I do. But find ways to practice. Find time to deliberately practice. And like with origami, be willing to learn new things so you can learn new ways to practice.</p>
+
+<p>Master Yoda was right. Wars do not make one great. But practice might.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Living In A World Without QA</title>
+      <link>https://mythicant.com/blog/living-in-a-world-without-qa</link>
+      <description />
+      <pubDate>Fri, 13 Jul 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/living-in-a-world-without-qa/">Pluralsight Tech Blog</a></em></p>
+
+<p>At Pluralsight our development teams do not have dedicated QA people. We also don’t have a dedicated QA team that is separate from the development team. Why do we do that? How does it work?</p>
+
+<h3>Does No QA Mean No Testing?</h3>
+
+<p>Quite the contrary! Not having dedicated QA people means that testing is the responsibility of the whole team, not just a few members of the team or a completely separate team. It forces everyone on the team to think about how to ensure the quality of the code produced.</p>
+
+<p>Teams are also encouraged to automate as much of their testing as possible, following the <a href="https://martinfowler.com/bliki/TestPyramid.html">test pyramid model</a>. <a href="https://martinfowler.com/bliki/TestDrivenDevelopment.html">Test driven development</a> is a great way to develop these automated tests. Teams will typically have large suites of automated tests at lots of <a href="https://www.pluralsight.com/tech-blog/what-kind-of-test">different levels</a> that run every time code is changed or deployed. Teams will also sometimes manually test new features locally or in our staging environment (and sometimes in our production environment as well when the feature is behind a feature toggle), but the majority of testing occurs in an automated fashion.</p>
+
+<h3>Why Not Have QA?</h3>
+
+<p>The lack of dedicated QA people on a team can be mitigated by making testing the responsibility of the whole team and by having comprehensive suites of automated tests. But wouldn’t it be better if we did those things and had dedicated QA people too? Well, it turns out that having separate QA people can introduce some significant problems with a team’s ability to deliver software quickly and frequently.</p>
+
+<p>At Pluralsight we practice <a href="https://en.wikipedia.org/wiki/Lean_software_development">lean software development</a>. One of the principles of lean is to reduce waste. One type of waste that can occur is unfinished work accumulating in queues. Having separate QA people doesn’t guarantee there will be a queue with unfinished work from developers, but it is something that can easily happen. Many of the developers at Pluralsight have experienced this in practice at other places of employment. So rather than attempt to manage that queue of work and reduce the amount of waste it can generate, we choose to <a href="https://www.pluralsight.com/tech-blog/avoiding-secondary-work">remove it completely</a>.</p>
+
+<h3>Does This Actually Work?</h3>
+
+<p>So far it has worked surprisingly well. We never have development teams waiting on QA in order to deploy a new feature. We do sometimes have bugs that we have to fix, but we have a small enough number of those that we do them as part of our normal workflow. We don’t use a separate bug tracking database to keep track of them. In 2017 we deployed a little over 4200 times to production across all our teams. Of all those deploys, approximately 3% were rollbacks. We don’t keep statistics on the reason why various deploys were rolled back, so it’s hard to know which of those rollbacks were because of bugs or other adverse customer impact. In some situations this level of rollbacks might not be acceptable, but in our situation it is.</p>
+
+<h3>Conclusion</h3>
+
+<p>So how does not having dedicated QA people feel in practice? To me as a developer it actually feels really good. It means that for stuff I’m working on I don’t have to hand it off to another person or group and wait for them to process it. I feel responsibility for not just ensuring that I write quality code, but having a way to prove that my code does what I think it should. It means I can deploy things to production much faster and more frequently, which means I can get feedback from actual customers faster and more frequently.</p>
+
+<p>That said, working without dedicated QA people does take some different skills than working with them. And just like any other skill, the skill of working without dedicated QA people can take time to acquire and improve.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Shu Ha Ri</title>
+      <link>https://mythicant.com/blog/shu-ha-ri</link>
+      <description />
+      <pubDate>Fri, 01 Jun 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/shu-ha-ri/">Pluralsight Tech Blog</a></em></p>
+
+<p>There are various ways to think about people gaining and improving skills. One such way is called Shu Ha Ri. It comes from martial arts, but the underlying idea can be applied to other domains as well. Many other much smarter people than I (such as <a href="https://martinfowler.com/bliki/ShuHaRi.html">Martin Fowler</a> and <a href="http://alistair.cockburn.us/Shu+Ha+Ri">Alistair Cockburn</a>) have already given their take on Shu Ha Ri. I would encourage you to read their words as well. In this blog post I’ll give my own interpretation of Shu Ha Ri as well as some observations I’ve had about it.</p>
+
+<h3>Introduction</h3>
+
+<p>So what is Shu Ha Ri? It is a way to describe skill acquisition using three levels, named <em>shu</em>, <em>ha</em>, and <em>ri</em>. There are different ways to describe these three levels. I like to describe them like this:</p>
+
+<ul>
+<li><em>Shu</em> - <em>Follow the rule.</em> At this stage learners are focused on what the rules of the skill are. Learners at this level often want a list of rules about what they should do and how they should do it. A lack of rules or excessive exceptions to the rules will cause confusion and frustration.</li>
+<li><em>Ha</em> - <em>Bend the rule.</em> At this stage the learner has learned the basic rules of the skill and is now learning what the exceptions to the rules are. This stage can also start to include context specific rules. e.g. Rule X applies in situation Y but not in situation Z.</li>
+<li><em>Ri</em> - <em>Be the rule.</em> At this stage the specific rules are less important than the principles behind the rules. In fact, the specific rules originally learned may now seem overly burdensome.</li>
+</ul>
+
+<h3>An Agile Example</h3>
+
+<p>While the idea of Shu Ha Ri can be used in lots of contexts, it is often used in the context of various practices from agile software development. For this example I want to use an idealized adoption of the Scrum software development methodology.</p>
+
+<p>When a team or organization first starts investigating agile methodologies they are often coming from a completely different methodology. Therefore any agile methodology will be foreign to them. They want to know exactly what they should do to “be agile.” Scrum has a lot of specific practices around specific ceremonies, such as a daily standup meetings, sprint planning meetings, or retrospectives. This looks a lot like a list of rules to a new learner. Newcomers to Scrum will tend to worry about things like exactly how many weeks their sprint should be, what exactly people should and shouldn’t say during the daily standup, or what questions should be discussed during a retrospective. The rules are completely foreign so they want to know exactly what those rules are. This is the essence of <em>shu</em>: learn the rules.</p>
+
+<p>One of the beauties of Scrum (and most other agile and lean methodologies) is that it won’t necessarily solve your problems, but it will make them painfully obvious to you. As learners become more familiar with the rules around specific meetings and practices, they will start to run into problems. They may notice that daily stand up meetings tend to be boring. Constantly having work spill over from one sprint to the next may cause them problems. They may discover other pain points. Some of these pain points may suggest areas where they should modify their behavior to fit the methodology, but others may suggest areas where they should modify the methodology to fit their unique needs. This is the essence of <em>ha</em>: learn when to modify the rules and adjust them in different contexts.</p>
+
+<p>Assuming that the team or organization continues to improve their development practices using retrospectives and other feedback mechanisms they will likely reach a point where they feel frustration despite following all the Scrum practices. Scrum has a lot of specific practices around sprints and the related meetings, but it says very little about technical practices. Realizing that the specific rules of Scrum might be insufficient for their context could be a source of frustration for learners. The team might have moved to pair programming or <a href="https://www.pluralsight.com/tech-blog/mob-programming">mob programming</a>, reducing the need for a daily standup meeting. The team may have developed sufficient discipline and automation that they can release whenever they want, not just at the end of a sprint. Suddenly they start feeling constrained by the rules of Scrum. Rather than helping, the rules are hindering the performance of the team. This is the essence of ri: the underlying principles behind the rules have been learned and the specifics of the rules are no longer important.</p>
+
+<h3>Some Observations</h3>
+
+<p>I’d like to share a few observations I’ve had about Shu Ha Ri and how it can be applied to some common situations.</p>
+
+<h4>Different people, different skills, different levels</h4>
+
+<p>The first observation is pretty straight forward. It is that there are different skill levels. Different people have different levels of skill. And different people are at different levels in different skills. For example, I might be at a <em>ri</em> level at test driven development while you are at a <em>shu</em> level. But at the same time you might be at a <em>ri</em> level at database design while I am at a <em>shu</em> level in that same skill. There might be other skills at which I am at a <em>ha</em> level. Most importantly, just because a person is at a given level in a given skill it does not mean they are that level of person! Just because I am at a <em>shu</em> level in a particular skill it doesn’t mean I’m a <em>shu</em> person. Nor does it mean that I can’t improve in that or any other skill.</p>
+
+<h4>Expert beginner</h4>
+
+<p>There is an interesting point when learners are approaching the end of the <em>shu</em> phase or entering the <em>ha</em> phase for a given skill. <em>Shu</em> and <em>ha</em> are all about learning the rules and finding exceptions to the rule. It can be easy for learners to conflate mastering the rules of a skill with mastering the skill itself. This pitfall is so common that it even has a special name: expert beginner. The expert beginner trap is an important one for any learner to keep in mind as they are acquiring a new skill. It’s always worth asking a self-reflective question about whether you have truly mastered a skill or if you have only mastered the beginning rules of that skill.</p>
+
+<h4>Different perspectives</h4>
+
+<p>Differences in perspective can be challenging in all kinds of contexts. Shu Ha Ri is no different. The most extreme case is between <em>shu</em> learners and <em>ri</em> learners.</p>
+
+<p>A <em>shu</em> learner looking at a <em>ri</em> learner will see someone who doesn’t follow any of the rules. The <em>ri</em> learner often won’t be able to explain why they do what they do in a way that makes sense to a <em>shu</em> learner, instead giving reasons like “That’s just the way you should do it” or “It just feels right”. To a <em>shu</em> learner a <em>ri</em> learner may do things that don’t make sense or that look like chaos and anarchy.</p>
+
+<p>On the other hand, a <em>ri</em> learner looking at a <em>shu</em> learner will see someone longing for constraints, for lists of things they should and shouldn’t do, for explanations of every step of every process. The way a <em>shu</em> learner wants to work will often feel byzantine and cumbersome to a <em>ri</em> learner.</p>
+
+<p>Because of these different perspectives it can be challenging for a <em>shu</em> learner and a <em>ri</em> learner to relate to each other. It can be hard for the <em>ri</em> learner to remember what it was like to be the <em>shu</em> learner. And it can be hard for the <em>shu</em> learner to imagine the things the <em>ri</em> learner is talking about. Sometimes a <em>ha</em> learner can help bridge the gap between a <em>shu</em> learner and a <em>ri</em> learner.</p>
+
+<h3>Conclusion</h3>
+
+<p>As you are working to acquire new skills, think about how you will need to progress through that learning. Keep in mind that you’ll probably need to learn a lot of rules before you can start bending them.</p>
+
+<p>Next time you’re having a debate with someone on a given topic, stop and think about what level each of you are at on that topic. Are you both at the same level? Are you at different levels? Is one of you at <em>shu</em> while the other is at <em>ri</em>? Are either of you falling prey to the expert beginner trap?</p>
+
+<p>If you’re a <em>shu</em> learner in a given skill, try to accept the advice a <em>ri</em> learner provides, even if it sounds crazy. If you’re a <em>ri</em> learner, try to remember what it was like to be the <em>shu</em> learner and help them through that part of their journey as best you can. And if you’re a <em>ha</em> learner, try to keep the <em>shu</em> learners and <em>ri</em> learners around you from killing each other.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>What Does Deployment Look Like at Pluralsight?</title>
+      <link>https://mythicant.com/blog/what-does-deployment-look-like-at-pluralsight</link>
+      <description />
+      <pubDate>Mon, 19 Dec 2016 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><em>This blog post was originally posted on the <a href="https://www.pluralsight.com/tech-blog/what-does-deployment-look-like-at-pluralsight/">Pluralsight Tech Blog</a></em></p>
+
+<p>It’s hard for code to provide value unless it’s accessible by users. If our code doesn’t provide value, why are we writing it? The way we get code into our production environments at Pluralsight has changed over time and varies somewhat from team to team, but getting code where users can get value from it is something that’s important to us at Pluralsight.</p>
+
+<p>So how does code get from a development machine to a production machine at Pluralsight?</p>
+
+<h3>During Development</h3>
+
+<p>The process starts when the code is being written. We have a rule that all production code should have at least two sets of eyes on it before it goes out. That usually takes the form of pair programming, but sometimes happens via code reviews or mob programming. That choice is made by individual teams. We usually test drive our code, so most of our code has a fair number of tests we can run. We generally run all of our unit tests (not just the ones for the code we’re currently working on) before we push the code to our central repository in Github. Sometimes we’ll write and run other types of automated tests as well, but we can talk about that more later.</p>
+
+<h3>Integrate Early, Integrate Often</h3>
+
+<p>When we actually push the code, where does it go? It goes in our master branch of course. Master should always be deployable. If your code shouldn’t be deployed to production, you shouldn’t push it yet. That doesn’t mean you should go for a long time between pushing your code. It means you should write your code in smaller chunks. The reason we don’t use branches is because they tend to be long lived. If you have code in multiple, long lived branches then the code in those branches is not getting integrated. I don’t know if the code in my branch will work with the code in your branch until they are actually merged in to the same place. The sooner that happens the sooner we know if there are going to be problems. We do occasionally use short lived branches but tend to favor feature toggles over branches.</p>
+
+<p>At Pluralsight we use TeamCity as our continuous integration server. When code is pushed to a Git repository, a build is automatically kicked off for that code. A build consists of compilation (or transpilation if necessary) and executing all unit tests. If either of those steps fail the build fails and the code doesn’t go any further. For some code bases we have additional types of automated tests, not just unit tests. For us, these usually take the form of what we call integration tests (tests for code that relies on a third party service like a database or external web service) or acceptance tests (tests for multiple code units from a business perspective, but below the UI layer and not running in a full environment). Most of these types of tests would run at this point if the primary compile+unit tests build succeeds. If these additional tests fail, the build fails and the code doesn’t go any further.</p>
+
+<h3>Deploying to Stage</h3>
+
+<p>If the code compiles and all the tests pass, then the code is automatically deployed to our staging environment. There is a separate Team City build that triggers when the previous builds succeed that initiates the deploy. For our .NET projects (and a few of our Node projects) we use Octopus Deploy. Before Octopus Deploy was available we had a custom built tool that was similar but not nearly as feature rich. Octopus doesn’t have every possible feature that we could dream of and it occasionally gets confused, but 99% of the time it just works and it’s great. For our projects that don’t use Octopus Deploy, we have a separate Team City build for that project that uses SaltStack to push the code to the desired machines.</p>
+
+<p>Once the code gets deployed to our staging environment we can do any manual testing we think we need to. This effort is usually pretty minimal, but sometimes there are things that are impossible, extremely difficult or very time consuming to test automatically or outside of a fully functional environment. In addition to any manual testing we want to do, we also have a set of UI tests that start running automatically on every new deploy to staging. UI tests are notoriously slow and brittle, so we try not to have too many of them. We only want to test the stuff that absolutely MUST work. For example, we have tests to make sure that new users can sign up and that existing users can watch videos. If those things don’t work our site isn’t very useful. If these UI tests fail then that build won’t be going to production.</p>
+
+<h3>On to Production</h3>
+
+<p>If all of our automatic tests (and whatever manually tests we deem necessary) look good, we then have the option to deploy our code to production. This is a decision made by the team who worked on the code. That means developers in conjunction with people from product management. The team might also coordinate with other teams or other stakeholders if they need to. We try to make it so that decisions can stay inside the team as much as possible though. When we do deploy to production, we use the same process (Octopus Deploy or TeamCity + SaltStack) we used when we deployed to stage. This is a push button operation that causes the same binary files that are already in stage to be pushed to production machines, just with different configuration. In the case of code that is customer facing, we do this in a rolling fashion. For example, to update code on a web farm, we will take a set of web servers out of the load balancer pool, wait for active connections to drain off, update the code, potentially run some warm up scripts, and then put the web servers back in the load balancer pool. We don’t update all the web servers at once, so there is no down time for our users.</p>
+
+<h3>Did We Break Anything?</h3>
+
+<p>When we’re doing frequent deploys (and all the time really) we want to know if there are problems in production. We have a great support group who is super responsive about addressing customer issues and letting us know when they see problems. But making them our first line of defense when things go wrong isn’t fair to them. And it isn’t an ideal experience for our users. So we use a combination of automated tools to help us find problems before our customers find them and report them to our support group. For general monitoring of server health we use New Relic. New Relic also gives us a few extras like response times and the like. We do have some custom metrics in New Relic as well that we’ve built ourselves to monitor specific things that are important to us. In addition to New Relic we aggregate our logs using ELK (Elasticsearch, Logstash, Kibana). If we notice a problem we can get access to all our production logs there to get more information about what’s going wrong. We can also set up alerting on logs (e.g. raise an alert if a certain number of errors get logged within a given time period).</p>
+
+<p>So with all our testing and monitoring nothing every goes wrong, right? Well, things usually don’t go wrong. According to out internal metrics, in September 2016 we deployed to production 418 times. That is across all teams and all deployable units. Of those 418 deploys, 10 of them were to an older version than was already in production. That’s a rollback rate of about 2%. We very seldom have critical issues that we do rollbacks for. Most of them are for small issues. e.g. Incorrect text on a page, performance regressions, etc. With Octopus Deploy (and the custom tool we used prior to Octopus Deploy), a rollback is a single button click away. So far our business has found our frequency, severity and difficulty of rollbacks to be acceptable.</p>
+
+<h3>Conclusion</h3>
+
+<p>Deploying frequently is not only possible, it’s actually an advantage. It allows us to get feedback from actual users sooner. It allows us to release without fear because what has changed since the last release is usually so small. It allows us to respond to changing business situations more quickly. And personally, it makes me happier.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SONR Trailer</title>
+      <link>https://mythicant.com/blog/sonr-trailer</link>
+      <description />
+      <pubDate>Sun, 18 Jul 2010 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/13443384?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=b680ce21e1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SONR Trailer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></p>
+
+<p>SONR was originally started as an entry in the <a href="https://forums.tigsource.com/index.php?board=38.0">TIGSource Assemblee competition</a>.  Unfortunately, I didn’t really get far enough to submit anything for the competition, but I liked the game, so I’ve kept working on it. </p>
+
+<p>I decided a while ago I should make a trailer for SONR before actually finishing the game.  I’m not sure exactly why I decided that would be a good idea.  Maybe because I knew it would be a while before the whole game got done?  I’ve never made an actual trailer for a game before.  Gameplay videos yes, trailers no.  I’d appreciate any feedback on it that anyone has.  Cool?  Lame?  Confusing?  Waste of time?  I was hoping it would convey some of the emotions that I hope the final game will contain. </p>
+
+<p>Speaking of my hopes for the final game, I thought I’d make a list of my reasons for making/goals behind SONR.  Because, you know, the <code>&lt;ul&gt;</code> tag doesn’t get enough lovin’ in this world.</p>
+
+<ul>
+<li><p>I guess the first reason I should mention for making SONR is to participate in a TIGSource competition.  If you haven’t done it before and have any inclination to do so I would highly recommend it.  You don’t have to be a coder.  You can do art, music, level design or even just play testing.  People often team up to work on entries.</p></li>
+<li><p>One of the requirements for the competition was that you had to use assets provided in the first part of the competition and you couldn’t modify them outside of code.  I thought it sounded like fun to do all the graphics manipulations and enhancements in code.  And it kind of was.  One of my goals with SONR is to make it look cool.  And I think so far it’s turned out looking pretty good.  Not perfect, but pretty good.  But I think going forward I might relax some of the requirements from the competition.</p></li>
+<li><p>I feel like my games so far have lacked something.  Depth?  Emotion?  Something like that.  I want this one to have more emotion.  I decided to use something Edmund McMillen said about making <a href="https://en.wikipedia.org/wiki/Aether_(video_game)">Aether</a> and use some experiences from my own life.  Or at least some emotions I’ve felt strongly at one point or another in my life.  We’ll see how that goes.</p></li>
+<li><p>As mentioned previously, Ninja Robot Winning Gameshow ended up being much harder than I meant it to be.  I wanted it to be more fun than hard.  With SONR I’m going to try again for more fun than hard.  I’m hoping the visuals + emotion + exploration + easier movement and good combat + reasonable AI + having buddies to help you out = fun gameplay.  And I’m going to let more people test it than I did with NRWG.</p></li>
+<li><p>And finally, I wanted some of the stuff that I built for SONR to translate over into framework items that I could use in other, future games.  I’m hoping after coding some more games I’ll have a pretty good idea of what things I’ll want to reuse and which things I don’t.</p></li>
+<li><p>I guess another way to sum most of that up is, I want SONR to have, as ⦁  Kurt puts it, “soul”.</p></li>
+</ul>
+
+<p>So those are some of my goals.  After I actually get done I’ll plan to do a bit of a retrospective as I have for some other games and see how well I did.  In the meantime, there are a few things I’ve already learned and some changes I’m going to make going forward.</p>
+
+<ul>
+<li><p>Doing pixel-level collision detection really isn’t nearly as fun as it sounds, if you can imagine that!</p></li>
+<li><p>As mentioned above, doing all the effects and image manipulation in code is an interesting exercise, but in the end not terribly interesting.  I’d rather let someone who enjoys doing that write some tool for me (like the excellent <a href="https://www.getpaint.net/">Paint.NET</a>) and just use that.  Much faster that way.</p></li>
+<li><p>Having a two year old son does terrible things to one’s supply of available game playing time, and even worse things to one’s supply of available game making time.  Though I was quite pleased that one of his new favorite videos to watch is actually this SONR trailer.  It gives me high hopes for his future video game playing and general geekiness levels.</p></li>
+<li><p>Sadly, after creating all the collision detection, image scaling and rotation and game loop code by hand, I think I’m going to basically scrap it all going forward and use a third party game framework.  At the moment I’m leaning towards <a href="https://flatredball.com/">Flat Red Ball</a>.  It’s kind of a hard decision for me to make.  No one likes to throw away perfectly good code.  And while my code does work, it has some limitations that I’m not terribly interested in building solutions to.  I’ve decided I would like hardware acceleration, better camera support, better image rotation and collision detection, better framerate control among other things.  A lot of that comes for free with a game framework and doesn’t come for free if I have to code it.  I’d rather spend time making my game than writing multi-threaded frame rendering code.  Plus I think a good amount of my code will be reusable.  Most of the game logic and characters and stuff should be able to translate over fairly well I think.  So I’m going to try it and see what happens.  If I crash and burn terribly, I’ll be sure to let you know.</p></li>
+<li><p>My combat system still sucks.  It’s better than it was originally, but still needs some work.  Having buddies follow you around and help you makes it funner, but it’s still not where I want it to be.  Once I transition to a new framework, combat is going to be my biggest area of focus.</p></li>
+<li><p>So far I’ve only implemented keyboard support.  I think using a gamepad will probably make the game funner.  I want to avoid requiring a gamepad though, since I know not everyone has one.</p></li>
+</ul>
+
+<p>Well, that’s probably enough talking (or rather writing) for now.  SONR still needs lots of code and it’s not going to write itself.  So let me know what you think of the trailer and the current look of SONR, and I’ll go write some awesome code. </p>
+
+<p>P.S. All the footage in the video is current in-game video.  The video looks okay, but the actual game looks way better.  The video has a bunch of compression artifacts which the actual game does not (especially noticeable at larger sizes).  I need to get some better video editting tools than what I currently have.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Becoming a Keyboard Sith!</title>
+      <link>https://mythicant.com/blog/becoming-a-keyboard-sith</link>
+      <description />
+      <pubDate>Wed, 30 Jun 2010 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>I wanted to do a post about the game I’m working on, but I’m not quite there yet.  I’m hoping to make a video soon, but you’ll just have to wait a bit longer.  Sorry about that. </p>
+
+<p>In the meantime though, I have this post.  You’re probably wondering what the heck “Keyboard Sith” means, aren’t you?  Well, the story goes something like this: I’m a keyboard kind of a guy.  I think using keyboard shortcuts makes me faster than always having to switch back and forth between the keyboard and mouse.  It’s always fun to find a keyboard shortcut I can do in less than a second for something that to use the mouse would take a couple of seconds.  When I came across a program named <a href="https://osherove.com/blog/2007/6/3/train-to-be-a-keyboard-master-with-keyboard-jedi.html">Keyboard Jedi</a>, I knew it was something I had to try out.  I actually really like it.  Unfortunately, it seems to have some 32bit vs. 64bit problem and doesn’t want to run on my computer at work.  There are some posts around about how to hack it to get it to work, but that seemed like too much work.  And since the author of Keyboard Jedi doesn’t seem to have updated the application in a couple of years, I decided to create a replacement.  And thus Keyboard Sith was born! </p>
+
+<p>For those of you too lazy to click through to the Keyboard Jedi link, here’s the gist of it.  The program locks the mouse cursor in its window, so you are forced to use the keyboard.  You can turn the mouse capture on and off, just in case you really do have to use the mouse.  But it provides a barrier larger than just reaching for your mouse. </p>
+
+<p>Keyboard Sith is a little more limited than Keyboard Jedi in some ways.  Keyboard Jedi has the option to capture the mouse only in Visual Studio or in all applications.  Keyboard Sith always captures the mouse in all applications.  Keyboard Jedi also shows you when you press special key combinations (basically, control or alt or shift plus anything else).  That’s handy for presentations sometimes.  Keyboard Sith doesn’t do that.  But Keyboard Sith does have a nifty pop up notification when you disable the mouse capture, relating the <a href="https://starwars.fandom.com/wiki/Code_of_the_Sith">Sith Code</a> to the power of your keyboard.  It also has an equally nifty notification icon that switches between a wussy blue light saber when the mouse capture is disabled and a powerful red light saber when the mouse capture is enabled.  You can also disable the Sith Code notification via the notification icon (I’m assuming because you already memorized the Sith Code). </p>
+
+<p>It’s not perfect, but it’s hopefully a handy little app that will help some people learn more keyboard shortcuts.  And hopefully it will work on more computers than Keyboard Jedi.  Embrace the dark side… </p>
+
+<p><a href="https://github.com/theparticleman/KeyboardSith/releases/tag/v1.0">Download Keyboard Sith</a></p>
+
+<p>P.S. The .NET Framework 2.0 or higher is required.  But no installation is required.  Just unzip the EXE file and double click it.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Ninja Robot Winning Gameshow Around and About</title>
+      <link>https://mythicant.com/blog/ninja-robot-winning-gameshow-around-and-about</link>
+      <description />
+      <pubDate>Fri, 23 Apr 2010 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Since its release, Ninja Robot Winning Gameshow has enjoyed a small amount of public interest.  I thought I’d share some of the places it has shown up (Google Alerts is my friend).</p>
+
+<ul>
+<li><p><a href="http://jayisgames.com/review/weekend-download-91.php">Jay is Games</a> – NRWG got showcased on one of their Weekend Download pieces.  I got more hits from this site for NRWG than I have from any other site, by far.  It’s like a giant mountain looming out of the plains of my normally tiny daily visitor count. 
+<img src="/images/ninja-robot-winning-gameshow-around-and-about.png" alt="Ninja Robot Winning Gameshow traffic" />
+It was cool to have something I created show up on such a well read site.  I enjoyed reading the positive comments about NRWG.  Some of the “this game is stupid and it sucks” type comments made Ninja Robot sad.  But we’re supposed to use those as learning experiences, right?  My learning experience is that I shouldn’t use my own development gameplay experiences at all in determining game difficulty.  That and even though rectangle intersection as your main form of collision detection sounds very precise on paper, it can lead to a frustrating gameplay experience for some.  Overall, I think more people would have played and commented on NRWG if one of the other Weekend Download entries hadn’t included pixilated nudity.  Oh, well.  The next game will just have to have Ninja Robot in a bikini or something I guess.</p></li>
+<li><p>Nerd Fortress <em>(Editor's note: Unfortunately, Nerd Fortress is no longer active.)</em> – My friend Kurt over at Nerd Fortress did a little review of NRWG.  I liked that Kurt pointed out he appreciated me talked about my game design aims and tools that I used and such.  I think I should do that more.  Kurt brought up topics related to the difficulty, as well as a couple of other points that would have made the game better.</p></li>
+<li><p>Some German web site <em>(Editor's note: Unfortunately, the German website is no longer active)</em> – I don’t speak German, so I’m not really exactly sure what this site is all about, but it obviously has something to do with games.  Google Translate helped me with the actual game review page (the English translation is here if you’re interested), and it seems the reviewer liked the game, though felt at least some level of strikethrough-ed frustration.  I’m guessing his/her frustration was again due to the difficulty.</p></li>
+<li><p>Cafe Press <em>(Editor's note: Unfortunately, the Cafe Press link no longer works.)</em> – This isn’t a review, but I thought it was pretty cool.  Cafe Press lets you print random stuff you upload on to random things like shirts and cups and whatnot.  My little sister pulled some art from the game and set up a couple of Ninja Robot Winning Gameshow t-shirts that you can buy!  From the screen shots of the shirts, it looks like she did a pretty good job picking art and resizing it and cleaning it up and everything.  I can’t say how the shirts look in real life though, as I haven’t gotten one.  I’m tempted, but I have loads of other t-shirts I already don’t wear, and I’m afraid this would end up one more on the pile.  How’s that for a product endorsement?  Even the game creator doesn’t but the merchandise!</p></li>
+</ul>
+
+<p>Last night I went to the quarterly Utah Indie Game Night, met some cool people, got reacquainted with a few others, saw some cool things other people had made, and showed a few things I had made, including NRWG, which will hopefully help it gain a little more exposure. </p>
+
+<p>It’s been an interesting experience “marketing” NRWG.  It makes me really glad I work as a programmer and not as a marketer.  Actually getting the word out and making people aware of what you’ve created sounds hard, but is actually way harder than it sounds.  I think I’ll primarily stick to nice easy topics like collision detection, AI algorithms, multi-threaded locking issues and source control management, thank you very much. </p>
+
+<p>So I have two questions for anyone who might be reading: 1) Lots of people have commented on the difficulty of the game.  Has anyone besides me actually beaten the game?  Was the time and effort I spent on closing credits and music wasted (not that I spent a ton of time, but some) because I’m the only one who’s seen them?  Just curious.  2) I’ve previously mentioned the possibility of other people designing some levels.  I never heard anything from anyone on that.  I just thought I’d ask again to see if anyone new might be interested.  The level designer isn’t hard to use and isn’t horribly, horribly buggy.  Just a little buggy, honest!  If you’re interested, let me know in the comments.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Introducing Ninja Robot Winning Gameshow</title>
+      <link>https://mythicant.com/blog/introducing-ninja-robot-winning-gameshow</link>
+      <description />
+      <pubDate>Tue, 16 Jun 2009 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Can anyone else say, “About time!”?  I’ve had this almost ready to release for quite some time.  But I wanted to add some finishing touches to it.  There are more finishing touches that I’d like to add, but at least now it’s to a point where I feel like I can let other people download it, play it, and rag on it.</p>
+
+<p>Before I give my blurb about the game, here’s a gameplay video.  If you’re a super anti-spoiler type person, it does show how to get past the first few levels.  They’re not that great of levels though.</p>
+
+<p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg1.avi">Ninja Robot Winning Gameshow Gameplay</a></p>
+
+<p><em>(Editor's note: Upon rewatching this video I realize how bad it is, especially the audio. But I chose to leave it here for historical purposes.)</em></p>
+
+<p>So the idea here is that you can switch which direction gravity pulls.  I thought that seemed like a kind of robot-y, ninja-y sort of thing to be able to do.  I guess you’d classify this as a puzzle platformer?  I had a couple of aims in making this game.  In no particular order:</p>
+
+<ul>
+<li>I wanted a break from a bigger project that I’m embarking on.  With this bigger project I’m in the phase that requires a lot of thinking and not a lot of coding.  Since I like to code, this was a nice break from that.</li>
+<li>I wanted to try an exercise in simplicity of game code.  Being a software architect at work let’s me learn about all kinds of good programming practices.  I wanted to test applying them in a game (not that I didn’t apply some good programming practices in other games, I just wanted it to be more of an emphasis in this one).  I think it turned out pretty well.  The main game engine itself is only around 400 lines of code.  The executable is only 67Kb, most of which I’m sure is embedded PNGs.  I even added some unit tests.  They were sucky unit tests, and I didn’t create very many of them, but even a small number of sucky unit tests saved my bacon more than once.</li>
+<li>I wanted a snazzy level editor.  I ended up with a so-so editor, but it’s a better editor than I’ve made before.  All the level editing is done in the editor (no creating images outside and then loading them in or anything like that) and is WYSIWYG.  It even lets you go straight from editing to play testing the level.  Very handy.  It still has a fair amount of work before I’d release it to the general public, but at least it’s something I would consider releasing to someone else.</li>
+</ul>
+
+<p>I’m sure there were some other aims too, but those are the ones I could think of right now.</p>
+
+<p>So what’s in the future for Ninja Robot Winning Gameshow?  There are some improvements that I’d like to make at some point in the future.  I don’t know that I’ll actually make any of them, much less all of them.  But it’s a list, and we all like lists, right?  When and how many I make will probably depend on how many people ask for them.  So if you want them, ask for them.</p>
+
+<ul>
+<li>More levels.  I think the game as it is has 15 levels.  More levels = good, right?</li>
+<li>Going along with more levels, I’d like to release the level editor publicly.  Maybe let some other people make some levels for me.  I’m sure that there are many better level designers out there than me.  Someone who played the game told me that the levels were way too hard.  I thought they were way too easy.  I’m sure I could have a much better progression from easy to difficult.</li>
+<li>Revisit the music.  I like all the individual tracks that are in the game, but I don’t think they all go together terribly well.  I’d like to revisit the music and probably add more tracks.</li>
+<li>More death phrases and commercials would be good I’m sure.</li>
+<li>I thought it’d be cool to add an instant replay if you die in a particularly interesting way (determining what that means programmatically would be half the fun).</li>
+<li>Remember which levels you’ve beaten and let you resume the last level you were on even if you quit the game.  I didn’t think it was that important with only 15 levels (all of which I thought were too easy anyway, as previously mentioned), but with more levels it would be more important.</li>
+<li>I don’t like the sound engine I used much at all (more on that in another post).  I’d like to replace it with something better.  I encapsulated it away, so hopefully that will be easy to do in the future.</li>
+</ul>
+
+<p>Is that a big enough list of improvements for something that’s just barely being released?  I hope so.  Makes me feel depressed. 🙂</p>
+
+<p>Enough talk.  On to the game!  The game requires the .NET Framework 2.0 or later.  I created it on a dual core 1.7Ghz machine with 2GB of RAM.  On my machine it uses almost no CPU power, so I’m assuming it will run on something with much lower specs.
+To install the game, simply unzip the files and put them somewhere.  Run NinjaRobot.exe to start the game.  You move around using the arrows keys.  Jump using the control key.  When you’re playing you can press ‘N’ to switch to a different music track (actually a random music track, so it won’t always be different).
+A couple of hints:</p>
+
+<ul>
+<li>Don’t touch the spikes.  Or the baddies.  They both hurt.</li>
+<li>You can’t run out of lives.  You can keep playing forever.  But if you die too frequently then you’ll have to go to a commercial break and do an endorsement of “This Product”.</li>
+<li>If you’re having trouble jumping over things, push in the opposite direction gravity is pulling to stay in the air longer when you jump.  This let’s you jump both higher and farther.</li>
+<li>If you think that the game is too hard and that one of the levels is impossible, I know that they are all beatable.  I did it once, honest!  I may provide a walkthrough video at some point if anyone is interested in it.</li>
+<li>If you think that the game is too easy and that there aren’t enough levels, let me know and I’ll send you the level editor and let you make some more!</li>
+<li>If you want to put in your own music, put some MP3s in the Sound\Music directory.  The game will look for any files that have “level” in the file name and try to play those during the levels.  I know MP3s and WAVs work.  I haven’t tried any other formats.</li>
+<li>The lame audio library I used has 32-bit and 64-bit versions (part of why I want to replace it with something else).  I made two versions of the game, one with the 32-bit audio DLL, the other with the 64-bit version (it’s just that one DLL that’s different between the two).  Download the appropriate version for your machine.  (Start with the 32-bit version if you’re not sure which you need.  If it doesn’t work, try the 64-bit version.)
+I think that’s about it.  Is this the best game you’ve ever played?  Does it totally suck?  Let me know what you think.  I hope you enjoy.</li>
+</ul>
+
+<p>Download Section</p>
+
+<p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg32.zip">Ninja Robot Winning Gameshow 32-bit</a></p>
+
+<p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg64.zip">Ninja Robot Winning Gameshow 64-bit</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Finally, Another Post</title>
+      <link>https://mythicant.com/blog/finally-another-post</link>
+      <description />
+      <pubDate>Wed, 25 Feb 2009 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Sorry I haven't posted in a while. I've had a big distraction lately. I've included a picture of said distraction for reference.  (You can see the picture if you click to view the whole post.  I forgot my blog host is rubbish.  I really need to make the time to switch to something better...)</p>
+
+<p><img src="/images/finally-another-post-1.png" alt="A picture of Sam" /></p>
+
+<p>His name is Sam. And last night he learned how get himself stuck under the couch. He'll be six months old at the end of this week. So if you're quick with your mental math you'll know I've done a couple of posts since he's been born, but not many. It's not that I haven't had time to post since he's been born, I just haven't had time to work on anything worth posting about. Isn't the first rule you read on all those "How to make a living blogging" blogs that you keep posting whether you have anything to post about or not? Oh, well. I never claimed to be a good blogger.</p>
+
+<p>Anyway, I do have something to post about now. I'm actually working on two projects. The first one is rather ambitious (as in I hope I get done one day) and as such I don't really have much to show for it yet other than some design notes and a tiny bit of code that doesn't really work yet. In working on such a big project that takes so long to make any progress, I realized that I still needed a creative outlet. So I decided to work on a small game while I'm working on my larger one. About a week or so ago I woke up with an idea for a game. I have the basics working and made a little video for your viewing enjoyment.</p>
+
+<p><a href="https://vimeo.com/manage/videos/3364781">Tech demo video</a></p>
+
+<p>Of course this is just a tech demo so colors and images are likely to change, but I am going for a retro feel. The movement is likely to change too (I think the gravity is too strong at the moment). This is my first non-ASCII platformer, so that's been interesting. Unfortunately, stuff like this always involves more math than I want to deal with. Fortunately, for this it's just basic geometry. It would be worse if were going to have more physics-based elements. So remember kids, if you want to make video games, do your math homework and eat your vegetables.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>A Little Buddy</title>
+      <link>https://mythicant.com/blog/a-little-buddy</link>
+      <description />
+      <pubDate>Mon, 06 Oct 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Does anyone remember that little sheep desktop buddy?  You'd start it up and this little sheep would drop onto your desktop.   It'd walk on whatever windows you had open and run around and make little noises.  I used to open it a couple of times and let the sheep run into each other and climb on each other.  It was great.</p>
+
+<p>The other day during lunch I was bored and was thinking about the little sheep.  I decided to make something similar.  But instead of mundane sheep I picked something cool.  What did I pick you ask?  The answer should be obvious.  Megaman!</p>
+
+<p><img src="/images/a-little-buddy-1.png" alt="Mega Man buddy screenshot" /></p>
+
+<p>Enjoy!</p>
+
+<p>Download
+<em>(Editor's note: Mega Man Buddy is not currently available.)</em></p>
+
+<p>P.S.  He's not too smart yet.  I already have a list of improvements to make.  But if anyone has any suggestions I'd be happy to hear them.</p>
+
+<p>P.P.S. .NET Framework 2.0 or higher required.</p>
+
+<p>P.P.P.S.  Mono 2.0 has been released!  Rejoice Mac and Linux using friends!</p>
+
+<p>P.P.P.P.S.  Sorry.  This is getting a little ridiculous, I know.  Left click and drag to move Megaman around.  Right click on Megaman to get a menu to close him.  That's assuming you can catch him of course.  What, did you expect him to be easy to catch?  This is Megaman we're talking about!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hurray for Griselda!</title>
+      <link>https://mythicant.com/blog/hurray-for-griselda</link>
+      <description />
+      <pubDate>Sat, 20 Sep 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>So I was going through Google Reader the other day trying to get caught up on some posts and I saw a post from indiegames.com about an episode on bytejacker.com where they review some of the entries from the Bootleg Demake Competition. They do a top 10 and Fable of Griselda made the top 10! It actually came in at number 5!</p>
+
+<p>I think a lot of the other entries (including those that aren't on this top 10 list) are more impressive than Fable of Griselda, but I'm glad that someone liked it enough to put it on a top 10 list.</p>
+
+<p>You can watch the video <a href="https://www.dailymotion.com/video/x6si9w">here</a>. Griselda is at around 3:00, but the whole video is pretty interesting.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Fable of Griselda - Final(ish)</title>
+      <link>https://mythicant.com/blog/fable-of-griselda-finalish</link>
+      <description />
+      <pubDate>Sun, 07 Sep 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Fable of Griselda is done!  Or at least as done as it's going to get for the competition.  So much code to write, so little time.  Anyway, here is the finished game. </p>
+
+<p>Download Fable of Griselda Final</p>
+
+<p><em>(Editor's note: The downloaded version of Fable of Griselda is no longer available. The online version can be found <a href="https://fableofgriselda.com">here</a>)</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Fable of Griselda - Try it Out</title>
+      <link>https://mythicant.com/blog/fable-of-griselda-try-it-out</link>
+      <description />
+      <pubDate>Thu, 21 Aug 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>So I have Fable of Griselda to a point that it's almost starting to look like a real game and it's almost fun to play for a few minutes at least.  And that's good since the Bootleg Demake competition I'm making this for is over on August 31st.  </p>
+
+<p>The "installation" process is typical.  Just unzip the files somewhere (doesn't matter where).  Then run Griselda.exe.  You need the .NET Framework 2.0 in order to run this.  If you have Vista you should already have the framework.  If you have XP or older you may or may not have it.  If you're not sure just try running the program.  If you don't have the framework installed then the program won't run.  In that case go download the framework from here.</p>
+
+<p>To play:</p>
+
+<p>Arrow keys - move your hero</p>
+
+<p>Space bar - attack with your sword</p>
+
+<p>Escape - quit the game</p>
+
+<p>At the moment every enemy you kill will drop something, either a heart or a gem.  It won't work that way in the final game, but having it work that way greatly faciliates debugging your item dropping system.</p>
+
+<p>Anyway, let me know if you have any comments, suggestions or troubles.  Here's the download link:</p>
+
+<p>Download Fable of Griselda</p>
+
+<p><em>(Editor's note: The downloaded version of Fable of Griselda is no longer available. The online version can be found <a href="https://fableofgriselda.com">here</a>)</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Fable of Griselda</title>
+      <link>https://mythicant.com/blog/fable-of-griselda</link>
+      <description />
+      <pubDate>Sat, 16 Aug 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>So I've made some progress on my entry for the Bootleg Demake competition.  It's not terribly far yet, but at least I have something to show.  I've made a couple of videos that I posted on the competition forum.  I'll post them here too.</p>
+
+<p>Here's the <a href="https://vimeo.com/1536702">first</a> one.</p>
+
+<p>And the <a href="https://vimeo.com/1539332">second</a> one.</p>
+
+<p>Hopefully I'll get done soon so I can post the finished version.</p>
+
+<p>The actual forum thread for it can be found <a href="https://forums.tigsource.com/index.php?topic=2577.0">here</a>.</p>
+
+<p>P.S.  I've decided my blogging hosting sucks yet AGAIN.  It decided to excerpt all my entries and remove all the images from the excerpts.  I'm going to go see if I can fix it.  In the meantime, go ahead and click on the &lt;&lt; More >> tag to get the full entries WITH images.  <em>sigh</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Competitions</title>
+      <link>https://mythicant.com/blog/competitions</link>
+      <description />
+      <pubDate>Tue, 05 Aug 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>So I've been working on my next little project a bit. I had actually found acompetition that I wanted to enter it in. It's a Star Trek themed competition. So I worked on that for a while. I even got a nifty little Enterprise (the bad guys are still rectangles. I haven't gotten around to making them into Klingons yet). See. Here's a picture to prove it.</p>
+
+<p><img src="/images/competitions-1.png" alt="Competions image 1" /></p>
+
+<p>I still haven't renamed the form. How embarrassing! </p>
+
+<p>Anyway, I was working on that, but not feeling terribly inspired by it. Mostly I just wanted to enter something in a competition. But then I found another competition (the forums are down right now. Hopefully they will be back up soon) over at tigsource.com which I felt more inspired about. It's a Bootleg Demake Competition. Basically you make an obvious rip off of a game, but for an earlier system than the one the original game was made on. There are a lot of people remaking 3D games into 2D games and a lot of porting from newer systems (Xbox 360, PS2 &amp; PS3, etc.) to older systems (NES, SNES, etc.). I figured this would be a perfect opportunity to return to my ASCII roots. And I might not have another such opportunity again in the near future. Plus, this would give me a chance to make an ASCII game that doesn't need to be turned into a test (that's where most of my other ASCII games came from). The competition ends at the end of August, but I think I should have enough time. That's one good thing about single character ASCII art, it doesn't take too long. Donkey Kong ASCII only took me about a day to get most of it done. Then another half a day or so to fix a few bugs and make a few more levels. I like that about the whole indie game scene. It shows that you don't have to have hundreds of people and years of development and millions (or hundreds of millions) of dollars to make a great game (not that Donkey Kong ASCII is that great, but some other indie games are). </p>
+
+<p>So I have an idea of what I want to do for this competition, but I don't have much to show for it yet. I'll post some screen shots as soon as I have something to show.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Why Blogging Sucks and Other Commentaries</title>
+      <link>https://mythicant.com/blog/why-blogging-sucks-and-other-commentaries</link>
+      <description />
+      <pubDate>Wed, 25 Jun 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>I've had some thoughts for blog posts the past few days, but I haven't felt like actually posting anything. I thought about it for a bit and decided that the reason I didn't feel like posting anything was because of the clunky interface that came with my blog hosting. You know, it's a sad state of affairs when technology convinces you that you shouldn't use it. Anyway, after thinking about that I decided that I should try out some third party blogging apps (which my blog hosting account thankfully supports). I haven't had a chance to try any out yet though until now. See, there are some advantages to waking up at 2am and not being able to go back to sleep.</p>
+
+<p>I recently got a new computer, which has greatly increased the opportunities I have to write code. So we are now a three laptop family. Does the fact that we have three laptops in a house with only two people tell you anything about my profession? My new laptop is a Dell M1330. When I was working on my thesis our lab had Dell laptops and at that time I swore I'd never ever buy a Dell computer. They were chucky, slow and didn't have very good build quality. But Dell has come a long ways in the last few years. I'm pretty happy with my new lappy so far. It's a ~4 lb, 13" incher which makes it nice to carry around but still big enough not to negatively impact productivity. I was thinking about getting an HP Mininote for the portability, but I think my M1330 works much better as a coding machine. Plus, since it was a "scratch and dent" (I haven't found any scratches or dents yet) it was actually cheaper than the Mininote. Wins for everybody!</p>
+
+<p>Ok. So now on to the important stuff, games. After getting my new lappy all set up and installing Visual Studio (sadly I currently have to have VS 2008 and VS 2005 installed because I've been playing with XNA and it's only officially supported on 2005. Come on MS, get with the program!) and after taking a little break from Mario TD, it was time to start coding some more. I worked on a couple non-game related projects (shocking, I know), but the other day I decided it was time to start working on a new game. I wanted something a little less intense than Mario TD turned out to be. I've been meaning to start doing more development in Silverlight and/or XNA. But for this project I decided to fall back to my old standby of GDI+. For this project I just wanted something fun to play around with. What I really wanted was something I could work on for this procedural content generation (PCG) contest over attigsource.com but I didn't get working on things fast enough to have anything to submit. (Plus I only found out about the contest after it had already started.) I've always been interested in PCG and have been itching to get some hands on play time. Here's a picture of what I've got so far</p>
+
+<p><img src="/images/why-blogging-sucks-and-other-commentaries-1.png" alt="Why Blogging Sucks and Other Commentaries" /></p>
+
+<p>I haven't even renamed the form yet. How embarrassing! But those are some pretty mean looking rectangles, aren't they? And those brave souls aboard the USS Triangle (Simpsons reference) are fighting quite valiantly. Unfortunately, I don't really have much PCG in there yet. I guess technically the graphics are all generated, but the only mildly noteworthy part is the generated particles behind the bullets. The rest is pretty boring stuff. But the framework is coming into place. I want to add in dynamically and randomly generated enemies and weapons and of course cooler graphics. I kind of like the minimalistic thing, but it definitely needs some spicing up. Definitely some nice particle systems. Because, you know, particles are cool. Everybody likes particles. </p>
+
+<p>So hopefully my little game (which doesn't even have a name yet) will turn into something worth playing at some point in the not too distant future. But let's be honest here. It would be hard to be worse than ASCII Space Invaders, right? Hopefully it'll also be a good chance for me to get to play with and learn more about PCG too. Anyway, I'll keep you posted with updates on how it's progressing.</p>
+
+<p>P.S. I find it very ironic that this blogging software doesn't include the word "blogging" in its spell check dictionary.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Mario TD v0.9.8.0</title>
+      <link>https://mythicant.com/blog/mario-td-v0980</link>
+      <description />
+      <pubDate>Tue, 15 Apr 2008 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Well, I wanted to release a final version of Mario TD, but it's been long enough that I figured I'd better release what I have so far.  There are quite a few changes since the last version I posted.  I'm probably missing some features but here are at least a few of the things that have changed:</p>
+
+<ul>
+<li><p>Easy/Hard modes - I was getting feedback that the game was too hard.  I didn't want to just make the whole game easier since I figured that in the future people would complain that it was too easy.  So I made a hard and an easy mode.  The game plays the same in both modes, but you get more money in the easy mode.</p></li>
+<li><p>Pausing at the beginning of each level - You now have as long as you want at the beginning each level before starting.  So you don't have to hurry and plunk down all your stuff before the bad guys come.  You can actually take a minute to think about it.</p></li>
+<li><p>More levels - Rebecca made a couple of new levels.  We've added them in and added some new enemies for some of them.  It reminded me again that I should have done the enemies differently.  Oh, well.  Version 2, right?</p></li>
+<li><p>Instructions - There are instructions now!  Hurray!  Now you can find out how to play the game.  There's a button on the start screen that will show the instructions or if you wait for long enough on the start screen the instructions will show.  I think I covered all the basics, but if I missed anything that you think should be in there let me know.</p></li>
+<li><p>Sound and music - Everything has sound now.  Well, pretty much everything has sound.  I think I might add one or two other sounds and maybe change one or two, but the sounds are pretty much done.  The bigger deal is that all the levels have new music.  For some of them (especially the desert level) that makes the music MUCH more bearable.  Some of the music are nice MP3 remixes and the rest are fairly high quality MIDIs.  I think some of the tracks are great.  If you know who arranged any of the music, could you please send me their contact info?  Thanks.</p></li>
+<li><p>Better ending - The ending was originally pretty lame.  You basically got an image saying you won.  It's now a little more exciting than that.  Not hugely more exciting, but definitely more exciting.  I like to just sit and watch the ending and listen to the music.  But I am weird that way, so don't take my word for it.</p></li>
+<li><p>Integrated settings - The settings are now embedded in the executable, so it's a little trickier to hack customize the game.  When you start up the game it will still look for a settings.xml file and if it finds one it will load it.  If it doesn't find one then it uses the built in settings.  That way in the future when I make the level editor more usable I can release it and people can make their own levels.</p></li>
+<li><p>Play testing - Pretty much all of the levels and enemies have been tweaked in terms of game play.  So I know the whole game is doable, even on hard.  Thanks to Mat and Aaron for play testing stuff!</p></li>
+</ul>
+
+<p>Like I said, I probably forgot something, but that at least gives you an idea why I haven't posted a new version sooner.  There are still a few things I want to tweak on this version before it's "finished", but they're not things that will change the actual game too much (unless of course I get a lot of feedback from this version about things I need to change).  So hopefully I'll be able to release a 1.0 version soon.  We'll see though.  But enough talk, here's the download link:</p>
+
+<p>Download Mario TD v0.9.8.0</p>
+
+<p><em>(Editor's note: v0.9.8.0 of Mario TD is not currently available.)</em></p>
+
+<p>I of course have to put in some screenshots too</p>
+
+<p><img src="/images/mario-td-v0980-1.png" alt="Mario TD v0.9.8.0 screenshot 1" /></p>
+
+<p>You can see the startup screen looks a little different now.  You can pick the difficulty and show the instructions.  Sorry these screen shots don't look as cool as the others.  I'm taking the screen shots on my XP machine instead of my Vista machine, so things don't look quite as cool</p>
+
+<p><img src="/images/mario-td-v0980-2.png" alt="Mario TD v0.9.8.0 screenshot 2" /> </p>
+
+<p>This is one of the new levels.  There are two other new levels too.</p>
+
+<p>As always, let me know if you have any feedback or suggestions.</p>
+
+<p>P.S.  As more evidence that my blogging software is rubbish, it's been putting large spaces on the first post it displays making people have to scroll a lot before actually being able to read anything.  I'm going to see what I can do to get rid of it, but sorry for all the time it was there.  Needless to say, I'm going to get rid of my current blogging software as soon as I can.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
