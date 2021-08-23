@@ -67,8 +67,8 @@ namespace MythicantSite
 
         public string ToHtml()
         {
-            var target = Link.StartsWith("http") ? " target='_blank'" : "";
-            return $"\t<div class='game'>\r\n\t\t<a href='{Link}'{target}><h2>{Name}</h2></a>\r\n<a href='{Link}'{target}><img src='{Image}'></a>\r\n\t\t{Description}\r\n\t</div>";
+            var target = Link.StartsWith("http") ? " target='_blank' rel='noreferrer'" : "";
+            return $"\t<div class='game'>\r\n\t\t<a href='{Link}'{target}><h2>{Name}</h2></a>\r\n<a href='{Link}'{target}><img src='{Image}' alt='{Name}'></a>\r\n\t\t{Description}\r\n\t</div>";
         }
     }
 }

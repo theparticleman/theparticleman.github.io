@@ -24,10 +24,12 @@ header {
 nav {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 24px;
 }
 
-nav a:visited, a:link {
-    color: blue;
+nav a {
+    color: white;
+    text-decoration: underline;
 }
 
 p {
@@ -35,7 +37,8 @@ p {
 }
 
 p a:link, a:visited {
-    color: blue;
+    color: white;
+    text-decoration: underline;
 }
 
 img {
@@ -72,7 +75,7 @@ pre {
     line-height: 1.4;
 }
 
-.games-list .game a:visited, a:link {
+.games-list a {
     color: white;
     text-decoration: none;
 }
