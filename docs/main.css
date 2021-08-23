@@ -124,6 +124,10 @@ pre {
         padding-right: 0;
     }
 
+    p {
+        padding: 0 8px;
+    }
+
     .games-list {
         flex-direction: column;
         align-content: center;
