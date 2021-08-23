@@ -25,7 +25,14 @@ Another one of the images I shared was an example of what happens when your fold
 ### What About Software Development?
 This is a technical blog about software development, and so far in this post all I’ve talked about is origami. How does all of this relate to software development? In my presentation I compared origami to software development. In origami what folds are made is important, but so is _how_ those folds are made. In software development what software we make is important, but so is _how_ we make it.
 
-What do I mean when I say “how we make software”? I mean things like: * Do we write automated tests for our software? * Do we write those tests using test driven development? * Do we strive to write our software in a way that is easy to read and maintain in the future? * Do we integrate the changes we make to our software with the changes other people make to that software frequently (ideally at least daily)? * Do we deploy our changes to our customers frequently? * Do we collaborate with others when we write our software?
+What do I mean when I say “how we make software”? I mean things like:
+
+* Do we write automated tests for our software?
+* Do we write those tests using test driven development?
+* Do we strive to write our software in a way that is easy to read and maintain in the future?
+* Do we integrate the changes we make to our software with the changes other people make to that software frequently (ideally at least daily)?
+* Do we deploy our changes to our customers frequently?
+* Do we collaborate with others when we write our software?
 
 The exact list of what practices define the “how” in how we write software is certainly up for debate. But I would argue that like with origami, the “how” not only impacts the quality of the end result, but also impacts what end results we can achieve.
 
