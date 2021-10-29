@@ -129,8 +129,16 @@ pre {
         padding-right: 0;
     }
 
+    iframe {
+        max-width: 100%;
+    }
+
     p {
         padding: 0 8px;
+    }
+
+    h3 {
+        line-height: 1.2;
     }
 
     .games-list {

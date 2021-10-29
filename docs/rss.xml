@@ -8,6 +8,48 @@
     <copyright>© 2021</copyright>
     <language>en</language>
     <item>
+      <title>Presentation Videos</title>
+      <link>https://mythicant.com/blog/presentation-videos</link>
+      <description />
+      <pubDate>Fri, 29 Oct 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Presenting is a thing I've been doing for the last 10 or 15 years. Maybe longer, depending on exactly how you count. I think it's a great way to share with others and give back to the community (in my case mostly the software development community). It's something I'd <a href="/blog/getting-started-presenting">encourage everyone to do</a>. Whether you're an expert or just getting started, you have something to share.</p>
+
+<p>The last year or two have necessitated a lot of changes, and my presentation experiences are not exception. While in the past I've presented mostly at in-person conferences, the last year or two has meant presenting exclusively at virtual conferences. Virtual conferences have some drawbacks compared to in-person conferences, but they have some advantages too. One advantage is that many times the presentations are recorded and can be watched later.</p>
+
+<p>I've recorded several presentations the last year or two, so I thought I'd post them here in one big list to make them easier to find. Enjoy!</p>
+
+<h3>One Year of Remote Mob Programming</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jxO8RYvmso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>This presenataion was at XP 2021. I share some of my experiences doing remote mob programming for a year. You can read the white paper that goes along with the video <a href="https://www.agilealliance.org/resources/experience-reports/one-year-of-remote-mob-programming/">here</a>.</p>
+
+<h3>"Microservices Will Save Your Life" and Other Lies</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/54WYirprmGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>This presentation was at Agile 2021. I had fun refuting some claims about software development I've heard throughout my career. I gave a longer version of this presentation at Big Mountain Data &amp; Dev 2020. You can watch that version <a href="https://www.youtube.com/watch?v=Mwjn6nrSI2M">here</a>.</p>
+
+<h3>TDD - It's About More Than Just the Tests</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GAamdFa9VPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>I've given this presentation a few times, but this version was for Reliable Web Summit. It's an introduction to test driven development using a little explanation but mostly using a live coding example.</p>
+
+<h3>The Legend of Zelda, ASCII Art, Hexagonal Architecture, and You</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cqHRfBpekpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>This presentation is part experience report, part code review, and partly an introduction to several software architecture patterns. It's based on my experience converting <a href="https://www.fableofgriselda.com/">Fable of Griselda</a> from a console application to a web application.</p>
+
+<h3>Absolute Beginner's Guide to Docker</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/db5jLi6BnaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>I've given this presentation a few times, but this version was as a Jetbrains webinar. The Jetbrains folks were awesome, and we got a lot of good questions and interaction as part of the webinar.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>A Website Reborn</title>
       <link>https://mythicant.com/blog/a-website-reborn</link>
       <description />
@@ -711,45 +753,6 @@ I think that’s about it.  Is this the best game you’ve ever played?  Does 
 <p>So hopefully my little game (which doesn't even have a name yet) will turn into something worth playing at some point in the not too distant future. But let's be honest here. It would be hard to be worse than ASCII Space Invaders, right? Hopefully it'll also be a good chance for me to get to play with and learn more about PCG too. Anyway, I'll keep you posted with updates on how it's progressing.</p>
 
 <p>P.S. I find it very ironic that this blogging software doesn't include the word "blogging" in its spell check dictionary.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Mario TD v0.9.8.0</title>
-      <link>https://mythicant.com/blog/mario-td-v0980</link>
-      <description />
-      <pubDate>Tue, 15 Apr 2008 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Well, I wanted to release a final version of Mario TD, but it's been long enough that I figured I'd better release what I have so far.  There are quite a few changes since the last version I posted.  I'm probably missing some features but here are at least a few of the things that have changed:</p>
-
-<ul>
-<li><p>Easy/Hard modes - I was getting feedback that the game was too hard.  I didn't want to just make the whole game easier since I figured that in the future people would complain that it was too easy.  So I made a hard and an easy mode.  The game plays the same in both modes, but you get more money in the easy mode.</p></li>
-<li><p>Pausing at the beginning of each level - You now have as long as you want at the beginning each level before starting.  So you don't have to hurry and plunk down all your stuff before the bad guys come.  You can actually take a minute to think about it.</p></li>
-<li><p>More levels - Rebecca made a couple of new levels.  We've added them in and added some new enemies for some of them.  It reminded me again that I should have done the enemies differently.  Oh, well.  Version 2, right?</p></li>
-<li><p>Instructions - There are instructions now!  Hurray!  Now you can find out how to play the game.  There's a button on the start screen that will show the instructions or if you wait for long enough on the start screen the instructions will show.  I think I covered all the basics, but if I missed anything that you think should be in there let me know.</p></li>
-<li><p>Sound and music - Everything has sound now.  Well, pretty much everything has sound.  I think I might add one or two other sounds and maybe change one or two, but the sounds are pretty much done.  The bigger deal is that all the levels have new music.  For some of them (especially the desert level) that makes the music MUCH more bearable.  Some of the music are nice MP3 remixes and the rest are fairly high quality MIDIs.  I think some of the tracks are great.  If you know who arranged any of the music, could you please send me their contact info?  Thanks.</p></li>
-<li><p>Better ending - The ending was originally pretty lame.  You basically got an image saying you won.  It's now a little more exciting than that.  Not hugely more exciting, but definitely more exciting.  I like to just sit and watch the ending and listen to the music.  But I am weird that way, so don't take my word for it.</p></li>
-<li><p>Integrated settings - The settings are now embedded in the executable, so it's a little trickier to hack customize the game.  When you start up the game it will still look for a settings.xml file and if it finds one it will load it.  If it doesn't find one then it uses the built in settings.  That way in the future when I make the level editor more usable I can release it and people can make their own levels.</p></li>
-<li><p>Play testing - Pretty much all of the levels and enemies have been tweaked in terms of game play.  So I know the whole game is doable, even on hard.  Thanks to Mat and Aaron for play testing stuff!</p></li>
-</ul>
-
-<p>Like I said, I probably forgot something, but that at least gives you an idea why I haven't posted a new version sooner.  There are still a few things I want to tweak on this version before it's "finished", but they're not things that will change the actual game too much (unless of course I get a lot of feedback from this version about things I need to change).  So hopefully I'll be able to release a 1.0 version soon.  We'll see though.  But enough talk, here's the download link:</p>
-
-<p>Download Mario TD v0.9.8.0</p>
-
-<p><em>(Editor's note: v0.9.8.0 of Mario TD is not currently available.)</em></p>
-
-<p>I of course have to put in some screenshots too</p>
-
-<p><img src="/images/mario-td-v0980-1.png" alt="Mario TD v0.9.8.0 screenshot 1" /></p>
-
-<p>You can see the startup screen looks a little different now.  You can pick the difficulty and show the instructions.  Sorry these screen shots don't look as cool as the others.  I'm taking the screen shots on my XP machine instead of my Vista machine, so things don't look quite as cool</p>
-
-<p><img src="/images/mario-td-v0980-2.png" alt="Mario TD v0.9.8.0 screenshot 2" /> </p>
-
-<p>This is one of the new levels.  There are two other new levels too.</p>
-
-<p>As always, let me know if you have any feedback or suggestions.</p>
-
-<p>P.S.  As more evidence that my blogging software is rubbish, it's been putting large spaces on the first post it displays making people have to scroll a lot before actually being able to read anything.  I'm going to see what I can do to get rid of it, but sorry for all the time it was there.  Needless to say, I'm going to get rid of my current blogging software as soon as I can.</p>
 ]]></content:encoded>
     </item>
   </channel>
