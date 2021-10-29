@@ -1,0 +1,1 @@
+dotnet serve -o --default-extensions:.html --directory docs
