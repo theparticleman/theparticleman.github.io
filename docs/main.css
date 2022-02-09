@@ -65,6 +65,10 @@ pre {
     font-size: larger;
 }
 
+code {
+    font-size: larger;
+}
+
 #rss-link {
     font-size: smaller;
     margin: 0 24px;

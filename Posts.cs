@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "a-little-buddy-web-edition",
+                Title = "A Little Buddy - Web Edition",
+                PublishDate = DateTimeOffset.Parse("2022-2-8")
+            },
+            new Post
+            {
                 Name = "presentation-videos",
                 Title = "Presentation Videos",
                 PublishDate = DateTimeOffset.Parse("2021-10-29")

@@ -11,7 +11,7 @@ namespace MythicantSite
         const string IndexPath = "docs/index.html";
         const string MainBlogPath = "docs/blog.html";
         const string ContactPath = "docs/contact.html";
-        private const string MegaManScriptTag = "\r\n<script async src='megaman.js'></script>";
+        private const string MegaManScriptTag = "\r\n<script async src='/megaman.js'></script>";
         static string template;
         static Markdown markdownConverter;
 

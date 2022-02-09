@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mythicant mostly creates indie games.">
+    <title>Mythicant Games</title>
+    <link rel=preload href="/PressStart2P-Regular.ttf" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body class="center">
+<nav>
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+</nav>
+<header>
+    <h1>Mythicant Games</h1>
+</header>
+
+<h2>A Little Buddy - Web Edition</h2>
+<div class='published-date'>Published • February 08, 2022</div>
+
+<p>Several years ago, I made a little desktop companion app based on <a href="a-little-buddy">Mega Man</a>. It's fun to run sometimes and have Mega Man run around my desktop, especially if I'm sharing my screen on Zoom or the like during these pandemic times.</p>
+
+<p>Unfortunately, it's a little hard for other people to enjoy Mega Man. I wrote it in 2008 using .NET Framework, so it's not cross platform at all. It does run on Windows 11, but you have to download the correct version of the .NET Framework (which happens automatically when you try to run the executable, but it's not a great user experience).</p>
+
+<p>Fortunately, we do live in an age when making things in a browser sucks a lot less than it used to. And I am on something of a <a href="https://www.fableofgriselda.com">web kick</a> lately. So I remade my little Mega Man desktop buddy to run in a browser!</p>
+
+<p>You can check him out on the <a href="/">home page</a> for this site. I also put him on the <a href="/blog">main blog page</a>. I thought it might be nice for people scrolling through my list of blog posts to have a companion while they do so. I might put him on other pages too. We'll see.</p>
+
+<p>Oh, yeah! He's also on the page for <a href="a-little-buddy-web-edition">this blog post</a>. That seemed appropriate. If you want to give him a break for a bit you can click the button in the upper right corner with his face on it.</p>
+
+<p><a href="/"><img src="/images/a-little-buddy-web-edition-1.png" alt="Mega Man buddy screenshot"></a></p>
+
+<p>Some things I learned (or maybe remembered) while making this:
+* I wanted all the code for this to be in a single <code>.js</code> file. I wanted to just be able to include it on a page and the script would do everything it needed, including having all the images. Embedding base64 encoded images in a Javascript file is pretty easy. I wouldn't recommend always using that method for images, but in this case it worked well.</p>
+
+<ul>
+<li><code>position: fixed</code> is your friend for this kind of stuff.</li>
+<li>Creating HTML elements and adding them to the DOM programmatically isn't my favorite thing, but really isn't that bad in modern vanilla JS.</li>
+<li>Using local storage in vanilla JS is pretty easy too.</li>
+<li>The responsive/mobile dev tools in Chromium can get in to a weird state where they just don't work right. They report viewport sizes incorrectly and all kinds of stuff that wreaks havoc when trying to get something like this working properly.</li>
+<li><code>imageRendering: pixelated</code> is my new favorite CSS property.</li>
+</ul>
+
+<script async src='/megaman.js'></script>
+
+</body>
+</html>
+<!-- 
+This HTML was written by hand, like they used to do it back in 
+the good old days, up hill in the snow both ways!
+Well, okay, I mean I wrote most of it by hand.
+And I wrote some code to put the rest of it together.
+But the code was written by hand. And the HTML that
+I put in the code that put it in here was written by hand.
+So that's pretty close, right?
+-->
+
+<!-- The Google Analytics snippet is my least favorite part of this html. ☹ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3540414-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-3540414-1');
+</script>
