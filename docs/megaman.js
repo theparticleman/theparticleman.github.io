@@ -18,7 +18,7 @@ var yVelocity = 0;
 var xVelocity = 0;
 var movingRight = true;
 var divElement;
-var shouldDisplay = (window.localStorage.getItem('shouldDisplay') !== null && (window.localStorage.getItem('shouldDisplay') === 'true'));
+var shouldDisplay = (window.localStorage.getItem('shouldDisplay') === null || (window.localStorage.getItem('shouldDisplay') === 'true'));
 var imageElement;
 var lastImageName = '';
 
