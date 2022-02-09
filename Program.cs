@@ -11,6 +11,7 @@ namespace MythicantSite
         const string IndexPath = "docs/index.html";
         const string MainBlogPath = "docs/blog.html";
         const string ContactPath = "docs/contact.html";
+        private const string MegaManScriptTag = "\r\n<script async src='megaman.js'></script>";
         static string template;
         static Markdown markdownConverter;
 
@@ -42,6 +43,7 @@ namespace MythicantSite
                 blogHtml += post.ToHtml();
                 blogHtml += "</a>\r\n";
             }
+            blogHtml += MegaManScriptTag;
             blogHtml = template.Replace("{template}", blogHtml);
             File.WriteAllText(MainBlogPath, blogHtml);
         }
@@ -66,7 +68,7 @@ namespace MythicantSite
         private static void GenerateIndexPage()
         {
             var gamesHtml = string.Join("\r\n", Games.List.Select(x => x.ToHtml()));
-            gamesHtml = $"<div class='games-list'>\r\n{gamesHtml}\r\n</div>";
+            gamesHtml = $"<div class='games-list'>\r\n{gamesHtml}\r\n</div>" + MegaManScriptTag;
             var indexHtml = template.Replace("{template}", gamesHtml);
             File.WriteAllText(IndexPath, indexHtml);
         }
