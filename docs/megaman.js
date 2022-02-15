@@ -132,7 +132,7 @@ function updatePosition() {
     let maxY = window.visualViewport.height;
     if (y > maxY - divElement.clientHeight) {
         yVelocity = 0;
-        y = maxY - divElement.clientHeight + 3;
+        y = maxY - divElement.clientHeight;
     }
     if (y < 0) y = 0;
     if (x < 0) {
