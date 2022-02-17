@@ -9,7 +9,7 @@ namespace MythicantSite
             new Game
             {
                 Name = "Fable of Griselda",
-                Link = "https://www.fableofgriselda.com",
+                Link = "/fable-of-griselda",
                 Image = "images/fable-of-griselda.png",
                 Description = "A bootleg demake of The Legend of Zelda on the original NES."
             },
@@ -23,7 +23,7 @@ namespace MythicantSite
             new Game
             {
                 Name = "Maisemore",
-                Link = "https://maisemore.azurewebsites.net",
+                Link = "/maisemore",
                 Image = "images/maisemore.png",
                 Description = "Real time, multiplayer text based adventure, inspired by games like Zork. Watch out for grues!"
             },
