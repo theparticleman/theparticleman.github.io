@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mythicant mostly creates indie games.">
+    <title>Mythicant Games</title>
+    <link rel=preload href="/PressStart2P-Regular.ttf" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body class="center">
+<nav>
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+</nav>
+<header>
+    <h1>Mythicant Games</h1>
+</header>
+
+<h2>Grumble, Grumble...</h2>
+<div class='published-date'>Published • March 18, 2022</div>
+
+<p>In the original Legend of Zelda game on NES (you may have noticed I have somewhat of an <a href="/fable-of-griselda">interest in the game</a>), the seventh dungeon in the game was a little different than all the others.
+At a certain point in the dungeon, rather than a normal room with enemies and puzzles, there is a room with a single character who just says, "Grumble, grumble...".
+He can't directly be interacted with, and there are no other clues about how to get past this character.
+But in order to complete the dungeon and the game you have to get past this character.
+What to do?</p>
+
+<p><img src="/images/grumble-grumble-1.png" alt="Hungry Goriya" />
+(Screenshot from <a href="https://www.zeldadungeon.net/the-legend-of-zelda-walkthrough/level-7-the-demon/">zeldadungeon.net</a>)</p>
+
+<p>It turns out the secret is to give the character (known in Legend of Zelda guides and walkthroughs as the <a href="https://zelda-archive.fandom.com/wiki/Hungry_Goriya">Hungry Goriya</a>) some food.
+I assume the way you're supposed to know this is to interpret "Grumble, grumble..." as the character's stomach rumbling because he's hungry?
+I think it was one of the more unclear puzzles in the game, but the memory of the experience has stuck with me.</p>
+
+<p>Yesterday at work, my team and I were updating some Javascript dependencies in our code.
+Updating Javascript dependencies is one of those things in software development that's totally fine and doable, but seems way more complicated and difficult than it needs to be.
+It isn't my favorite thing to do, but it's what we needed to do.
+Doing it put me in a mood where I wanted to subtly complain about the task in order to make getting through it less obnoxious. I wanted to grumble about it.</p>
+
+<p>I thought back to the Hungry Goriya.
+His grumbling was apparently due to hunger.
+But was he perhaps subtly complaining about his situation as well in order to help him get through his current challenge?</p>
+
+<p>I commented to my team that I needed a command line tool for when I'm in that kind of grumbly mood.
+I want to be able to type <code>grumble</code> in my terminal window and the tool would print out the Hungry Goriya to help me commiserate with my challenges.</p>
+
+<p>So last night I made that command line tool.</p>
+
+<p><img src="/images/grumble.gif" alt="Grumble command line tool" /></p>
+
+<p>Being able to run the tool in my terminal window whenever I need it makes me happy, as did the process of creating it.
+It's written in C# and uses the ability that more recent versions of .NET have to publish to a single, self-contained executable.
+Even with compression and dependency tree shaking it's still around 12MB, which is kind of ridiculous for what it is.
+But it also only took an hour or something to put together.
+And I got to write it in C# instead of some other language I'm less familiar with.
+To me that's worth a few extra megabytes in executable size.</p>
+
+<p>I used <a href="https://spectreconsole.net/">Spectre.Console</a> to easily print out the <a href="http://www.figlet.org/">Figlet</a> text.
+Spectre.Console also has the ability to read an image and print it to the console.
+I was going to use that, but I wasn't able to center the image horizontally.
+Maybe I'll have to open an issue or PR on their Github page or something.
+But Spectre.Console does have an image canvas feature that makes drawing ASCII-based images like this easier.
+I ended up using that, and it worked pretty well.
+I'm just glad the sprites for Legend of Zelda aren't any bigger than they are.</p>
+
+<p>So what's the take-away from this experience?
+Well, for me I think the take-away is that a little grumbling from time to time can be healthy.
+Acknowledging that we're going through a challenge can help make that challenge easier to get through.
+It's obviously easy to go too far and let grumbling turn into pure negativity.
+But as far as I'm concerned, a little grumbling now and then can be both healthy and helpful.</p>
+
+<p><a href="https://github.com/theparticleman/Grumble/releases/tag/v1.0">Download Grumble command line tool v1.0</a></p>
+
+<p><a href="https://github.com/theparticleman/Grumble">Get the source code</a></p>
+
+</body>
+</html>
+<!-- 
+This HTML was written by hand, like they used to do it back in 
+the good old days, up hill in the snow both ways!
+Well, okay, I mean I wrote most of it by hand.
+And I wrote some code to put the rest of it together.
+But the code was written by hand. And the HTML that
+I put in the code that put it in here was written by hand.
+So that's pretty close, right?
+-->
+
+<!-- The Google Analytics snippet is my least favorite part of this html. ☹ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3540414-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-3540414-1');
+</script>
