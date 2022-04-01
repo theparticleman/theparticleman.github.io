@@ -8,6 +8,39 @@
     <copyright>© 2022</copyright>
     <language>en</language>
     <item>
+      <title>This is Fine</title>
+      <link>https://mythicant.com/blog/this-is-fine</link>
+      <description />
+      <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>I'm a big fan of KC Green's <em>This is Fine</em> comic.
+You should <a href="http://gunshowcomic.com/648">check it out</a> if you're not familiar with it.
+You should also go visit <a href="http://kcgreendotcom.com/index.html">KC's site</a> and support him if you feel so inclined.</p>
+
+<p>In my <a href="grumble-grumble">last post</a> I wrote about a command line tool inspired by The Legend of Zelda.
+I made another one, but this time inspired by the <em>This is Fine</em> comic!</p>
+
+<p><img src="/images/this-is-fine.gif" alt="This is Fine command line tool" /></p>
+
+<p>Pretty much the same as the <code>grumble</code> command line tool, but this time with 100% more This is Fine.
+I used <a href="https://spectreconsole.net/">Spectre.Console</a> again, but this time I figured out a way to use the CanvasImage but still draw the image centered on the screen.
+It was much quicker to just edit the image and then draw it instead of having to translate every pixel into code.
+Maybe I'll go back and refactor <code>grumble</code> to do the same thing...</p>
+
+<p>On some of the drawable items in Spectre.Console there is an extension method to easily center things.
+Not so with CanvasImage (or at least not that I've found so far).
+It may still be worth submitting a pull request for that.</p>
+
+<p>This time in addition to providing just a Windows version, there are also MacOS and Linux versions.
+I don't have a great way to test them, so there are probably issues.
+But it's a start at least.
+If you find any issues with them, <a href="/contact">let me know</a>.</p>
+
+<p><a href="https://github.com/theparticleman/ThisIsFine/releases">Download This is Fine command line tool v1.0</a></p>
+
+<p><a href="https://github.com/theparticleman/ThisIsFine">Get the source code</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Grumble, Grumble...</title>
       <link>https://mythicant.com/blog/grumble-grumble</link>
       <description />
@@ -790,24 +823,6 @@ I think that’s about it.  Is this the best game you’ve ever played?  Does 
 <p>Download Fable of Griselda</p>
 
 <p><em>(Editor's note: The downloaded version of Fable of Griselda is no longer available. The online version can be found <a href="https://fableofgriselda.com">here</a>)</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Fable of Griselda</title>
-      <link>https://mythicant.com/blog/fable-of-griselda</link>
-      <description />
-      <pubDate>Sat, 16 Aug 2008 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>So I've made some progress on my entry for the Bootleg Demake competition.  It's not terribly far yet, but at least I have something to show.  I've made a couple of videos that I posted on the competition forum.  I'll post them here too.</p>
-
-<p>Here's the <a href="https://vimeo.com/1536702">first</a> one.</p>
-
-<p>And the <a href="https://vimeo.com/1539332">second</a> one.</p>
-
-<p>Hopefully I'll get done soon so I can post the finished version.</p>
-
-<p>The actual forum thread for it can be found <a href="https://forums.tigsource.com/index.php?topic=2577.0">here</a>.</p>
-
-<p>P.S.  I've decided my blogging hosting sucks yet AGAIN.  It decided to excerpt all my entries and remove all the images from the excerpts.  I'm going to go see if I can fix it.  In the meantime, go ahead and click on the &lt;&lt; More >> tag to get the full entries WITH images.  <em>sigh</em></p>
 ]]></content:encoded>
     </item>
   </channel>

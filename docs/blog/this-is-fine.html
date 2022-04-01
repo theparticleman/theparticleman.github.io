@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mythicant mostly creates indie games.">
+    <title>Mythicant Games</title>
+    <link rel=preload href="/PressStart2P-Regular.ttf" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body class="center">
+<nav>
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+</nav>
+<header>
+    <h1>Mythicant Games</h1>
+</header>
+
+<h2>This is Fine</h2>
+<div class='published-date'>Published • April 01, 2022</div>
+
+<p>I'm a big fan of KC Green's <em>This is Fine</em> comic.
+You should <a href="http://gunshowcomic.com/648">check it out</a> if you're not familiar with it.
+You should also go visit <a href="http://kcgreendotcom.com/index.html">KC's site</a> and support him if you feel so inclined.</p>
+
+<p>In my <a href="grumble-grumble">last post</a> I wrote about a command line tool inspired by The Legend of Zelda.
+I made another one, but this time inspired by the <em>This is Fine</em> comic!</p>
+
+<p><img src="/images/this-is-fine.gif" alt="This is Fine command line tool" /></p>
+
+<p>Pretty much the same as the <code>grumble</code> command line tool, but this time with 100% more This is Fine.
+I used <a href="https://spectreconsole.net/">Spectre.Console</a> again, but this time I figured out a way to use the CanvasImage but still draw the image centered on the screen.
+It was much quicker to just edit the image and then draw it instead of having to translate every pixel into code.
+Maybe I'll go back and refactor <code>grumble</code> to do the same thing...</p>
+
+<p>On some of the drawable items in Spectre.Console there is an extension method to easily center things.
+Not so with CanvasImage (or at least not that I've found so far).
+It may still be worth submitting a pull request for that.</p>
+
+<p>This time in addition to providing just a Windows version, there are also MacOS and Linux versions.
+I don't have a great way to test them, so there are probably issues.
+But it's a start at least.
+If you find any issues with them, <a href="/contact">let me know</a>.</p>
+
+<p><a href="https://github.com/theparticleman/ThisIsFine/releases">Download This is Fine command line tool v1.0</a></p>
+
+<p><a href="https://github.com/theparticleman/ThisIsFine">Get the source code</a></p>
+
+</body>
+</html>
+<!-- 
+This HTML was written by hand, like they used to do it back in 
+the good old days, up hill in the snow both ways!
+Well, okay, I mean I wrote most of it by hand.
+And I wrote some code to put the rest of it together.
+But the code was written by hand. And the HTML that
+I put in the code that put it in here was written by hand.
+So that's pretty close, right?
+-->
+
+<!-- The Google Analytics snippet is my least favorite part of this html. ☹ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3540414-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-3540414-1');
+</script>
