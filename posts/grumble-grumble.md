@@ -48,6 +48,8 @@ Acknowledging that we're going through a challenge can help make that challenge 
 It's obviously easy to go too far and let grumbling turn into pure negativity.
 But as far as I'm concerned, a little grumbling now and then can be both healthy and helpful.
 
+[Download Grumble command line tool v1.1](https://github.com/theparticleman/Grumble/releases/tag/v1.1)
+
 [Download Grumble command line tool v1.0](https://github.com/theparticleman/Grumble/releases/tag/v1.0)
 
 [Get the source code](https://github.com/theparticleman/Grumble)
