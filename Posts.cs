@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "mega-man-quotes",
+                Title = "Mega Man Quotes",
+                PublishDate = DateTimeOffset.Parse("2022-04-18")
+            },
+            new Post
+            {
                 Name = "this-is-fine",
                 Title = "This is Fine",
                 PublishDate = DateTimeOffset.Parse("2022-04-01")
