@@ -8,6 +8,49 @@
     <copyright>© 2022</copyright>
     <language>en</language>
     <item>
+      <title>Mega Man Quotes</title>
+      <link>https://mythicant.com/blog/mega-man-quotes</link>
+      <description />
+      <pubDate>Mon, 18 Apr 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>At various times in the past I've used quotes from industry experts to teach and inspire others, as well as spark discussions with my co-workers.
+The last few years my sharing has taken the form of Slack bots, primarily one named Mega Man.
+I've used Mega Man to share a variety of software development and software craftsmanship-related quotes.</p>
+
+<p>Some people have been ambivalent about Mega Man and the quotes he's shared.
+One or two people have been negative about it.
+(Remind me to tell you the story sometime about the time someone called me, the guy with two black kids, a racist because of one of the quotes Mega Man shared. Good times.)
+But overall the responses to Mega Man and the quotes he's shared have been pretty postive.</p>
+
+<p>While I've found my Mega Man Slack bot to be an effective tool for sharing knowledge, I've occasionally run into some technical challenges.
+For example, over the years I've stored the quotes Mega Man shares in a couple of different formats.
+Mostly I've done whatever was expedient to the code I was writing at the time.
+But I've ended up with several different copies and several different versions of the quotes.
+Having multiple copies in multiple formats has certainly made it much more difficult to update my list of quotes effectively.</p>
+
+<p>And what kind of software developer would I be if I didn't try solving all my problems by writing code?</p>
+
+<p>Introducing <a href="https://megamanquotes.com">Mega Man Quotes as a Service</a> (MMQaaS)!</p>
+
+<p><img src="/images/mega-man-quotes-web.png" alt="Mega Man Quotes website" /></p>
+
+<p>I now have a central place to put all my quotes.
+It's exposed via an HTTP+JSON API so I can access the same list of quotes from different apps that I write.
+So far <a href="https://megamanquotes.com">megamanquotes.com</a> (which is obviously a web app) uses the API, as does the command line tool I wrote.</p>
+
+<p><img src="/images/mega-man-quotes.gif" alt="Mega Man Quotes cli" /></p>
+
+<p>Now I just need to go update my existing Slack bots to use this new API so that I can reap all the benefits I just professed to get from this new code.</p>
+
+<p><a href="https://megamanquotes.com">Visit megamanquotes.com</a></p>
+
+<p><a href="https://megamanquotes.com/api">Read the documentation for the API</a></p>
+
+<p><a href="https://github.com/theparticleman/MegaManQuotesCli/releases/tag/v1.0">Download the Mega Man Quotes CLI</a></p>
+
+<p><a href="https://github.com/theparticleman/MegaManQuotesCli">Get the source code for the Mega Man Quotes CLI</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>This is Fine</title>
       <link>https://mythicant.com/blog/this-is-fine</link>
       <description />
@@ -797,32 +840,6 @@ I think that’s about it.  Is this the best game you’ve ever played?  Does 
       <content:encoded><![CDATA[<p>Fable of Griselda is done!  Or at least as done as it's going to get for the competition.  So much code to write, so little time.  Anyway, here is the finished game. </p>
 
 <p>Download Fable of Griselda Final</p>
-
-<p><em>(Editor's note: The downloaded version of Fable of Griselda is no longer available. The online version can be found <a href="https://fableofgriselda.com">here</a>)</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Fable of Griselda - Try it Out</title>
-      <link>https://mythicant.com/blog/fable-of-griselda-try-it-out</link>
-      <description />
-      <pubDate>Thu, 21 Aug 2008 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>So I have Fable of Griselda to a point that it's almost starting to look like a real game and it's almost fun to play for a few minutes at least.  And that's good since the Bootleg Demake competition I'm making this for is over on August 31st.  </p>
-
-<p>The "installation" process is typical.  Just unzip the files somewhere (doesn't matter where).  Then run Griselda.exe.  You need the .NET Framework 2.0 in order to run this.  If you have Vista you should already have the framework.  If you have XP or older you may or may not have it.  If you're not sure just try running the program.  If you don't have the framework installed then the program won't run.  In that case go download the framework from here.</p>
-
-<p>To play:</p>
-
-<p>Arrow keys - move your hero</p>
-
-<p>Space bar - attack with your sword</p>
-
-<p>Escape - quit the game</p>
-
-<p>At the moment every enemy you kill will drop something, either a heart or a gem.  It won't work that way in the final game, but having it work that way greatly faciliates debugging your item dropping system.</p>
-
-<p>Anyway, let me know if you have any comments, suggestions or troubles.  Here's the download link:</p>
-
-<p>Download Fable of Griselda</p>
 
 <p><em>(Editor's note: The downloaded version of Fable of Griselda is no longer available. The online version can be found <a href="https://fableofgriselda.com">here</a>)</em></p>
 ]]></content:encoded>

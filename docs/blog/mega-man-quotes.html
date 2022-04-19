@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mythicant mostly creates indie games.">
+    <title>Mythicant Games</title>
+    <link rel=preload href="/PressStart2P-Regular.ttf" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body class="center">
+<nav>
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+</nav>
+<header>
+    <h1>Mythicant Games</h1>
+</header>
+
+<h2>Mega Man Quotes</h2>
+<div class='published-date'>Published • April 18, 2022</div>
+
+<p>At various times in the past I've used quotes from industry experts to teach and inspire others, as well as spark discussions with my co-workers.
+The last few years my sharing has taken the form of Slack bots, primarily one named Mega Man.
+I've used Mega Man to share a variety of software development and software craftsmanship-related quotes.</p>
+
+<p>Some people have been ambivalent about Mega Man and the quotes he's shared.
+One or two people have been negative about it.
+(Remind me to tell you the story sometime about the time someone called me, the guy with two black kids, a racist because of one of the quotes Mega Man shared. Good times.)
+But overall the responses to Mega Man and the quotes he's shared have been pretty postive.</p>
+
+<p>While I've found my Mega Man Slack bot to be an effective tool for sharing knowledge, I've occasionally run into some technical challenges.
+For example, over the years I've stored the quotes Mega Man shares in a couple of different formats.
+Mostly I've done whatever was expedient to the code I was writing at the time.
+But I've ended up with several different copies and several different versions of the quotes.
+Having multiple copies in multiple formats has certainly made it much more difficult to update my list of quotes effectively.</p>
+
+<p>And what kind of software developer would I be if I didn't try solving all my problems by writing code?</p>
+
+<p>Introducing <a href="https://megamanquotes.com">Mega Man Quotes as a Service</a> (MMQaaS)!</p>
+
+<p><img src="/images/mega-man-quotes-web.png" alt="Mega Man Quotes website" /></p>
+
+<p>I now have a central place to put all my quotes.
+It's exposed via an HTTP+JSON API so I can access the same list of quotes from different apps that I write.
+So far <a href="https://megamanquotes.com">megamanquotes.com</a> (which is obviously a web app) uses the API, as does the command line tool I wrote.</p>
+
+<p><img src="/images/mega-man-quotes.gif" alt="Mega Man Quotes cli" /></p>
+
+<p>Now I just need to go update my existing Slack bots to use this new API so that I can reap all the benefits I just professed to get from this new code.</p>
+
+<p><a href="https://megamanquotes.com">Visit megamanquotes.com</a></p>
+
+<p><a href="https://megamanquotes.com/api">Read the documentation for the API</a></p>
+
+<p><a href="https://github.com/theparticleman/MegaManQuotesCli/releases/tag/v1.0">Download the Mega Man Quotes CLI</a></p>
+
+<p><a href="https://github.com/theparticleman/MegaManQuotesCli">Get the source code for the Mega Man Quotes CLI</a></p>
+
+</body>
+</html>
+<!-- 
+This HTML was written by hand, like they used to do it back in 
+the good old days, up hill in the snow both ways!
+Well, okay, I mean I wrote most of it by hand.
+And I wrote some code to put the rest of it together.
+But the code was written by hand. And the HTML that
+I put in the code that put it in here was written by hand.
+So that's pretty close, right?
+-->
+
+<!-- The Google Analytics snippet is my least favorite part of this html. ☹ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3540414-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-3540414-1');
+</script>
