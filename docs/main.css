@@ -1,7 +1,7 @@
 /* 100% hand-crafted, artisanal CSS */
 @font-face {
     font-family: "Main Font";
-    src: url('PressStart2P-Regular.ttf');
+    src: url('/PressStart2P-Regular.ttf');
     font-display: swap;
 }
 
