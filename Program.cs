@@ -54,7 +54,12 @@ namespace MythicantSite
             foreach (var postMarkdownFile in postMarkdownFilePaths)
             {
                 string name = Path.GetFileNameWithoutExtension(postMarkdownFile);
-                var postMetadata = Posts.List.Single(x => x.Name == name);
+                var postMetadata = Posts.List.SingleOrDefault(x => x.Name == name);
+                if (postMetadata == null) 
+                {
+                    Console.WriteLine($"No metadata found for {name}. Skipping");
+                    continue;
+                }
                 var htmlFilename = name + ".html";
                 var markdown = File.ReadAllText(postMarkdownFile);
                 var htmlWithoutTemplate = markdownConverter.Transform(markdown);
