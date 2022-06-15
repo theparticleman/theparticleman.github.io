@@ -8,6 +8,54 @@
     <copyright>© 2022</copyright>
     <language>en</language>
     <item>
+      <title>Coding with Jon and Mike</title>
+      <link>https://mythicant.com/blog/coding-with-jon-and-mike</link>
+      <description />
+      <pubDate>Tue, 14 Jun 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>I think good software development practices can make a big difference when creating software. 
+I'm thinking of things like test driven development, pair and mob programming, and automated continuous integration and continous delivery pipelines to name a few.</p>
+
+<p>But one challenge I've noticed with having people use these types of practices is that it can be hard to really "get" them until you see them in action.</p>
+
+<p>For example, one time while attending the <a href="http://utahsc.org">Utah Software Craftsmanship</a> group, another developer and I paired on a coding exercise.
+This particular developer had a few years of experience, and had attended the group a few times.
+But he didn't have a lot of exposure to test driven development.
+During the coding exercise I tried to guide us through a test driven path to solving the problem.
+I didn't do anything wild or crazy, just tried to follow the <a href="http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd">rules of TDD</a> (since practicing was one of the purposes of the coding exercise).</p>
+
+<p>At the end of the coding exercise the other developer thanked me.
+He said that through the things I did during the coding exercise he had finally started to understand what test driven development was all about.
+Because he saw it, it was easier for him to "get" it.</p>
+
+<p>That experience stayed with me.
+I thought several times about creating a series of videos or something to help people see things like test driven development in practice to help make it easier to "get" them.
+Unfortunately, I never got around to making those videos.</p>
+
+<p>Fortunately, my friend <a href="http://blog.softwareontheside.com/">Mike</a> and I <em>did</em> get around to making some of those videos!</p>
+
+<p>Mike and I had an experience similar to the one I mentioned above with a coding exercise.
+We decided to pair on a coding exercise together (again, at the Utah Software Craftsmanship group).
+We didn't introduce each other to test driven development, but had a good time working on the exercise.
+At the end of the meeting, everyone got back together and discussed how the exercise had gone.
+Mike and I talked about how our experience went.
+As we did, one of the other attendees said something like, "I wish I could have been a fly on the wall during that pairing session!"</p>
+
+<p>That got us thinking that we should find a way to let people be that fly on the wall because they might get some value from it.
+So we created a YouTube channel, <a href="https://www.youtube.com/channel/UCPeEnPwRkqmF-_1rCbE7-lA/featured">Coding with Jon and Mike</a>.</p>
+
+<p>So far we have about half a dozen videos.
+About half are us doing test driven development.
+The other half are us working through a refactoring project (another great software development practice).
+And since it's both of us, they are obviously examples of pair programming in action.</p>
+
+<p>If this kind of thing sounds interesting to you, give a few of the videos a watch.
+Let us know what you think.
+Let us know what you'd like to see more of and what you'd like to see less of.</p>
+
+<p>Hopefully being able to see these videos will help some people be able to "get" some of these extremely helpful software development practices.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Mega Man Quotes</title>
       <link>https://mythicant.com/blog/mega-man-quotes</link>
       <description />
@@ -830,18 +878,6 @@ I think that’s about it.  Is this the best game you’ve ever played?  Does 
 <p>I think a lot of the other entries (including those that aren't on this top 10 list) are more impressive than Fable of Griselda, but I'm glad that someone liked it enough to put it on a top 10 list.</p>
 
 <p>You can watch the video <a href="https://www.dailymotion.com/video/x6si9w">here</a>. Griselda is at around 3:00, but the whole video is pretty interesting.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Fable of Griselda - Final(ish)</title>
-      <link>https://mythicant.com/blog/fable-of-griselda-finalish</link>
-      <description />
-      <pubDate>Sun, 07 Sep 2008 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Fable of Griselda is done!  Or at least as done as it's going to get for the competition.  So much code to write, so little time.  Anyway, here is the finished game. </p>
-
-<p>Download Fable of Griselda Final</p>
-
-<p><em>(Editor's note: The downloaded version of Fable of Griselda is no longer available. The online version can be found <a href="https://fableofgriselda.com">here</a>)</em></p>
 ]]></content:encoded>
     </item>
   </channel>

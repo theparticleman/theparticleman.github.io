@@ -7,12 +7,12 @@ namespace MythicantSite
     {
         public static List<Post> List = new List<Post>
         {
-            // new Post
-            // {
-            //     Name = "coding-with-jon-and-mike",
-            //     Title = "Coding with Jon and Mike",
-            //     PublishDate = DateTimeOffset.Parse("2022-06-08")
-            // },
+            new Post
+            {
+                Name = "coding-with-jon-and-mike",
+                Title = "Coding with Jon and Mike",
+                PublishDate = DateTimeOffset.Parse("2022-06-14")
+            },
             new Post
             {
                 Name = "mega-man-quotes",
