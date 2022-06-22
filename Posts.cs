@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "mega-man-quotes-cli-v11",
+                Title = "Mega Man Quotes CLI v1.1",
+                PublishDate = DateTimeOffset.Parse("2022-06-22")
+            },
+            new Post
+            {
                 Name = "coding-with-jon-and-mike",
                 Title = "Coding with Jon and Mike",
                 PublishDate = DateTimeOffset.Parse("2022-06-14")
