@@ -1,0 +1,19 @@
+name: Update certificate
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install certbot
+        run: apt install -y certbot
+
+      # Runs a set of commands using the runners shell
+      # - name: Run a multi-line script
+      #  run: |
+      #    echo Add other actions to build,
+      #    echo test, and deploy your project.
