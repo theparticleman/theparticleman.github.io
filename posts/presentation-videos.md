@@ -1,6 +1,6 @@
 Presenting is a thing I've been doing for the last 10 or 15 years. Maybe longer, depending on exactly how you count. I think it's a great way to share with others and give back to the community (in my case mostly the software development community). It's something I'd [encourage everyone to do](/blog/getting-started-presenting). Whether you're an expert or just getting started, you have something to share.
 
-The last year or two have necessitated a lot of changes, and my presentation experiences are not exception. While in the past I've presented mostly at in-person conferences, the last year or two has meant presenting exclusively at virtual conferences. Virtual conferences have some drawbacks compared to in-person conferences, but they have some advantages too. One advantage is that many times the presentations are recorded and can be watched later.
+The last year or two have necessitated a lot of changes, and my presentation experiences are no exception. While in the past I've presented mostly at in-person conferences, the last year or two has meant presenting exclusively at virtual conferences. Virtual conferences have some drawbacks compared to in-person conferences, but they have some advantages too. One advantage is that many times the presentations are recorded and can be watched later.
 
 I've recorded several presentations the last year or two, so I thought I'd post them here in one big list to make them easier to find. Enjoy!
 
