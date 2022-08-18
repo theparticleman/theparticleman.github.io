@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "keyboard-sith-apprentice-activity",
+                Title = "Becoming a Keyboard Sith Apprentice",
+                PublishDate = DateTimeOffset.Parse("2022-08-18")
+            },
+            new Post
+            {
                 Name = "mega-man-quotes-cli-v11",
                 Title = "Mega Man Quotes CLI v1.1",
                 PublishDate = DateTimeOffset.Parse("2022-06-22")
