@@ -43,7 +43,7 @@ p > img {
 }
 
 h3 {
-    margin-top: 48px;
+    margin-top: 24px;
 }
 
 ul {
@@ -67,6 +67,11 @@ pre {
 
 code {
     font-size: larger;
+}
+
+blockquote {
+    padding: 8px;
+    background-color: #111111;
 }
 
 #rss-link {

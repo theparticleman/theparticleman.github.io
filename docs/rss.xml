@@ -8,6 +8,121 @@
     <copyright>© 2022</copyright>
     <language>en</language>
     <item>
+      <title>Becoming a Keyboard Sith Apprentice</title>
+      <link>https://mythicant.com/blog/keyboard-sith-apprentice-activity</link>
+      <description />
+      <pubDate>Thu, 18 Aug 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>The keyboard and mouse are both powerful input tools.
+Back in the olden days, all people had was a keyboard.
+(I'm sure someone even older than me will chime in about only having punch cards and switches as input devices, but that's not part of this story.)
+These days you can do almost everything with mouse interaction.
+Sometimes there are things you can <em>only</em> do with a mouse.</p>
+
+<p>The sweet spot in computer interaction is probably somewhere in-between, some keyboard interaction and some mouse interaction.
+But given how common mouse interaction is, sometimes people don't know how to do certain things with a keyboard, even it it would be faster and easier.</p>
+
+<p>This post contains an activity to help people practice interacting with their computer using a keyboard.
+Should you always interact with your computer this way?
+No, probably not.
+But sometimes an effective way to practice something is to turn it all the way up to 11 and see what happens.
+That's what this activity is going to be.</p>
+
+<h2>Keyboard Jedi</h2>
+
+<p>But first, some history.
+A long time ago, on a computer far, far away there was a program named Keyboard Jedi.
+It was written by Roy Osherove.
+You can read about it and download the code <a href="https://osherove.com/blog/2007/6/3/train-to-be-a-keyboard-master-with-keyboard-jedi.html">here</a>.
+Keyboard Jedi could show keyboard shortcut keypresses (great for presentations).
+It could also lock the mouse in Visual Studio so you could practice going mouseless just there.
+It was a great app.</p>
+
+<p>But sadly, Keyboard Jedi was written back in the pre-Windows Vista days before Microsoft switched to 64-bit and broke everything.
+When I switched to Windows Vista then Keyboard Jedi no longer worked.
+There were some work arounds, but they were a lot of work.</p>
+
+<h2>Keyboard Sith</h2>
+
+<p>I really liked Keyboard Jedi, but I couldn't use it anymore.
+So I did what any self-respecting software engineer would do.
+I wrote my own replacement!
+I called it Keyboard Sith.
+You can read more about it and download it <a href="becoming-a-keyboard-sith">here</a> (though it's Windows only).</p>
+
+<blockquote>
+  <p>As a side note, in case you're not familiar with the terms "Jedi" and "Sith", they come from Star Wars. In Star Wars, the good space wizards with laser swords are called "Jedi". The evil ones are called "Sith".</p>
+</blockquote>
+
+<p>Keyboard Sith is a little lighter weight than Keyboard Jedi.
+For example, it doesn't show keypresses.
+And it locks the mouse completely, not just for Visual Studio.
+Simple, effective, powerful, and slightly evil.
+Just like the Sith.</p>
+
+<p>For this activity, we won't be using Keyboard Sith (unless you want to).
+But at least now you know where the title of the blog post came from.
+And because this is intended to be an introductory activity, we'll just work on becoming Keyboard Sith apprentices, rather than full on Keyboard Sith lords.</p>
+
+<h2>The Activity</h2>
+
+<p>But enough history.
+On to the activity.</p>
+
+<p>The goal of this activity is to get better at using keyboard shortcuts.</p>
+
+<h3>Getting Started</h3>
+
+<p>If you're using a mouse, turn it upside down.
+Not on it's back, but so that the "front" (the part that usually points away from you) is pointing towards you and the "back" (the part that usually points towards  you) is pointing away from you.
+If you're using a trackpad, put a piece of paper or your phone or something over the trackpad.</p>
+
+<p>The purpose of doing all of this is so you don't unconsciously reach over and use your mouse or trackpad.</p>
+
+<p>If you want to be super hardcore you can unplug your mouse or disable your trackpad, but you probably don't want to do that because you'll probably need to cheat.</p>
+
+<h3>Cheating</h3>
+
+<p>We're going to do a few tasks without using your mouse/trackpad.
+But if you haven't done these things using only the keyboard before it will probably be really hard.
+Or impossible.
+So you'll probably need to cheat.</p>
+
+<p>That's okay.
+If you can't figure out how to do something, it's okay to use your mouse/trackpad.
+But only use it enough to find out how to do whatever you're stuck on with your keyboard.
+In some applications you can mouse over a button to show its keyboard shortcut.
+Maybe you need to go Google how to do something with the keyboard.
+All that is okay to learn what the keyboard shortcut is, but make sure to turn your mouse back around or cover your trackpad back up and do the actual task using just the keyboard.</p>
+
+<h3>The Tasks</h3>
+
+<p>Okay, now that you have your mouse or trackpad in a state where it's hard to use, and you know how to cheat if you need to, it's time for your actual tasks.
+Do the tasks one at a time.
+You can do them in order, but if one is too hard to do you can skip to the next one.
+Remember that you can cheat if you need to in order to learn the keyboard shortcuts, but then use the keyboard shortcuts to actually do the task.
+Also remember to disable your mouse or keyboard again.</p>
+
+<p>Good luck!</p>
+
+<ul>
+<li>Task #1 - Open a web browser go to google.com.</li>
+<li>Task #2 - Create a text file somewhere on your computer, put the text "Keyboard Sith" in it, and save it.</li>
+<li>Task #3 - Find out how much free storage space your hard drive has.</li>
+<li>Task #4 - Write a short email and send it.</li>
+</ul>
+
+<p>If this is your first time, that list will probably keep you busy for a little while.
+But if you need an extra challenge here are some additional tasks you could try.</p>
+
+<ul>
+<li>Bonus Task #1 - Open a web browser, go to mythicant.com, and find and read a blog post that has the word "Mario" in it.</li>
+<li>Bonus Task #2 - Disconnect and reconnect your network connection. This could be turning off your wifi and turning it back on or connecting to a different network.</li>
+<li>Bonus Task #3 - Start a new project. If you're a software developer, create a brand new "hello world" project and run it. If you're not a software developer, try to create a brand new "hello world" project for your area of expertise.</li>
+<li>Bonus Task #4 - Lock, shutdown, or restart your computer.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Mega Man Quotes CLI v1.1</title>
       <link>https://mythicant.com/blog/mega-man-quotes-cli-v11</link>
       <description />
@@ -864,31 +979,6 @@ I think that’s about it.  Is this the best game you’ve ever played?  Does 
 <p><a href="https://vimeo.com/manage/videos/3364781">Tech demo video</a></p>
 
 <p>Of course this is just a tech demo so colors and images are likely to change, but I am going for a retro feel. The movement is likely to change too (I think the gravity is too strong at the moment). This is my first non-ASCII platformer, so that's been interesting. Unfortunately, stuff like this always involves more math than I want to deal with. Fortunately, for this it's just basic geometry. It would be worse if were going to have more physics-based elements. So remember kids, if you want to make video games, do your math homework and eat your vegetables.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>A Little Buddy</title>
-      <link>https://mythicant.com/blog/a-little-buddy</link>
-      <description />
-      <pubDate>Mon, 06 Oct 2008 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Does anyone remember that little sheep desktop buddy?  You'd start it up and this little sheep would drop onto your desktop.   It'd walk on whatever windows you had open and run around and make little noises.  I used to open it a couple of times and let the sheep run into each other and climb on each other.  It was great.</p>
-
-<p>The other day during lunch I was bored and was thinking about the little sheep.  I decided to make something similar.  But instead of mundane sheep I picked something cool.  What did I pick you ask?  The answer should be obvious.  Megaman!</p>
-
-<p><img src="/images/a-little-buddy-1.png" alt="Mega Man buddy screenshot" /></p>
-
-<p>Enjoy!</p>
-
-<p>Download
-<em>(Editor's note: Mega Man Buddy is not currently available.)</em></p>
-
-<p>P.S.  He's not too smart yet.  I already have a list of improvements to make.  But if anyone has any suggestions I'd be happy to hear them.</p>
-
-<p>P.P.S. .NET Framework 2.0 or higher required.</p>
-
-<p>P.P.P.S.  Mono 2.0 has been released!  Rejoice Mac and Linux using friends!</p>
-
-<p>P.P.P.P.S.  Sorry.  This is getting a little ridiculous, I know.  Left click and drag to move Megaman around.  Right click on Megaman to get a menu to close him.  That's assuming you can catch him of course.  What, did you expect him to be easy to catch?  This is Megaman we're talking about!</p>
 ]]></content:encoded>
     </item>
   </channel>
