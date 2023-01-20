@@ -1,0 +1,28 @@
+A friend of mine recently asked about resources he could share with his software development team that might help them move from a more Scrum-like workflow to a more lean-inspired workflow. I thought about just sending him a list of ideas, but I figured if I wrote my list down in a blog post that would be a little more permanent and maybe some more people could get some use out of it. This is by no means an exhaustive list, but here it is.
+
+## Books
+
+* [This Is Lean](https://thisislean.com/) - This is a great introduction to lean principles in general. It doesn't go too heavy into math or anything and is overall pretty approachable. It isn't software development specific.
+* [Principles of Product Development Flow](https://www.amazon.com/Principles-Product-Development-Flow-Generation-ebook/dp/B00K7OWG7O) - This goes into lots more detail and is a much more in-depth read. There's some math that initially can look a little scary, but it's not too bad. This book focuses on lean product development, but isn't software specific.
+* [Implementing Lean Software Development](https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381) - The authors of this book actually coined the term "lean software development". This is a great book and is specific to software.
+* [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8) and [The Unicorn Project](https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41) - Maybe not strictly focused on lean, but these books definitely talk about things like reducing knowledge silos, flowing value to customers more quickly and frequently, and on reducing waste. Plus, they in are in a more story-based format, which can be easier to read than some other, more technical books.
+* [The Lean Startup](https://theleanstartup.com/) - This book has some great thoughts on lean, especially as applied to smaller, more startup-type contexts.
+
+## Presentations
+
+* [Competing On The Basis Of Speed](https://www.youtube.com/watch?v=U_HgMduuE5s&list=WL&index=40) - This is a great overview of lean software development principles, given by Mary Poppendieck, one of the authors of Implementing Lean Software Development.
+* [The Lean Mindset](https://www.youtube.com/watch?v=TwasxNk1824) - Inspired by [The Agile Mindset](https://www.youtube.com/watch?v=C13JC_YP2Q8&t=391s) (Linda Rising) and [The Growth Mindset](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck-ebook/dp/B000FCKPHG) (Carol Dweck), again presented by Mary Poppendieck. This one talks about some of the organizational impacts of thinking and working in a lean fashion.
+* [No Estimates](https://www.youtube.com/watch?v=3f1JebvRnOw) - Not strictly lean, but spending a lot of time creating estimates can be a significant form of waste, something that lean focuses on reducing. Plus Woody Zuill is just awesome.
+
+## Activities
+
+* [getKanban](https://getkanban.com/?variant=4565683971) - This is an awesome board game you can play with a group to help demonstrate some lean principles and spark discussion. Unforunately, it's really intended for coaches and consultants, so the latest version costs $550! And as I'm writing this it's sold out. So you probably shouldn't get that version. They do have a free version that you can download and probably still get quite a bit of value out of, but it's less streamlined and polished than the latest version.
+* [Kanban Board Game](http://www.kanbanboardgame.com/) - getKanban sound interesting, except for the $550 part and the being sold out part? How about a free online version instead? You do have to sign up for an account to play, but it's free. This isn't exactly like the physical board game, but it is a much more economical option.
+* [No Estimates](https://agilesimulations.co.uk/no-estimates/?walkThrough) - One online option not enough for you? How about another one? Try both online options out to see which you like better.
+* [Envelope stuffing exercise](https://www.youtube.com/watch?v=Dr67i5SdXiM) - There are some hands-on activities that can help demonstrate some lean practices, like reducing batch sizes. The envelope stuffing exercise is one of those activities. This video is a quick demonstration with a single person, but you can expand the exercise out into multiple people and even multiple teams if you want.
+* [One Piece Flow versus Batch Processing](https://www.youtube.com/watch?v=JoLHKSE8sfU) - A nice, quick little video showing how batch size can impact the speed of delivery.
+* [Coin Game](https://www.youtube.com/watch?v=fh4nkQnWL6I) - One way to do the one piece flow exercise shown in the previous video is with a coin flipping game. This video shows an example of how that game can be facilitated.
+
+And one last great resource, another list of resources! [The Mob Mentality](https://www.youtube.com/channel/UCgt1lVMrdwlZKBaerxxp2iQ) folks have put together [an amazing list](https://trello.com/b/1lfMkCOh/software-profession-resources) of software development resources. Many of them focus on mob programming, but there are also lots of resources for lean, lean-related topics, and various other software development topics.
+
+Again, this is by no means an exhaustive list. But hopefully it has some useful resources that can help get some conversations started on my friend's team. And maybe some other people will find it useful as well.

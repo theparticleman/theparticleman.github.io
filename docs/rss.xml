@@ -5,8 +5,49 @@
     <title>Mythicant Games</title>
     <link>https://mythicant.com/</link>
     <description />
-    <copyright>© 2022</copyright>
+    <copyright>© 2023</copyright>
     <language>en</language>
+    <item>
+      <title>Lean Software Development Resources</title>
+      <link>https://mythicant.com/blog/lean-software-development-resources</link>
+      <description />
+      <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>A friend of mine recently asked about resources he could share with his software development team that might help them move from a more Scrum-like workflow to a more lean-inspired workflow. I thought about just sending him a list of ideas, but I figured if I wrote my list down in a blog post that would be a little more permanent and maybe some more people could get some use out of it. This is by no means an exhaustive list, but here it is.</p>
+
+<h2>Books</h2>
+
+<ul>
+<li><a href="https://thisislean.com/">This Is Lean</a> - This is a great introduction to lean principles in general. It doesn't go too heavy into math or anything and is overall pretty approachable. It isn't software development specific.</li>
+<li><a href="https://www.amazon.com/Principles-Product-Development-Flow-Generation-ebook/dp/B00K7OWG7O">Principles of Product Development Flow</a> - This goes into lots more detail and is a much more in-depth read. There's some math that initially can look a little scary, but it's not too bad. This book focuses on lean product development, but isn't software specific.</li>
+<li><a href="https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381">Implementing Lean Software Development</a> - The authors of this book actually coined the term "lean software development". This is a great book and is specific to software.</li>
+<li><a href="https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8">The Phoenix Project</a> and <a href="https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41">The Unicorn Project</a> - Maybe not strictly focused on lean, but these books definitely talk about things like reducing knowledge silos, flowing value to customers more quickly and frequently, and on reducing waste. Plus, they in are in a more story-based format, which can be easier to read than some other, more technical books.</li>
+<li><a href="https://theleanstartup.com/">The Lean Startup</a> - This book has some great thoughts on lean, especially as applied to smaller, more startup-type contexts.</li>
+</ul>
+
+<h2>Presentations</h2>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=U_HgMduuE5s&amp;list=WL&amp;index=40">Competing On The Basis Of Speed</a> - This is a great overview of lean software development principles, given by Mary Poppendieck, one of the authors of Implementing Lean Software Development.</li>
+<li><a href="https://www.youtube.com/watch?v=TwasxNk1824">The Lean Mindset</a> - Inspired by <a href="https://www.youtube.com/watch?v=C13JC_YP2Q8&amp;t=391s">The Agile Mindset</a> (Linda Rising) and <a href="https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck-ebook/dp/B000FCKPHG">The Growth Mindset</a> (Carol Dweck), again presented by Mary Poppendieck. This one talks about some of the organizational impacts of thinking and working in a lean fashion.</li>
+<li><a href="https://www.youtube.com/watch?v=3f1JebvRnOw">No Estimates</a> - Not strictly lean, but spending a lot of time creating estimates can be a significant form of waste, something that lean focuses on reducing. Plus Woody Zuill is just awesome.</li>
+</ul>
+
+<h2>Activities</h2>
+
+<ul>
+<li><a href="https://getkanban.com/?variant=4565683971">getKanban</a> - This is an awesome board game you can play with a group to help demonstrate some lean principles and spark discussion. Unforunately, it's really intended for coaches and consultants, so the latest version costs $550! And as I'm writing this it's sold out. So you probably shouldn't get that version. They do have a free version that you can download and probably still get quite a bit of value out of, but it's less streamlined and polished than the latest version.</li>
+<li><a href="http://www.kanbanboardgame.com/">Kanban Board Game</a> - getKanban sound interesting, except for the $550 part and the being sold out part? How about a free online version instead? You do have to sign up for an account to play, but it's free. This isn't exactly like the physical board game, but it is a much more economical option.</li>
+<li><a href="https://agilesimulations.co.uk/no-estimates/?walkThrough">No Estimates</a> - One online option not enough for you? How about another one? Try both online options out to see which you like better.</li>
+<li><a href="https://www.youtube.com/watch?v=Dr67i5SdXiM">Envelope stuffing exercise</a> - There are some hands-on activities that can help demonstrate some lean practices, like reducing batch sizes. The envelope stuffing exercise is one of those activities. This video is a quick demonstration with a single person, but you can expand the exercise out into multiple people and even multiple teams if you want.</li>
+<li><a href="https://www.youtube.com/watch?v=JoLHKSE8sfU">One Piece Flow versus Batch Processing</a> - A nice, quick little video showing how batch size can impact the speed of delivery.</li>
+<li><a href="https://www.youtube.com/watch?v=fh4nkQnWL6I">Coin Game</a> - One way to do the one piece flow exercise shown in the previous video is with a coin flipping game. This video shows an example of how that game can be facilitated.</li>
+</ul>
+
+<p>And one last great resource, another list of resources! <a href="https://www.youtube.com/channel/UCgt1lVMrdwlZKBaerxxp2iQ">The Mob Mentality</a> folks have put together <a href="https://trello.com/b/1lfMkCOh/software-profession-resources">an amazing list</a> of software development resources. Many of them focus on mob programming, but there are also lots of resources for lean, lean-related topics, and various other software development topics.</p>
+
+<p>Again, this is by no means an exhaustive list. But hopefully it has some useful resources that can help get some conversations started on my friend's team. And maybe some other people will find it useful as well.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Becoming a Keyboard Sith Apprentice</title>
       <link>https://mythicant.com/blog/keyboard-sith-apprentice-activity</link>
@@ -961,24 +1002,6 @@ I think that’s about it.  Is this the best game you’ve ever played?  Does 
 <p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg32.zip">Ninja Robot Winning Gameshow 32-bit</a></p>
 
 <p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg64.zip">Ninja Robot Winning Gameshow 64-bit</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Finally, Another Post</title>
-      <link>https://mythicant.com/blog/finally-another-post</link>
-      <description />
-      <pubDate>Wed, 25 Feb 2009 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Sorry I haven't posted in a while. I've had a big distraction lately. I've included a picture of said distraction for reference.  (You can see the picture if you click to view the whole post.  I forgot my blog host is rubbish.  I really need to make the time to switch to something better...)</p>
-
-<p><img src="/images/finally-another-post-1.png" alt="A picture of Sam" /></p>
-
-<p>His name is Sam. And last night he learned how get himself stuck under the couch. He'll be six months old at the end of this week. So if you're quick with your mental math you'll know I've done a couple of posts since he's been born, but not many. It's not that I haven't had time to post since he's been born, I just haven't had time to work on anything worth posting about. Isn't the first rule you read on all those "How to make a living blogging" blogs that you keep posting whether you have anything to post about or not? Oh, well. I never claimed to be a good blogger.</p>
-
-<p>Anyway, I do have something to post about now. I'm actually working on two projects. The first one is rather ambitious (as in I hope I get done one day) and as such I don't really have much to show for it yet other than some design notes and a tiny bit of code that doesn't really work yet. In working on such a big project that takes so long to make any progress, I realized that I still needed a creative outlet. So I decided to work on a small game while I'm working on my larger one. About a week or so ago I woke up with an idea for a game. I have the basics working and made a little video for your viewing enjoyment.</p>
-
-<p><a href="https://vimeo.com/manage/videos/3364781">Tech demo video</a></p>
-
-<p>Of course this is just a tech demo so colors and images are likely to change, but I am going for a retro feel. The movement is likely to change too (I think the gravity is too strong at the moment). This is my first non-ASCII platformer, so that's been interesting. Unfortunately, stuff like this always involves more math than I want to deal with. Fortunately, for this it's just basic geometry. It would be worse if were going to have more physics-based elements. So remember kids, if you want to make video games, do your math homework and eat your vegetables.</p>
 ]]></content:encoded>
     </item>
   </channel>

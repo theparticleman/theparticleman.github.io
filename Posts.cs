@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "lean-software-development-resources",
+                Title = "Lean Software Development Resources",
+                PublishDate = DateTimeOffset.Parse("2023-01-19")
+            },
+            new Post
+            {
                 Name = "keyboard-sith-apprentice-activity",
                 Title = "Becoming a Keyboard Sith Apprentice",
                 PublishDate = DateTimeOffset.Parse("2022-08-18")
