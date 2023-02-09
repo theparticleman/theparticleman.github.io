@@ -11,8 +11,8 @@ Oh, yeah! He's also on the page for [this blog post](a-little-buddy-web-edition)
 <a href="/"><img src="/images/a-little-buddy-web-edition-1.png" alt="Mega Man buddy screenshot"></a>
 
 Some things I learned (or maybe remembered) while making this:
-* I wanted all the code for this to be in a single `.js` file. I wanted to just be able to include it on a page and the script would do everything it needed, including having all the images. Embedding base64 encoded images in a Javascript file is pretty easy. I wouldn't recommend always using that method for images, but in this case it worked well.
 
+* I wanted all the code for this to be in a single `.js` file. I wanted to just be able to include it on a page and the script would do everything it needed, including having all the images. Embedding base64 encoded images in a Javascript file is pretty easy. I wouldn't recommend always using that method for images, but in this case it worked well.
 * `position: fixed` is your friend for this kind of stuff.
 * Creating HTML elements and adding them to the DOM programmatically isn't my favorite thing, but really isn't that bad in modern vanilla JS.
 * Using local storage in vanilla JS is pretty easy too.
