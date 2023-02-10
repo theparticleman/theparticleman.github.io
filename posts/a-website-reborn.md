@@ -10,7 +10,7 @@ Recently static website generators have become a thing. I've used a few, like Hu
 
 So like any self-respecting software developer, when it seems like the existing solutions are too complicated, what did I do? I made mine own that's arguably more complicated, of course!
 
-This site (in it's current incarnation at least) is now a generated static website. You can check out the code [here](https://github.com/theparticleman/theparticleman.github.io). You probably don't want to use it, since it's specifically for my use case. But, you know, if that's you're thing, go for it.
+This site (in it's current incarnation at least) is now a generated static website. You can check out the code [here](https://github.com/theparticleman/theparticleman.github.io). You probably don't want to use it, since it's specifically for my use case. But, you know, if that's your thing, go for it.
 
 I still have the posts from the previous incarnation of my blog. Those posts aren't all here right now, but I plan to bring them over as I have time. I'll also probably bring over some posts that I wrote for the [Pluralsight Tech Blog](https://www.pluralsight.com/tech-blog) when I worked there.
 
