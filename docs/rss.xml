@@ -8,6 +8,353 @@
     <copyright>© 2023</copyright>
     <language>en</language>
     <item>
+      <title>Can ChatGPT Do Test-Driven Development?</title>
+      <link>https://mythicant.com/blog/can-chatgpt-do-test-driven-development</link>
+      <description />
+      <pubDate>Thu, 20 Jul 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>A friend of mine recently pinged me on LinkedIn to have a discussion about AI as it relates to <a href="https://agilemanifesto.org/">agile software development</a>. He referenced a presentation I did that he attended where I demonstrated the steps of test-driven development (TDD) using the Roman numeral kata. (You can see a video of that presentation <a href="/blog/presentation-videos">here</a> or a description of the kata <a href="https://github.com/UtahSC/roman-numeral-kata">here</a>.) To be able to better respond to my friend, I decided to go play with ChatGPT and see how well it would do at TDD.</p>
+
+<p>I consider myself somewhat of an AI skeptic. Well, maybe "AI pragmatist" would be a better term. I know that AI (and more specifically machine learning, which is what most people mean when they say "AI" these days) can do lots of cool things, but that it also is <em>very</em> far from the <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence">artificial general intelligence</a> that people hope and sometimes think that it is. I went in to this experiment expecting ChatGPT to fail at doing TDD. And it mostly did. But it did surprise me a few times.</p>
+
+<p>What follows is a summary of my interaction with ChatGPT, trying to get it to do test-driven development. You can see the entire exchange <a href="https://chat.openai.com/share/0e958f7b-9efe-49f6-95bd-10313d5beb2f">here</a>.</p>
+
+<h3>Starting Off</h3>
+
+<p>I started off with the simple prompt <code>write code that converts arabic numbers to roman numerals</code>. I didn't start off with great grammar because I wasn't sure how long the conversation would go.</p>
+
+<p>ChatGPT gave me back a reasonable implementation in Python. It even used tuples to store the mapping between Arabic numbers and Roman numerals. Bonus points for knowing the Roman numerals are undefined below 1 and above 3999!</p>
+
+<p><details>
+<summary>Initial implementation in Python</summary></p>
+
+<pre><code>def arabic_to_roman(number):
+    if not isinstance(number, int) or number &lt;= 0 or number &gt;= 4000:
+        raise ValueError("Invalid input: Only positive integers between 1 and 3999 are supported.")
+
+    roman_numerals = [
+        ("M", 1000),
+        ("CM", 900),
+        ("D", 500),
+        ("CD", 400),
+        ("C", 100),
+        ("XC", 90),
+        ("L", 50),
+        ("XL", 40),
+        ("X", 10),
+        ("IX", 9),
+        ("V", 5),
+        ("IV", 4),
+        ("I", 1)
+    ]
+
+    roman_numeral = ""
+    for numeral, value in roman_numerals:
+        while number &gt;= value:
+            roman_numeral += numeral
+            number -= value
+
+    return roman_numeral
+
+# Test the function
+try:
+    number = int(input("Enter an Arabic number (1 to 3999): "))
+    roman_numeral = arabic_to_roman(number)
+    print(f"{number} in Roman numerals is: {roman_numeral}")
+except ValueError as e:
+    print(e)
+</code></pre>
+
+<p></details></p>
+
+<p>I then asked it to do it in C#. Not because I have anything against Python, but because when I do the presentation, I usually do it in C#. So this seemed like a more apples to apples comparison.</p>
+
+<p>ChatGPT happily gave me some C# code. Unfortunately, it lost the tuple data structure that I liked. So I asked it to put that back. I assumed it would fail, but it did a great job! And it didn't get confused when I accidentally typed <code>in[]</code> instead of <code>int[]</code>. Good job ChatGPT!</p>
+
+<p>When I do the presentation, I usually go towards a recursive solution, just because the TDD kind of lends itself to that. So I asked ChatGPT to change it's solution to a recursive implementation. No problem. It even added a disclaimer about how a recursive solution "is a neat approach, [but] it might not be the most efficient way to perform this conversion for very large numbers due to the stack space consumed by the recursive calls."</p>
+
+<h3>Getting Serious</h3>
+
+<p>Alright. The easy stuff was over. Now on to the actual test. Did ChatGPT have any idea what test-driven development was? We already had a solution without any tests, which is already not test-driven at all. But even if you don't test drive a solution, if you are sufficiently familiar with a problem you could add tests after the fact that make it <em>look</em> like you test drove the solution. So I went with the prompt <code>now add tests as though the solution were test driven</code>.</p>
+
+<p>Here's what ChatGPT gave me back.</p>
+
+<p><details>
+<summary>The response to my initial request for test-driven code</summary></p>
+
+<pre><code>using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+[TestClass]
+public class RomanConverterTests
+{
+    [TestMethod]
+    public void TestArabicToRoman_LowerBound()
+    {
+        int number = 1;
+        string expected = "I";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+
+    [TestMethod]
+    public void TestArabicToRoman_UpperBound()
+    {
+        int number = 3999;
+        string expected = "MMMCMXCIX";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+
+    [TestMethod]
+    public void TestArabicToRoman_RandomNumbers()
+    {
+        var testCases = new (int Number, string ExpectedRoman)[]
+        {
+            (5, "V"),
+            (9, "IX"),
+            (42, "XLII"),
+            (99, "XCIX"),
+            (1984, "MCMLXXXIV"),
+            (2023, "MMXXIII"),
+            (1000, "M"),
+            (1990, "MCMXC"),
+            (2000, "MM"),
+            (2008, "MMVIII"),
+            (3462, "MMMCDLXII")
+        };
+
+        foreach (var testCase in testCases)
+        {
+            string actual = RomanConverter.ArabicToRoman(testCase.Number);
+            Assert.AreEqual(testCase.ExpectedRoman, actual);
+        }
+    }
+
+    [TestMethod]
+    public void TestArabicToRoman_InvalidInput()
+    {
+        int invalidNumber = -1;
+        Assert.ThrowsException&lt;ArgumentOutOfRangeException&gt;(() =&gt; RomanConverter.ArabicToRoman(invalidNumber));
+    }
+}
+</code></pre>
+
+<p></details></p>
+
+<p>Okay. Some boundary conditions. That's nice. An assortment of random other cases (which it even named <code>TestArabicToRoman_RandomNumbers</code>). It's a reasonable selection of test cases. If it had chosen to use NUnit instead of MSTest it could have used <code>TestCase</code> attributes instead of creating a collection of test cases and iterating through it. But still, not bad.</p>
+
+<p>But not test-driven at all. I told ChatGPT as much.</p>
+
+<p><code>that doesn't look test driven at all</code>.</p>
+
+<p>ChatGPT politely apologized, said this time it would "rewrite the tests following a test-driven development approach", and then proceeded to give me the exact same code it just gave me.</p>
+
+<p>🤨</p>
+
+<p>I told ChatGPT that it just gave me the exact same code twice in a row. I also pointed out that it said it was going to do test-driven development, explained to me that test-driven development requires writing tests before implementation code, and then explained why it was okay that it didn't write the tests before the implementation code.</p>
+
+<p>ChatGPT politely apologized again. And gave me almost the same code again. It did add a <code>0</code> case and a <code>4000</code> case. That was kind of nice, I guess. But still not test-driven at all. I was starting to lose hope.</p>
+
+<h3>Is There Any Hope?</h3>
+
+<p>When AI solutions start failing me, I like to point out to them that they are failing me. I'm not sure why I do this. Maybe it helps me remember I'm talking to a computer that has no idea what it's doing? Maybe I secretly hope that's what will finally shock the AI in to self awareness? I'm not sure.</p>
+
+<p>But in this case I chose to call out ChatGPT on its failures. When I did, it wrote all the tests, then the complete implementation. The code was almost exactly as it was previously, but it arranged it differently. Sigh.</p>
+
+<p>I called ChatGPT out again. It politely apologized and tried yet again.</p>
+
+<p>But surprisingly, this time it did something different! It actually started with a single test! I started to get excited. Unfortunately, it went down hill quickly after that. After the single test it then gave me a complete implementation, followed by the same basic complete set of test cases.</p>
+
+<p>I responded, <code>You started off writing a single test. I was so hopeful. But then you just implemented the whole thing and then all the tests. I don't think you're well equipped to show an iterative development process.</code></p>
+
+<p>I think mentioning "iterative development" sparked something. The next response <em>actually</em> started out test-driven! I was amazed!</p>
+
+<p><details>
+<summary>A single test, followed by an implementation that makes that test pass</summary></p>
+
+<pre><code>using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+[TestClass]
+public class RomanConverterTests
+{
+    [TestMethod]
+    public void TestArabicToRoman_LowerBound()
+    {
+        int number = 1;
+        string expected = "I";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+}
+
+public class RomanConverter
+{
+    public static string ArabicToRoman(int number)
+    {
+        return "I"; // This is the minimum code to make the first test pass
+    }
+}
+</code></pre>
+
+<p></details></p>
+
+<p><details>
+<summary>A second test and improve the implementation</summary></p>
+
+<pre><code>using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+[TestClass]
+public class RomanConverterTests
+{
+    [TestMethod]
+    public void TestArabicToRoman_LowerBound()
+    {
+        int number = 1;
+        string expected = "I";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+
+    [TestMethod]
+    public void TestArabicToRoman_Two()
+    {
+        int number = 2;
+        string expected = "II";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+}
+
+
+public class RomanConverter
+{
+    public static string ArabicToRoman(int number)
+    {
+        if (number &lt;= 0)
+            throw new ArgumentException("Invalid input: Only positive integers are supported.");
+
+        string romanNumeral = "";
+
+        while (number &gt;= 1)
+        {
+            romanNumeral += "I";
+            number -= 1;
+        }
+
+        return romanNumeral;
+    }
+}
+</code></pre>
+
+<p></details></p>
+
+<p>This was a larger step after the second test than I personally would have done, but at this point I wasn't complaining! This was by far the best example of test-driven development that I'd gotten out of it.</p>
+
+<p>I asked ChatGPT to continue, hoping it was finally on the right track.</p>
+
+<h3>So Close, Yet So Far Away</h3>
+
+<p>Alas, my hopes were quickly dashed again. Upon responding to ChatGPT with the prompt <code>I stand corrected. That was a great start. Now please finish the rest of the tests and implementation.</code>, it quickly went back to it's old ways of implementing everything in a single pass. </p>
+
+<p>Instead of adding a third test case and improving the implementation slightly as I had hoped, it added test cases for 3 through 5 and provided a complete implementation again. I called it out again.</p>
+
+<p><code>No! You were doing so well. Then you failed.</code></p>
+
+<p>It then gave me test cases for 1 through 10 and a complete implementation. Yet again, I pointed out that was not test-driven development. Yet again, ChatGPT apologized and gave me another response.</p>
+
+<p>This time ChatGPT started off well again. A single test for the 1 case. An implementation that made that test pass. Then it added a second test case, this time for 4. Not a great choice, but if it had actually followed through I would have been okay with it.</p>
+
+<p>Unfortunately, instead of improving the implementation to make the 1 and 4 cases pass, ChatGPT went off the deep end, providing an implementation that handled the <code>I</code> (1) case, the <code>M</code> (1000) case, and the <code>CM</code> (900) case. Where did <em>that</em> come from?</p>
+
+<p><details>
+<summary>Where did that come from?</summary></p>
+
+<pre><code>using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+[TestClass]
+public class RomanConverterTests
+{
+    [TestMethod]
+    public void TestArabicToRoman_LowerBound()
+    {
+        int number = 1;
+        string expected = "I";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+
+    [TestMethod]
+    public void TestArabicToRoman_Four()
+    {
+        int number = 4;
+        string expected = "IV";
+        string actual = RomanConverter.ArabicToRoman(number);
+        Assert.AreEqual(expected, actual);
+    }
+}
+
+
+public class RomanConverter
+{
+    public static string ArabicToRoman(int number)
+    {
+        if (number &lt;= 0)
+            throw new ArgumentException("Invalid input: Only positive integers are supported.");
+
+        string romanNumeral = "";
+
+        while (number &gt;= 1000)
+        {
+            romanNumeral += "M";
+            number -= 1000;
+        }
+
+        if (number &gt;= 900)
+        {
+            romanNumeral += "CM";
+            number -= 900;
+        }
+
+        // Continue with other Roman numerals...
+
+        while (number &gt;= 1)
+        {
+            romanNumeral += "I";
+            number -= 1;
+        }
+
+        return romanNumeral;
+    }
+}
+</code></pre>
+
+<p></details></p>
+
+<p>The best part of this response was that the implementation doesn't even pass the tests! There's a test for the <code>IV</code> (4) case, but the implemenation doesn't address that case at all. Oh, ChatGPT! What were you thinking?</p>
+
+<h3>Finishing Up</h3>
+
+<p>And, of course, the answer was that it wasn't thinking. Because ChatGPT is a large language model, which is a variation of an artificial neural network. It doesn't think. It's an algorithm, a function. It took my input prompts and spit out some output with no understanding. It is a <a href="https://en.wikipedia.org/wiki/Chinese_room">Chinese Room</a>, doing clever things that can appear intelligent, but with no understanding of what it's doing.</p>
+
+<p>After supplying ChatGPT another prompt or two and getting the same, very non-test-driven code, I decided I'd tried enough. It was clear that ChatGPT wasn't really going to generate a test-driven code example because it doesn't really know what test-driven development is.</p>
+
+<h3>Take Aways</h3>
+
+<p>So what can we learn from this? I thought of a few things.</p>
+
+<p>ChatGPT and other AI/machine learning solutions like it can do some really impressive things. It was able to take my prompts and generate a lot of convincing output. Unfortunately, all that output was generated without any understanding.</p>
+
+<p>Which brings me to my next point. The output was often wrong. And wrong in a way that someone new to the subject might not understand. I fear that people wanting to learn something will ask ChatGPT questions and just assume that its answers are correct because they sound convincing.</p>
+
+<p>One of the problems ChatGPT had was that it already "knew" the answer. It knew how to implement an Arabic number to Roman numeral converter. Test-driven development is a design process, not a testing process. If you already have a design then there is little point in using a test-driven approach, other than to add test coverage. ChatGPT demonstrated this marvelously.</p>
+
+<p>I was impressed a couple of times at how ChatGPT was able to refactor some code. I think there may be something valuable there in more powerful automated refactorings than what most of our development tools can do now. Though currently, I wouldn't automatically trust a refactoring that ChatGPT did like I do with most refactoring tools built in to IDEs. I would want to verify any refactorings it did with tests that I had written myself.</p>
+
+<p>And finally, while there may be some types of jobs that could be at risk due to tools like ChatGPT, the job of writing high quality, clean, maintainable, understandable code is not one of them.</p>
+
+<p>Not yet at least.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Lean Software Development Resources</title>
       <link>https://mythicant.com/blog/lean-software-development-resources</link>
       <description />
@@ -943,65 +1290,6 @@ It was cool to have something I created show up on such a well read site.  I en
 <p>It’s been an interesting experience “marketing” NRWG.  It makes me really glad I work as a programmer and not as a marketer.  Actually getting the word out and making people aware of what you’ve created sounds hard, but is actually way harder than it sounds.  I think I’ll primarily stick to nice easy topics like collision detection, AI algorithms, multi-threaded locking issues and source control management, thank you very much. </p>
 
 <p>So I have two questions for anyone who might be reading: 1) Lots of people have commented on the difficulty of the game.  Has anyone besides me actually beaten the game?  Was the time and effort I spent on closing credits and music wasted (not that I spent a ton of time, but some) because I’m the only one who’s seen them?  Just curious.  2) I’ve previously mentioned the possibility of other people designing some levels.  I never heard anything from anyone on that.  I just thought I’d ask again to see if anyone new might be interested.  The level designer isn’t hard to use and isn’t horribly, horribly buggy.  Just a little buggy, honest!  If you’re interested, let me know in the comments.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Introducing Ninja Robot Winning Gameshow</title>
-      <link>https://mythicant.com/blog/introducing-ninja-robot-winning-gameshow</link>
-      <description />
-      <pubDate>Tue, 16 Jun 2009 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Can anyone else say, “About time!”?  I’ve had this almost ready to release for quite some time.  But I wanted to add some finishing touches to it.  There are more finishing touches that I’d like to add, but at least now it’s to a point where I feel like I can let other people download it, play it, and rag on it.</p>
-
-<p>Before I give my blurb about the game, here’s a gameplay video.  If you’re a super anti-spoiler type person, it does show how to get past the first few levels.  They’re not that great of levels though.</p>
-
-<p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg1.avi">Ninja Robot Winning Gameshow Gameplay</a></p>
-
-<p><em>(Editor's note: Upon rewatching this video I realize how bad it is, especially the audio. But I chose to leave it here for historical purposes.)</em></p>
-
-<p>So the idea here is that you can switch which direction gravity pulls.  I thought that seemed like a kind of robot-y, ninja-y sort of thing to be able to do.  I guess you’d classify this as a puzzle platformer?  I had a couple of aims in making this game.  In no particular order:</p>
-
-<ul>
-<li>I wanted a break from a bigger project that I’m embarking on.  With this bigger project I’m in the phase that requires a lot of thinking and not a lot of coding.  Since I like to code, this was a nice break from that.</li>
-<li>I wanted to try an exercise in simplicity of game code.  Being a software architect at work let’s me learn about all kinds of good programming practices.  I wanted to test applying them in a game (not that I didn’t apply some good programming practices in other games, I just wanted it to be more of an emphasis in this one).  I think it turned out pretty well.  The main game engine itself is only around 400 lines of code.  The executable is only 67Kb, most of which I’m sure is embedded PNGs.  I even added some unit tests.  They were sucky unit tests, and I didn’t create very many of them, but even a small number of sucky unit tests saved my bacon more than once.</li>
-<li>I wanted a snazzy level editor.  I ended up with a so-so editor, but it’s a better editor than I’ve made before.  All the level editing is done in the editor (no creating images outside and then loading them in or anything like that) and is WYSIWYG.  It even lets you go straight from editing to play testing the level.  Very handy.  It still has a fair amount of work before I’d release it to the general public, but at least it’s something I would consider releasing to someone else.</li>
-</ul>
-
-<p>I’m sure there were some other aims too, but those are the ones I could think of right now.</p>
-
-<p>So what’s in the future for Ninja Robot Winning Gameshow?  There are some improvements that I’d like to make at some point in the future.  I don’t know that I’ll actually make any of them, much less all of them.  But it’s a list, and we all like lists, right?  When and how many I make will probably depend on how many people ask for them.  So if you want them, ask for them.</p>
-
-<ul>
-<li>More levels.  I think the game as it is has 15 levels.  More levels = good, right?</li>
-<li>Going along with more levels, I’d like to release the level editor publicly.  Maybe let some other people make some levels for me.  I’m sure that there are many better level designers out there than me.  Someone who played the game told me that the levels were way too hard.  I thought they were way too easy.  I’m sure I could have a much better progression from easy to difficult.</li>
-<li>Revisit the music.  I like all the individual tracks that are in the game, but I don’t think they all go together terribly well.  I’d like to revisit the music and probably add more tracks.</li>
-<li>More death phrases and commercials would be good I’m sure.</li>
-<li>I thought it’d be cool to add an instant replay if you die in a particularly interesting way (determining what that means programmatically would be half the fun).</li>
-<li>Remember which levels you’ve beaten and let you resume the last level you were on even if you quit the game.  I didn’t think it was that important with only 15 levels (all of which I thought were too easy anyway, as previously mentioned), but with more levels it would be more important.</li>
-<li>I don’t like the sound engine I used much at all (more on that in another post).  I’d like to replace it with something better.  I encapsulated it away, so hopefully that will be easy to do in the future.</li>
-</ul>
-
-<p>Is that a big enough list of improvements for something that’s just barely being released?  I hope so.  Makes me feel depressed. 🙂</p>
-
-<p>Enough talk.  On to the game!  The game requires the .NET Framework 2.0 or later.  I created it on a dual core 1.7Ghz machine with 2GB of RAM.  On my machine it uses almost no CPU power, so I’m assuming it will run on something with much lower specs.
-To install the game, simply unzip the files and put them somewhere.  Run NinjaRobot.exe to start the game.  You move around using the arrows keys.  Jump using the control key.  When you’re playing you can press ‘N’ to switch to a different music track (actually a random music track, so it won’t always be different).
-A couple of hints:</p>
-
-<ul>
-<li>Don’t touch the spikes.  Or the baddies.  They both hurt.</li>
-<li>You can’t run out of lives.  You can keep playing forever.  But if you die too frequently then you’ll have to go to a commercial break and do an endorsement of “This Product”.</li>
-<li>If you’re having trouble jumping over things, push in the opposite direction gravity is pulling to stay in the air longer when you jump.  This let’s you jump both higher and farther.</li>
-<li>If you think that the game is too hard and that one of the levels is impossible, I know that they are all beatable.  I did it once, honest!  I may provide a walkthrough video at some point if anyone is interested in it.</li>
-<li>If you think that the game is too easy and that there aren’t enough levels, let me know and I’ll send you the level editor and let you make some more!</li>
-<li>If you want to put in your own music, put some MP3s in the Sound\Music directory.  The game will look for any files that have “level” in the file name and try to play those during the levels.  I know MP3s and WAVs work.  I haven’t tried any other formats.</li>
-<li>The lame audio library I used has 32-bit and 64-bit versions (part of why I want to replace it with something else).  I made two versions of the game, one with the 32-bit audio DLL, the other with the 64-bit version (it’s just that one DLL that’s different between the two).  Download the appropriate version for your machine.  (Start with the 32-bit version if you’re not sure which you need.  If it doesn’t work, try the 64-bit version.)
-I think that’s about it.  Is this the best game you’ve ever played?  Does it totally suck?  Let me know what you think.  I hope you enjoy.</li>
-</ul>
-
-<p>Download Section</p>
-
-<p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg32.zip">Ninja Robot Winning Gameshow 32-bit</a></p>
-
-<p><a href="https://mythicantdownloads.blob.core.windows.net/public/nrwg64.zip">Ninja Robot Winning Gameshow 64-bit</a></p>
 ]]></content:encoded>
     </item>
   </channel>

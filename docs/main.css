@@ -32,6 +32,20 @@ nav a {
     text-decoration: underline;
 }
 
+h3 {
+    text-align: left;
+    padding-top: 20px;
+}
+
+details {
+    border: 1px solid white;
+    padding: 20px;
+}
+
+summary {
+    text-align: left;
+}
+
 p {
     line-height: 1.6;
     text-align: left;
