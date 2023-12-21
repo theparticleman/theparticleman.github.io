@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "junior-developer-cheat-sheet",
+                Title = "Junior Developer Cheat Sheet",
+                PublishDate = DateTimeOffset.Parse("2023-12-20")
+            },
+            new Post
+            {
                 Name = "can-chatgpt-do-test-driven-development",
                 Title = "Can ChatGPT Do Test-Driven Development?",
                 PublishDate = DateTimeOffset.Parse("2023-07-20")
