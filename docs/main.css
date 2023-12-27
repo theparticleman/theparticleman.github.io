@@ -21,6 +21,11 @@ header {
     justify-content: center;
 }
 
+footer {
+    font-size: x-small;
+    padding-top: 40px;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
