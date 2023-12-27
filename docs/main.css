@@ -112,6 +112,14 @@ blockquote {
     justify-content: center;
 }
 
+.game {
+    /* 
+    Need to fix game image sizing before this will work correctly
+    background-color: #252525;
+    background-clip: content-box; 
+    */
+}
+
 .games-list .game {
     width: 25%;
     padding: 20px;
