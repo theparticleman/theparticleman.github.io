@@ -11,7 +11,7 @@ namespace MythicantSite
             {
                 Name = "junior-developer-cheat-sheet",
                 Title = "Junior Developer Cheat Sheet",
-                PublishDate = DateTimeOffset.Parse("2023-12-20")
+                PublishDate = DateTimeOffset.Parse("2023-12-27")
             },
             new Post
             {

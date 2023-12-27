@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mythicant mostly creates indie games.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://www.google-analytics.com; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com https://player.vimeo.com; connect-src https://www.google-analytics.com; frame-src https://www.youtube.com https://player.vimeo.com">
+    <title>Mythicant Games</title>
+    <link rel="preload" href="/PressStart2P-Regular.ttf" as="font" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/main.css" />
+</head>
+<body class="center">
+<nav>
+    <a href="/">Home</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+</nav>
+<header>
+    <h1>Mythicant Games</h1>
+</header>
+
+<h2>Junior Developer Cheat Sheet</h2>
+<div class='published-date'>Published • December 27, 2023</div>
+
+<p>A friend of mine asked me the other day about learning resources for some junior developers he knows. I sent him a list of a few resources off the top of my head. But my brain kept thinking of others to suggest. So I figured I'd write down a list with a bit more thought put in to it.</p>
+
+<h1>Disclaimer</h1>
+
+<p>By putting together this list, I'm not implying that every junior developer should immediately use every single one of these resources. Even after 20 years of professional software development there are still books that I should have read but haven't, or coding problems I should have implemented but haven't. Please don't look at this list as a wall of "look at all the things I haven't done" shame. I hope people will look at it more as a list of things they could learn more about.</p>
+
+<p>And hopefully it's obvious, but this is by no means a complete list. I'm sure there will be resources that I would have put on here given only a little more thought on my part, not to mention all the resources from other peoples' experiences and opinions. But this is my list, so I'm not going to worry about every else's lists right now.</p>
+
+<h1>Books</h1>
+
+<p>There are a lot of good books related to software development these days. One could argue that there are too many good books and no one has time to read them all. That's probably true. But here are a few that I often recommend to people:</p>
+
+<ul>
+<li><p>For some basic, all around good software development advice, <code>The Pragmatic Programmer</code> by Dave Thomas and Andy Hunt is a great read for any software developer.</p></li>
+<li><p>I'm a big fan of the ideas from the software craftsmanship movement. Some books that I think have a lot of valuable material on the topic include <code>The Software Craftsman</code> by Sandro Mancuso and <code>The Clean Coder</code> and <code>Clean Craftsmanship</code> by Robert Martin.</p></li>
+<li><p><code>Test Driven Development By Example</code> by Kent Beck is kind of like sitting next to Kent Beck as he writes code using TDD, just in book format. It's great to be able to learn directly from one of the masters of TDD. If you're just looking to learn more about unit testing in general, this book might be a bit more than you want.</p></li>
+<li><p>I wish I'd had the book <code>Apprenticeship Patterns</code> by Dave Hoover and Adewale Oshineye when I was starting out my career. It has a bunch of patterns (surprising given the name, I know) about how to learn and grow in your career as a software developer.</p></li>
+<li><p>Ron Jeffries' <code>The Nature of Software Development</code> is a good discussion of the principles of agile software development, without all the baggage that Scrum and its following bring. I think he intended it more for engineering managers, but I think it's approachable enough that pretty much any software developer could benefit from it.</p></li>
+<li><p>In addition to agile software development, I think knowing about lean software development would benefit most software developers. <code>This is Lean</code> by Niklas Modig and Par Ahlstrom is a great intro to lean principles in general. If you want to go super in-depth, <code>Principles of Product Development Flow</code> by Don Reinertsen is great. But beware! It is pretty deep. If you want something more specific to software development, <code>Implementing Lean Software Development</code> by Mary and Tom Poppendieck is pretty awesome.</p></li>
+<li><p>If you have code that doesn't have tests and you want to learn how to get it under test, <code>Working Effectively With Legacy</code> by Michael Feathers is <em>the</em> book on the topic.</p></li>
+</ul>
+
+<p>Like I said, it could be argued that there are too many good books on software development. And I could certainly add many more books to the "good" list. But I think this is a good list of topics that junior devs might otherwise not get exposed to.</p>
+
+<h1>Katas</h1>
+
+<p>There are some ideas and concepts that can be communicated well in books. But there are other ideas that translate better when learned through actually coding. </p>
+
+<p>The idea of a kata comes from martial arts, where the same forms are practiced repeatedly. Code katas are slightly different, but with a similar intent. They are specific problems that can be repeated to practice various software development skills such as refactoring, test driven development, pair programming, etc.</p>
+
+<p>Some of these code katas are fairly simple, self-contained problems. Some examples include</p>
+
+<ul>
+<li>The <a href="https://github.com/UtahSC/roman-numeral-kata">Roman Numeral Kata</a> is one of my favorites for practicing test driven development.</li>
+<li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a> is a great way to practice using flexbox in CSS.</li>
+<li>The <a href="https://github.com/emilybache/GildedRose-Refactoring-Kata">Gilded Rose Kata</a> is a great kata that focuses on refactoring and getting mostly untested code under test.</li>
+<li>There are lots of other lists of general code katas. The <a href="http://utahsc.org">Utah Software Craftsmanship</a> group has a <a href="https://github.com/UtahSC/coding-exercises?tab=readme-ov-file#examples-exercises">list of common code katas</a> (which includes the Roman Numeral Kata). There is also <a href="https://github.com/gamontal/awesome-katas">this list</a> as well as many others.</li>
+<li>Emily Bache (the author of the Guilded Rose Kata mentioned above) has a <a href="https://github.com/emilybache?tab=repositories">large list of katas</a> she has created, many of which are focused on refactoring.</li>
+</ul>
+
+<p>Small, self-contained problems are great for some types of practice. But sometimes it's helpful to have a real world (or at least closer to real world) problem to practice with and learn from. Personal side projects can be a great way to do this. But sometimes it's hard to come up with good inspiration for a side project you're passionate about. In that case, a closer-to-real-world code kata might help. Here are a few examples:</p>
+
+<ul>
+<li><a href="https://xortag.azurewebsites.net/">XorTag</a> - Write code to play tag with other players in real time over HTTP. This kata involves making HTTP calls and sending and parsing JSON. It's best done with a group, but can be done solo as well.</li>
+<li><a href="https://github.com/davidadsit/distributed-calculator">Distributed Calculator</a> - Another kata that uses interactions over HTTP. But this one has you creating your own web server that interacts with another web application.</li>
+<li><a href="https://github.com/theparticleman/VanillaWebKata">Vanilla Web</a> - With web applications it can be easy to get caught up in all the latest front-end frameworks. Sometimes it's nice to remember that all you really need to create a website is some HTML, CSS, and Javascript text files created using a simple text editor. This kata is about practicing those skills.</li>
+</ul>
+
+<p>A few more honorable mentions:</p>
+
+<ul>
+<li><a href="https://adventofcode.com/">Advent of Code</a> - Advent of Code is a coding-based advent calendar that gets updated every December. The problems are usually fairly algorithm focused, but they can be great if that's the type of thing you're practicing. You can always go back and solve the problems from previous years too.</li>
+<li><a href="https://exercism.org/">Exercism</a> - Exercism used to be all about solving toy problems and getting feedback from others on your solution. But now it has all kinds of learning paths and other things as well. Check it out and see if it would help meet some of your learning needs.</li>
+</ul>
+
+<h1>Other Stuff</h1>
+
+<p>Sometimes reading a book is the right way to learn. Other times writing some code is the right way to learn. And still other times something completely different is in order. Here are a few resources in the "completely different" category:</p>
+
+<ul>
+<li><a href="https://www.coderetreat.org/">Code Retreat</a> - The idea of a code retreat is all around practice and does typically involve coding. But it's more about challenging your preconceptions about how code can and should be written than it is about the specific code you write. Rather than explain all the details about how a code retreat works, I'll just let you read on the website. But if you get the chance to participate in a code retreat, I would highly recommend it. There is a Global Day of Code Retreat event every year, usually in November.</li>
+<li><a href="https://www.youtube.com/@codingwithjonandmike3931">Coding with Jon and Mike</a> - When learning some types of skills, it can be helpful to see someone else actually using those skills. My friend Mike and I have put together some YouTube videos to show people actually practices skills like pair programming, test driven development, and refactoring.</li>
+<li><a href="https://www.youtube.com/@EmilyBache-tech-coach">Emily Bache videos</a> - Emily Bache (already mentioned above) has recently started her own YouTube channel with videos on topics like refactoring and test driven development. I've only watched a few of her videos so far, but look forward to getting to help people practice using them more in the future.</li>
+</ul>
+
+<h1>Conclusion</h1>
+
+<p>Again, this is by no means an exhaustive list. If you have other must-have learning resources that you think should be on this list, <a href="/contact">let me know</a>. And if you haven't (or don't ever) get to everything on this list, don't feel bad! But if you're looking for ways to practice and learn new skills so you can level up from a junior developer and progress in your career, hopefully some of the things in this list help!</p>
+
+<footer>
+  Powered by <a href="http://vanilla-js.com/"><img src="/images/vanilla-js.png"></a>
+</footer>
+</body>
+</html>
+<!-- 
+This HTML was written by hand, like they used to do it back in 
+the good old days, up hill in the snow both ways!
+Well, okay, I mean I wrote most of it by hand.
+And I wrote some code to put the rest of it together.
+But the code was written by hand. And the HTML that
+I put in the code that put it in here was written by hand.
+So that's pretty close, right?
+-->
+
+<!-- The Google Analytics snippet is my least favorite part of this html. ☹ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3540414-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-3540414-1');
+</script>
+
+<!-- Google Analytics 4 stuff because...Google likes to change things? 🤷 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXXPX6NWJG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LXXPX6NWJG');
+</script>
