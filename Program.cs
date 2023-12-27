@@ -81,7 +81,7 @@ namespace MythicantSite
         private static void GenerateGamePages()
         {
             var gameMarkdownFilePaths = Directory.EnumerateFiles(".", "*.md");
-            gameMarkdownFilePaths = gameMarkdownFilePaths.Except(new[] { ".\\readme.md" }).ToList();
+            gameMarkdownFilePaths = gameMarkdownFilePaths.Except(new[] { ".\\readme.md", "./readme.md" }).ToList();
             foreach (var markdownFilePath in gameMarkdownFilePaths)
             {
                 var htmlFilename = Path.GetFileNameWithoutExtension(markdownFilePath) + ".html";
