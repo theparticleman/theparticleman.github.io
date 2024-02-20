@@ -110,25 +110,23 @@ blockquote {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.game {
-    /* 
-    Need to fix game image sizing before this will work correctly
-    background-color: #252525;
-    background-clip: content-box; 
-    */
+    gap: 20px;
 }
 
 .games-list .game {
     width: 25%;
-    padding: 20px;
+    padding: 8px;
     line-height: 1.4;
+    background-color: #333333;
+    background-clip: border-box;
+    border-radius: 8px;
 }
 
 .games-list a {
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 .games-list .game img{
@@ -152,6 +150,7 @@ blockquote {
     padding: 16px;
     padding-bottom: 24px;
     margin: 24px;
+    border-radius: 8px;
 }
 
 .blog-list-item:visited, .blog-list-item:link {
@@ -184,6 +183,7 @@ blockquote {
     .games-list {
         flex-direction: column;
         align-content: center;
+        gap: 32px;
     }
 
     .games-list .game {
