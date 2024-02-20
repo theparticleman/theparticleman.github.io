@@ -11,6 +11,7 @@ namespace MythicantSite
         const string IndexPath = "docs/index.html";
         const string MainBlogPath = "docs/blog.html";
         const string ContactPath = "docs/contact.html";
+        const string PresentationsPath = "docs/presentations.html";
         private const string MegaManScriptTag = "\r\n<script async src='/megaman.js'></script>";
         static string template;
         static Markdown markdownConverter;
@@ -25,6 +26,7 @@ namespace MythicantSite
             GenerateGamePages();
             GenerateBlogPages();
             GenerateMainBlogPage();
+            GeneratePresentationsPage();
             GenerateRssFeed();
         }
 
@@ -102,6 +104,8 @@ namespace MythicantSite
             var htmlWithoutTemplate = markdownConverter.Transform(markdown);
             return template.Replace("{template}", htmlWithoutTemplate);
         }
+
+        private static void GeneratePresentationsPage() => ConvertMarkdownToHtml("presentations.md", PresentationsPath);
 
         private static void GenerateRssFeed()
         {
