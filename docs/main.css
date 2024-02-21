@@ -27,8 +27,6 @@ footer {
 }
 
 nav {
-    display: flex;
-    justify-content: space-evenly;
     margin-top: 24px;
 }
 
@@ -91,6 +89,58 @@ code {
 blockquote {
     padding: 8px;
     background-color: #111111;
+}
+
+.full-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mobile-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: none;
+}
+
+#navToggle {
+    display: none;
+}
+
+#navToggle ~ label {
+    cursor: pointer;
+    font-size: xx-large;
+    transform: translateY(-35%);
+}
+
+#navToggle ~ ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s;
+}
+
+#navToggle ~ ul a {
+    background-color: #333333;
+    padding: 16px;
+}
+
+#navToggle ~ ul a:hover {
+    background-color: #555555;
+}
+
+#navToggle:checked ~ ul {
+    max-height: 350px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
 }
 
 #rss-link {
@@ -193,5 +243,13 @@ blockquote {
     #mega-man-button {
         top: 5px !important;
         right: 5px !important;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .full-nav {
+        display: none;
     }
 }

@@ -12,9 +12,22 @@
 </head>
 <body class="center">
 <nav>
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
+    <div class="full-nav">
+      <a href="/">Home</a>
+      <a href="/blog">Blog</a>
+      <a href="/contact">Contact</a>
+    </div>
+    <div class="mobile-nav">
+      <div><a href="/">Home</a></div>
+      <div class="nav-menu">
+        <input type="checkbox" id="navToggle">
+        <label for="navToggle">☰</label>
+        <ul>
+          <a href="/blog">Blog</a>
+          <a href="/contact">Contact</a>
+        </ul>
+      </div>
+    </div>
 </nav>
 <header>
     <h1>Mythicant Games</h1>
