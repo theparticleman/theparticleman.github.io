@@ -22,6 +22,13 @@ namespace MythicantSite
             },
             new Game
             {
+                Name = "XorTag",
+                Link = "https://xortag.azurewebsites.net",
+                Image = "images/xortag.png",
+                Description = "Like tag, but with less sweat and more code."
+            },
+            new Game
+            {
                 Name = "Maisemore",
                 Link = "/maisemore",
                 Image = "images/maisemore.png",
