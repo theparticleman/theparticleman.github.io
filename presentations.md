@@ -53,7 +53,7 @@ There are a lot of great tools people can use to generate static websites. This 
 
 ### Absolute Beginner's Guide To Docker
 
-
+Docker and containers are very powerful, useful tools. But there's also a lot to learn, especially for those less familiar with them. This presentation is all about getting started with Docker in a development environment.
 
 * History: THAT Conference 2019, PS Live 2019, JetBrains webinar, Big Mountain Data & Dev 2019, SLC .NET User Group
 * Slides: https://tinyurl.com/y35autyb
@@ -62,11 +62,15 @@ There are a lot of great tools people can use to generate static websites. This 
 
 ### "Microservices Will Save Your Life" and Other Lies
 
+Lots of people make lots of claims about how to develop software. Some of these claims are true. Others aren't. This presentation is about some of those untrue claims and how you can figure out which is which for yourself.
+
 * History: Agile 2021, Big Mountain Data & Dev 2020, InTech 2020, internal events
 * Slides: https://tinyurl.com/jpudpjuw
 * Video: https://youtu.be/54WYirprmGA
 
 ### TDD - It's About More Than Just the Tests
+
+A lot of people confuse unit testing and test driven development. In this presentation we talk about the difference and demonstrate what TDD looks like in a live coding demo.
 
 * History: Reliable Web 2021, OpenWest 2018, Utah Code Camp 2017, Big Mountain Data & Dev 2018, Agile 2018, Utah Python User Group, Utah Software Craftsmanship Group, SLC .NET User Group, internal events
 * Slides: https://tinyurl.com/yb4wzt8l
@@ -75,28 +79,44 @@ There are a lot of great tools people can use to generate static websites. This 
 
 ## Short presentations
 
+These presentations are much shorter, typically around 20 minutes. They are all mostly slides.
+
 ### Ideas in Software Development That Are Clear, Simple, and Wrong
+
+Sometimes in software development, a series of simple, logical steps can lead us to a solution that is elegant, makes complete sense, and is the exact wrong thing to do. Rather than solving all of our problems, these solutions lead to late, poor-quality software. And they make the lives of the people involved miserable along the way.
 
 * Slides: https://docs.google.com/presentation/d/1QDZV7UFRAnMSa8HajmbeArvp_kkT1R0I_LCikUAgI9k/edit?usp=sharing
 
 ### Mob Programming RPG
 
+When learning mob programming, most people are introduced early to the roles of driver and navigator. But did you know there are many other roles you can fulfill besides these two fundamental roles? This presentation is about some of those other roles.
+
 * Slides: https://docs.google.com/presentation/d/199o_Eqc85_vQrBTkDa0U5FwEpaAkeQgyNJVJpSpC_dI/edit?usp=sharing
 
 ### The Answer to Let's Encrypt, certbot, and Everything
+
+Want to listen to me rant about how doing the right time is sometimes WAY more complicated than it needs to be? Then this is the presentation for you!
 
 * Slides: https://docs.google.com/presentation/d/1m3uoXY5q7aPa-aGdKBuugBmRvqtb_-HcVLl5F89MIlU/edit?usp=sharing
 
 ## Interactive
 
+These are more interactive activities, usually done in the form of a workshop. They have a small presentation component but are mostly code-based.
+
 ### Practing Starting New Things
+
+A lot of us do our day to day development work in existing code bases. But sometime the right way to solve a problem is to start something new. How good are you at starting something new? This workshop is a great way to practice and get better at starting new code projects.
 
 * Slides: https://docs.google.com/presentation/d/1EVzkZrcFrFjLaaYznvwJs_LFx8VSzbK5W1zUkqBRhJc/edit?usp=sharing
 
 ### TDD - It's About More Than Just the Tests
 
+The presentation version of this workshop is all about demonstrating the steps of test driven development. This workshop is all about practicing them.
+
 * Code: https://github.com/UtahSC/roman-numeral-kata
 
 ### Vanilla Web Kata
+
+Did you know that it's possible to create a fully functional website without any frontend frameworks, task runners, transpilers, or minifiers? Sometimes we forget that we don't need all the extra complexity of the current frontend frameworks. Sometimes the correct answer is just writing some simple text files. This workshop is practicing some of those fundamental skills. 
 
 * Code: https://github.com/theparticleman/VanillaWebKata
