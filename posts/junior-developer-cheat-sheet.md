@@ -22,7 +22,7 @@ There are a lot of good books related to software development these days. One co
 
 * In addition to agile software development, I think knowing about lean software development would benefit most software developers. `This is Lean` by Niklas Modig and Par Ahlstrom is a great intro to lean principles in general. If you want to go super in-depth, `Principles of Product Development Flow` by Don Reinertsen is great. But beware! It is pretty deep. If you want something more specific to software development, `Implementing Lean Software Development` by Mary and Tom Poppendieck is pretty awesome.
 
-* If you have code that doesn't have tests and you want to learn how to get it under test, `Working Effectively With Legacy` by Michael Feathers is _the_ book on the topic.
+* If you have code that doesn't have tests and you want to learn how to get it under test, `Working Effectively With Legacy Code` by Michael Feathers is _the_ book on the topic.
 
 Like I said, it could be argued that there are too many good books on software development. And I could certainly add many more books to the "good" list. But I think this is a good list of topics that junior devs might otherwise not get exposed to.
 
