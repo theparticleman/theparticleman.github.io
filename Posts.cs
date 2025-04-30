@@ -9,6 +9,12 @@ namespace MythicantSite
         {
             new Post
             {
+                Name = "on-pair-programming",
+                Title = "On Pair Programming",
+                PublishDate = DateTimeOffset.Parse("2024-04-30")
+            },
+            new Post
+            {
                 Name = "junior-developer-cheat-sheet",
                 Title = "Junior Developer Cheat Sheet",
                 PublishDate = DateTimeOffset.Parse("2023-12-27")
