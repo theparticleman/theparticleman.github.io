@@ -26,7 +26,7 @@ I've given this presentation a few times, but this version was for Reliable Web 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cqHRfBpekpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This presentation is part experience report, part code review, and partly an introduction to several software architecture patterns. It's based on my experience converting [Fable of Griselda](https://www.fableofgriselda.com/) from a console application to a web application.
+This presentation is part experience report, part code review, and partly an introduction to several software architecture patterns. It's based on my experience converting [Fable of Griselda](https://fableofgriselda.com/) from a console application to a web application.
 
 ### Absolute Beginner's Guide to Docker
 

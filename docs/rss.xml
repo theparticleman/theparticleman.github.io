@@ -853,7 +853,7 @@ But as far as I'm concerned, a little grumbling now and then can be both healthy
 
 <p>Unfortunately, it's a little hard for other people to enjoy Mega Man. I wrote it in 2008 using .NET Framework, so it's not cross platform at all. It does run on Windows 11, but you have to download the correct version of the .NET Framework (which happens automatically when you try to run the executable, but it's not a great user experience).</p>
 
-<p>Fortunately, we do live in an age when making things in a browser sucks a lot less than it used to. And I am on something of a <a href="https://www.fableofgriselda.com">web kick</a> lately. So I remade my little Mega Man desktop buddy to run in a browser!</p>
+<p>Fortunately, we do live in an age when making things in a browser sucks a lot less than it used to. And I am on something of a <a href="https://fableofgriselda.com">web kick</a> lately. So I remade my little Mega Man desktop buddy to run in a browser!</p>
 
 <p>You can check him out on the <a href="/">home page</a> for this site. I also put him on the <a href="/blog">main blog page</a>. I thought it might be nice for people scrolling through my list of blog posts to have a companion while they do so. I might put him on other pages too. We'll see.</p>
 
@@ -908,7 +908,7 @@ But as far as I'm concerned, a little grumbling now and then can be both healthy
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cqHRfBpekpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p>This presentation is part experience report, part code review, and partly an introduction to several software architecture patterns. It's based on my experience converting <a href="https://www.fableofgriselda.com/">Fable of Griselda</a> from a console application to a web application.</p>
+<p>This presentation is part experience report, part code review, and partly an introduction to several software architecture patterns. It's based on my experience converting <a href="https://fableofgriselda.com/">Fable of Griselda</a> from a console application to a web application.</p>
 
 <h3>Absolute Beginner's Guide to Docker</h3>
 

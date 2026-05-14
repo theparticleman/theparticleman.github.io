@@ -2,7 +2,7 @@ Several years ago, I made a little desktop companion app based on [Mega Man](a-l
 
 Unfortunately, it's a little hard for other people to enjoy Mega Man. I wrote it in 2008 using .NET Framework, so it's not cross platform at all. It does run on Windows 11, but you have to download the correct version of the .NET Framework (which happens automatically when you try to run the executable, but it's not a great user experience).
 
-Fortunately, we do live in an age when making things in a browser sucks a lot less than it used to. And I am on something of a [web kick](https://www.fableofgriselda.com) lately. So I remade my little Mega Man desktop buddy to run in a browser!
+Fortunately, we do live in an age when making things in a browser sucks a lot less than it used to. And I am on something of a [web kick](https://fableofgriselda.com) lately. So I remade my little Mega Man desktop buddy to run in a browser!
 
 You can check him out on the [home page](/) for this site. I also put him on the [main blog page](/blog). I thought it might be nice for people scrolling through my list of blog posts to have a companion while they do so. I might put him on other pages too. We'll see.
 

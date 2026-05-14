@@ -1,5 +1,5 @@
-Sending you to <a href="https://www.fableofgriselda.com">FableOfGriselda.com</a>
+Sending you to <a href="https://fableofgriselda.com">FableOfGriselda.com</a>
 
 <script>
-    window.location.href = 'https://www.fableofgriselda.com';
+    window.location.href = 'https://fableofgriselda.com';
 </script>
